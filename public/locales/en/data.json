@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "العربية"
+  },
+  "hero": {
+    "title": "Where Design Meets Sustainability",
+    "subtitle": "Innovative architectural, interior, and engineering solutions tailored to your vision."
+  },
+  "about": {
+    "title": "Who We Are",
+    "description": "ECO Homes is a multidisciplinary firm offering architecture, landscape, and interior design services. Our goal is to create purposeful spaces that balance functionality and sustainability."
+  },
+  "services": {
+    "title": "Our Services",
+    "list": [
+      "Architectural Design",
+      "Interior Design",
+      "Landscape Design",
+      "Engineering Supervision",
+      "Consultation Services"
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear about your next project.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message"
+    }
+  }
+}
