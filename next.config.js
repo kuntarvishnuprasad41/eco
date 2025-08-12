@@ -7,7 +7,16 @@ const nextConfig = {
   },
   experimental: {
     missingSuspenseWithCSRBailout: false,
-  }
+  },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/en',
+        permanent: false, // set to true for a 308 permanent redirect
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig
