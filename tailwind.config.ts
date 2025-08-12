@@ -10,8 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        funnel: ["FunnelSans", "sans-serif"],
         montreal: ["NeueMontreal", "sans-serif"],
+        funnel: ["FunnelSans", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

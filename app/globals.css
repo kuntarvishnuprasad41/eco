@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 :root {
+  --font-default: "NeueMontreal", sans-serif;
   --font-inter: "Inter", sans-serif;
   --font-arabic: "Noto Sans Arabic", sans-serif;
 }
