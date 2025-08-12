@@ -1,12 +1,17 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}", "./app/**/*.{js,ts,jsx,tsx,mdx}", "*.{js,ts,jsx,tsx,mdx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
-        inter: ['var(--font-inter)', 'sans-serif'],
-        arabic: ['var(--font-arabic)', 'sans-serif'],
+        funnel: ["FunnelSans", "sans-serif"],
+        montreal: ["NeueMontreal", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -49,11 +54,11 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       animation: {
-        'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
+        "fade-in-up": "fadeInUp 0.6s ease-out forwards",
       },
     },
   },
   plugins: [],
-}
+};
 
-export default config
+export default config;

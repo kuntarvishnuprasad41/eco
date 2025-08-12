@@ -1,10 +1,11 @@
+@import "./fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --font-inter: 'Inter', sans-serif;
-  --font-arabic: 'Noto Sans Arabic', sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-arabic: "Noto Sans Arabic", sans-serif;
 }
 
 .font-inter {
