@@ -20,7 +20,7 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-bg.png"
+          src="/images/hero.png"
           alt="Modern Architecture"
           className="w-full h-full object-cover"
         />
