@@ -6,9 +6,13 @@ import { Globe } from "lucide-react";
 
 interface LanguageSwitcherProps {
   currentLocale: string;
+  scrolled: any;
 }
 
-export function LanguageSwitcher({ currentLocale }: LanguageSwitcherProps) {
+export function LanguageSwitcher({
+  currentLocale,
+  scrolled,
+}: LanguageSwitcherProps) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -25,8 +29,8 @@ export function LanguageSwitcher({ currentLocale }: LanguageSwitcherProps) {
       onClick={switchLanguage}
       className="flex items-center space-x-2 rtl:space-x-reverse border-none"
     >
-      <Globe className="h-4 w-4 text-white" />
-      <span className="text-white">
+      <Globe className={`h-4 w-4 ${scrolled ? "text-black" : "text-white"}`} />
+      <span className={`${scrolled ? "text-black" : "text-white"}`}>
         {currentLocale === "en" ? "العربية" : "EN"}
       </span>
     </Button>

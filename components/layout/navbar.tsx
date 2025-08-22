@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X } from "lucide-react";
+import { Divide, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
 import { motion, AnimatePresence } from "framer-motion";
@@ -57,37 +57,80 @@ export function Navbar({ locale, translations }: NavbarProps) {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/0" : "bg-white/0"
+        scrolled ? "bg-white" : "bg-white/0"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo section */}
-        <div className="flex justify-center py-4">
-          <Image
-            alt="Eco Homes"
-            src="/icons/logo.svg"
-            height={250}
-            width={250}
-          />
-        </div>
-
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center justify-center space-x-8 rtl:space-x-reverse pb-4">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-white hover:text-[#3ebf7e] transition-colors duration-200 font-medium"
+        {scrolled ? (
+          <>
+            {" "}
+            {/* Desktop Layout */}
+            <div
+              className={`hidden md:flex items-center justify-between transition-all duration-300 ${
+                scrolled ? "py-2" : "py-4"
+              }`}
             >
-              {item.label}
-            </Link>
-          ))}
-          <LanguageSwitcher currentLocale={locale} />
-        </div>
+              {/* Logo */}
+              <div className="flex-shrink-0">
+                <Image
+                  alt="Eco Homes"
+                  src="/icons/logo.svg"
+                  height={scrolled ? 40 : 60} // Shrinks logo when scrolled
+                  width={scrolled ? 120 : 180}
+                  className="transition-all duration-300"
+                />
+              </div>
+
+              {/* Nav Links + Language Switcher */}
+              <div className="flex items-center space-x-8 rtl:space-x-reverse">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`hover:text-[#3ebf7e] transition-colors duration-200 font-medium ${
+                      scrolled ? "text-gray-700" : "text-white"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+                <LanguageSwitcher currentLocale={locale} scrolled={scrolled} />
+              </div>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="flex justify-center py-4">
+              <Image
+                alt="Eco Homes"
+                src="/icons/logo.svg"
+                height={250}
+                width={250}
+              />
+            </div>
+
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center justify-center space-x-8 rtl:space-x-reverse pb-4">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={` hover:text-[#3ebf7e] transition-colors duration-200 font-medium  ${
+                    scrolled ? "text-gray-700" : "text-white"
+                  } `}
+                >
+                  {item.label}
+                </Link>
+              ))}
+              <LanguageSwitcher currentLocale={locale} scrolled={scrolled} />
+            </div>
+          </>
+        )}
 
         {/* Mobile menu button */}
         <div className="md:hidden flex justify-center items-center space-x-4 rtl:space-x-reverse pb-4">
-          <LanguageSwitcher currentLocale={locale} />
+          <LanguageSwitcher currentLocale={locale} scrolled={scrolled} />
           <Button
             variant="ghost"
             size="icon"
