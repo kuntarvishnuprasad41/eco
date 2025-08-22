@@ -1,0 +1,415 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Leaf, Zap, Recycle, Heart } from "lucide-react";
+
+export default function SustainabilityPage() {
+  return (
+    <div className="min-h-screen bg-white">
+      {/* Navigation */}
+      <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-sm">eco</span>
+              </div>
+              <span className="font-semibold text-gray-900">Eco Homes</span>
+            </div>
+            <div className="hidden md:flex space-x-8">
+              <a href="#" className="text-gray-700 hover:text-emerald-600">
+                OUR SERVICES
+              </a>
+              <a href="#" className="text-gray-700 hover:text-emerald-600">
+                SUSTAINABILITY
+              </a>
+              <a href="#" className="text-gray-700 hover:text-emerald-600">
+                ABOUT US
+              </a>
+              <a href="#" className="text-gray-700 hover:text-emerald-600">
+                PORTFOLIO
+              </a>
+              <a href="#" className="text-gray-700 hover:text-emerald-600">
+                CONTACT US
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="relative h-screen flex items-center justify-center">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/sustainable-green-building.png')`,
+          }}
+        />
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            Sustainability at the
+            <br />
+            Heart of
+            <br />
+            <span className="text-emerald-400 italic">Every Design</span>
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
+            At Eco Homes, sustainability isn't just an option, it's our
+            foundation. Every project, plan and environment we create is rooted
+            in sustainability.
+          </p>
+          <Button className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-full text-lg">
+            Learn More
+          </Button>
+        </div>
+      </section>
+
+      {/* Our Sustainability Philosophy */}
+      <section className="py-20 px-4 max-w-7xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Our Sustainability
+              <br />
+              <span className="text-emerald-500 italic">Philosophy</span>
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              We believe great design should not only elevate lifestyles but
+              also protect our planet. That's why every decision from planning
+              to material selection is rooted in sustainability.
+            </p>
+          </div>
+          <div className="relative">
+            <img
+              src="/placeholder-awo65.png"
+              alt="Sustainable architecture with green glass ceiling"
+              className="rounded-lg shadow-lg w-full h-80 object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Four Pillars */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Card className="text-center p-6 hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Leaf className="w-8 h-8 text-emerald-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Green Innovation
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Using innovative and recycled materials to ensure sustainable
+                  building, lower carbon footprint, and reduced environmental
+                  impact.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center p-6 hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Zap className="w-8 h-8 text-emerald-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Energy Efficiency
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Maximizing natural light, airflow, and renewable energy
+                  systems to reduce energy use and environmental impact.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center p-6 hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Recycle className="w-8 h-8 text-emerald-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Resource Management
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Implementing smart technologies to conserve water and energy,
+                  optimize resources, and deliver sustainable living solutions.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center p-6 hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="w-8 h-8 text-emerald-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Healthy Living
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Promoting healthier, natural environments that boost
+                  well-being, comfort, and environmental health, enhancing
+                  sustainable lifestyles.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* How We Integrate Sustainability */}
+      <section className="py-20 bg-gray-900 text-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-4xl font-bold mb-4">
+            How We Integrate
+            <br />
+            <span className="text-emerald-400 italic">Sustainability</span>
+          </h2>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+            <div className="relative group cursor-pointer">
+              <img
+                src="/sustainable-modern-house.png"
+                alt="Sustainable Architecture"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">Architecture</h3>
+                  <p className="text-sm text-gray-200">
+                    Designing buildings with sustainable materials, efficient
+                    layouts, and renewable energy integration.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative group cursor-pointer">
+              <img
+                src="/sustainable-interior.png"
+                alt="Interior Design"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    Interior Design
+                  </h3>
+                  <p className="text-sm text-gray-200">
+                    Creating beautiful interiors using eco-friendly materials
+                    and energy-efficient solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative group cursor-pointer">
+              <img
+                src="/sustainable-landscape.png"
+                alt="Landscape Design"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    Landscape Design
+                  </h3>
+                  <p className="text-sm text-gray-200">
+                    Designing outdoor spaces with native plants and sustainable
+                    water management systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative group cursor-pointer">
+              <img
+                src="/sustainable-engineering.png"
+                alt="Engineering"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">Engineering</h3>
+                  <p className="text-sm text-gray-200">
+                    Implementing advanced sustainable technologies and
+                    energy-efficient building systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative group cursor-pointer">
+              <img
+                src="/placeholder-dv3up.png"
+                alt="Consultation"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">Consultation</h3>
+                  <p className="text-sm text-gray-200">
+                    Providing expert guidance on sustainable building practices
+                    and green certifications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Impact in Numbers */}
+      <section className="py-20 bg-emerald-500 text-white">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h2 className="text-4xl font-bold mb-4">
+            Our Impact in
+            <br />
+            <span className="italic">Numbers</span>
+          </h2>
+          <p className="text-xl mb-12 max-w-3xl mx-auto">
+            We believe great design should not only elevate lifestyles but also
+            protect our planet. That's why every decision from planning to
+            material selection is rooted in sustainability.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div>
+              <div className="text-6xl font-bold mb-2">200+</div>
+              <p className="text-emerald-100">
+                Sustainable projects completed with innovative eco-friendly
+                solutions
+              </p>
+            </div>
+            <div>
+              <div className="text-6xl font-bold mb-2">30%</div>
+              <p className="text-emerald-100">
+                Average energy reduction achieved through our sustainable
+                designs
+              </p>
+            </div>
+            <div>
+              <div className="text-6xl font-bold mb-2">40%</div>
+              <p className="text-emerald-100">
+                Reduction in construction waste through efficient planning
+              </p>
+            </div>
+            <div>
+              <div className="text-6xl font-bold mb-2">95%</div>
+              <p className="text-emerald-100">
+                Client satisfaction rate with our sustainable solutions
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Sustainability Matters */}
+      <section className="py-20 relative">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/sustainable-wooden-building.png')`,
+          }}
+        />
+        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center text-white">
+          <h2 className="text-4xl font-bold mb-6">
+            Why Sustainability Matters to Us
+          </h2>
+          <p className="text-xl leading-relaxed">
+            Sustainability is not a trend in our responsibility. By adopting
+            innovative, eco-friendly design, we create living and working spaces
+            that not only enhance your lifestyle but also preserve our planet
+            for future generations.
+          </p>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-20 bg-gray-50 text-center">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Let's Build a<br />
+            <span className="text-emerald-500 italic">
+              Greener Tomorrow Together
+            </span>
+          </h2>
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            Join Eco Homes in shaping a cleaner, more sustainable, including and
+            future today. Together, we can create spaces that nurture both
+            people and the planet.
+          </p>
+          <Button className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-full text-lg">
+            Get Started
+          </Button>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-emerald-500 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div>
+              <div className="flex items-center space-x-2 mb-4">
+                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                  <span className="text-emerald-500 font-bold text-sm">
+                    eco
+                  </span>
+                </div>
+                <span className="font-semibold">Eco Homes</span>
+              </div>
+              <p className="text-emerald-100 text-sm">
+                We are passionate about creating sustainable living spaces that
+                benefit both people and the environment.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-4">OUR SERVICES</h4>
+              <ul className="space-y-2 text-emerald-100 text-sm">
+                <li>Architecture</li>
+                <li>Interior Design</li>
+                <li>Landscape Design</li>
+                <li>Engineering</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-4">SUSTAINABILITY</h4>
+              <ul className="space-y-2 text-emerald-100 text-sm">
+                <li>Green Innovation</li>
+                <li>Energy Efficiency</li>
+                <li>Resource Management</li>
+                <li>Healthy Living</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-4">CONTACT US</h4>
+              <div className="text-emerald-100 text-sm space-y-2">
+                <p>123 Green Street</p>
+                <p>Eco City, EC 12345</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Email: info@ecohomes.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="border-t border-emerald-400 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p className="text-emerald-100 text-sm">
+              © 2024 Eco Homes. All rights reserved.
+            </p>
+            <div className="flex space-x-4 mt-4 md:mt-0">
+              <a href="#" className="text-emerald-100 hover:text-white">
+                Privacy Policy
+              </a>
+              <a href="#" className="text-emerald-100 hover:text-white">
+                Terms of Service
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
