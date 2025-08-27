@@ -118,7 +118,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
                   key={item.href}
                   href={item.href}
                   className={` hover:text-[#3ebf7e] transition-colors duration-200 font-medium  ${
-                    scrolled ? "text-gray-700" : `text-[${text}]`
+                    scrolled ? "text-white" : `text-[${text}]`
                   } `}
                 >
                   {item.label}

@@ -16,7 +16,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <Navbar locale="en" text="#374151" />
+      <Navbar locale="en" text="#FFF" />
 
       {/* Hero Section */}
       <section className="relative h-screen bg-black overflow-hidden">
