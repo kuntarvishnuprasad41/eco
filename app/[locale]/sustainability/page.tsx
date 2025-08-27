@@ -7,13 +7,13 @@ export default function SustainabilityPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <Navbar locale={"en"} text={"#374151"} />
+      <Navbar locale={"en"} text={"#FFF"} />
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/sustainable-green-building.png')`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/sustainability.png')`,
           }}
         />
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">

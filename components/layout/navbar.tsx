@@ -36,19 +36,19 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
       label: locale === "ar" ? "خدماتنا" : "OUR VERTICALS",
     },
     {
-      href: `/${locale}#sustainability`,
+      href: `/${locale}/sustainability`,
       label: locale === "ar" ? "الاستدامة" : "SUSTAINABILITY",
     },
     {
-      href: `/${locale}#about`,
+      href: `/${locale}/about`,
       label: locale === "ar" ? "من نحن" : "ABOUT US",
     },
     {
-      href: `/${locale}#portfolio`,
+      href: `/${locale}/portfolio`,
       label: locale === "ar" ? "أعمالنا" : "PORTFOLIO",
     },
     {
-      href: `/${locale}#contact`,
+      href: `/${locale}/contact-us`,
       label: locale === "ar" ? "اتصل بنا" : "CONTACT US",
     },
   ];

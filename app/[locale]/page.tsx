@@ -29,6 +29,7 @@ export default async function HomePage({
         />
         <HeroSection locale={params.locale} translations={translations} />
       </div>
+      <AboutSection locale={params.locale} translations={translations} />
       {/* <HeroParallaxW locale={params.locale} translations={translations} /> */}
       <div className=" relative">
         <StatsSection locale={params.locale} />
