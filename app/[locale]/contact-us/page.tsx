@@ -6,6 +6,9 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Navbar } from "@/components/layout/navbar";
+import { JsonLd } from "@/components/seo/json-ld";
+import { Footer } from "@/components/layout/footer";
 
 export default function EcoHomesContact() {
   const [formData, setFormData] = useState({
@@ -35,61 +38,10 @@ export default function EcoHomesContact() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-black text-white">
-        <div className="container mx-auto px-4">
-          {/* Logo */}
-          <div className="flex justify-center py-4">
-            <div className="flex items-center space-x-2">
-              <div className="flex space-x-1">
-                <div className="w-8 h-8 rounded-full border-2 border-green-500"></div>
-                <div className="w-8 h-8 rounded-full border-2 border-green-500"></div>
-                <div className="w-8 h-8 rounded-full border-2 border-green-500"></div>
-              </div>
-              <div className="ml-2">
-                <div className="text-sm font-light">البيوت الايكولوجية</div>
-                <div className="text-xs">ECO HOMES</div>
-              </div>
-            </div>
-          </div>
-
-          {/* Navigation */}
-          <nav className="border-t border-gray-700">
-            <div className="flex justify-center space-x-8 py-4">
-              <a
-                href="#"
-                className="text-sm hover:text-green-500 transition-colors"
-              >
-                OUR VERTICALS
-              </a>
-              <a
-                href="#"
-                className="text-sm hover:text-green-500 transition-colors"
-              >
-                SUSTAINABILITY
-              </a>
-              <a
-                href="#"
-                className="text-sm hover:text-green-500 transition-colors"
-              >
-                ABOUT US
-              </a>
-              <a
-                href="#"
-                className="text-sm hover:text-green-500 transition-colors"
-              >
-                PORTFOLIO
-              </a>
-              <a
-                href="#"
-                className="text-sm hover:text-green-500 transition-colors"
-              >
-                CONSULT US
-              </a>
-            </div>
-          </nav>
-        </div>
-      </header>
-
+      <div className="mb-60">
+        <JsonLd locale={"en"} />
+        <Navbar locale={"en"} text={"#374151"} />
+      </div>
       {/* Main Content */}
       <main className="container mx-auto px-4 py-16">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -256,96 +208,7 @@ export default function EcoHomesContact() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-green-500 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-start">
-            {/* Logo and Description */}
-            <div className="space-y-6">
-              <div className="flex items-center space-x-2">
-                <div className="flex space-x-1">
-                  <div className="w-8 h-8 rounded-full border-2 border-white"></div>
-                  <div className="w-8 h-8 rounded-full border-2 border-white"></div>
-                  <div className="w-8 h-8 rounded-full border-2 border-white"></div>
-                </div>
-                <div className="ml-2">
-                  <div className="text-sm font-light">البيوت الايكولوجية</div>
-                  <div className="text-xs">ECO HOMES</div>
-                </div>
-              </div>
-
-              <p className="text-sm max-w-xs leading-relaxed">
-                We are Workplace Design & Build specialists with 5 years of
-                experience – Riyadh | 2020
-              </p>
-            </div>
-
-            {/* Navigation Links */}
-            <div className="space-y-4">
-              <a
-                href="#"
-                className="block text-sm hover:text-gray-200 transition-colors"
-              >
-                OUR VERTICALS
-              </a>
-              <a
-                href="#"
-                className="block text-sm hover:text-gray-200 transition-colors"
-              >
-                SUSTAINABILITY
-              </a>
-              <a
-                href="#"
-                className="block text-sm hover:text-gray-200 transition-colors"
-              >
-                ABOUT US
-              </a>
-              <a
-                href="#"
-                className="block text-sm hover:text-gray-200 transition-colors"
-              >
-                PORTFOLIO
-              </a>
-            </div>
-          </div>
-
-          {/* Social Media and Copyright */}
-          <div className="flex justify-between items-center mt-12 pt-8 border-t border-green-400">
-            <div className="flex space-x-4">
-              <a
-                href="#"
-                className="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-colors"
-              >
-                <span className="text-sm">in</span>
-              </a>
-              <a
-                href="#"
-                className="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-colors"
-              >
-                <span className="text-sm">ig</span>
-              </a>
-              <a
-                href="#"
-                className="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-colors"
-              >
-                <span className="text-sm">f</span>
-              </a>
-              <a
-                href="#"
-                className="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-colors"
-              >
-                <span className="text-sm">x</span>
-              </a>
-            </div>
-
-            <div className="flex space-x-8 text-xs">
-              <a href="#" className="hover:text-gray-200 transition-colors">
-                Privacy policy
-              </a>
-              <span>© Eco Homes 2025. All Rights Reserved</span>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer locale={"en"} />
     </div>
   );
 }

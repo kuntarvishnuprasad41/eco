@@ -12,10 +12,11 @@ import Image from "next/image";
 
 interface NavbarProps {
   locale: string;
-  translations: Translations;
+  translations?: Translations;
+  text: string;
 }
 
-export function Navbar({ locale, translations }: NavbarProps) {
+export function Navbar({ locale, translations, text }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
@@ -88,7 +89,7 @@ export function Navbar({ locale, translations }: NavbarProps) {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`hover:text-[#3ebf7e] transition-colors duration-200 font-medium ${
+                    className={`hover:text-[#3ebf7e] transition-colors duration-200 font-medium text-black ${
                       scrolled ? "text-gray-700" : "text-white"
                     }`}
                   >
@@ -111,26 +112,26 @@ export function Navbar({ locale, translations }: NavbarProps) {
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center justify-center space-x-8 rtl:space-x-reverse pb-4">
+            <div className="hidden md:flex items-center justify-center space-x-8 rtl:space-x-reverse pb-4 ">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
                   className={` hover:text-[#3ebf7e] transition-colors duration-200 font-medium  ${
-                    scrolled ? "text-gray-700" : "text-white"
+                    scrolled ? "text-gray-700" : `text-['${text}']`
                   } `}
                 >
                   {item.label}
                 </Link>
               ))}
-              <LanguageSwitcher currentLocale={locale} scrolled={scrolled} />
+              {/* <LanguageSwitcher currentLocale={locale} scrolled={scrolled} /> */}
             </div>
           </>
         )}
 
         {/* Mobile menu button */}
         <div className="md:hidden flex justify-center items-center space-x-4 rtl:space-x-reverse pb-4">
-          <LanguageSwitcher currentLocale={locale} scrolled={scrolled} />
+          {/* <LanguageSwitcher currentLocale={locale} scrolled={scrolled} /> */}
           <Button
             variant="ghost"
             size="icon"
