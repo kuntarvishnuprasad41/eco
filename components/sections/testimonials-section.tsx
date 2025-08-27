@@ -130,7 +130,7 @@ function ScrollingColumn({
       {[...reviews, ...reviews].map((review, index) => (
         <div
           key={`${review.id}-${index}`}
-          className="bg-card border rounded-lg p-6 shadow-sm "
+          className="bg-card border rounded-2xl p-6 shadow-sm"
         >
           <p className="text-card-foreground text-sm leading-relaxed mb-4">
             "{review.content}"
