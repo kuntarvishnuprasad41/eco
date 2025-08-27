@@ -161,12 +161,12 @@ export default function PortfolioSection({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-light mb-6"
+            className="text-5xl md:text-7xl font-normal mb-6"
           >
             Designing Sustainable
             <br />
             <span className="block">Spaces</span>
-            <span className="text-green-400 italic font-light">
+            <span className="text-green-400 italic font-normal">
               That Inspire
             </span>
           </motion.h1>
@@ -201,7 +201,7 @@ export default function PortfolioSection({
       <div className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
               Portfolio Overview
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -234,7 +234,7 @@ export default function PortfolioSection({
       <div className="py-20 bg-green-500" ref={ref}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-light text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-normal text-white mb-6">
               Our Impact in
               <br />
               <span className="italic">Numbers</span>
@@ -255,7 +255,7 @@ export default function PortfolioSection({
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 className="text-center"
               >
-                <div className="text-5xl md:text-6xl font-light text-white mb-2">
+                <div className="text-5xl md:text-6xl font-normal text-white mb-2">
                   {stat.number}
                 </div>
                 <div className="text-xl font-semibold text-green-100 mb-2">
@@ -271,7 +271,7 @@ export default function PortfolioSection({
       {/* Call to Action */}
       <div className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center px-6">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             Your Vision,
             <br />
             <span className="text-green-500 italic">Our Design</span>
@@ -330,7 +330,7 @@ export function ProjectCategoriesCarousel() {
     <div className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             Residential Projects
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto mb-8">
@@ -369,7 +369,7 @@ export function ProjectCategoriesCarousel() {
                     <div className="p-8">
                       <div className="flex justify-between items-start mb-6">
                         <div>
-                          <h3 className="text-3xl font-light text-gray-900 mb-2">
+                          <h3 className="text-3xl font-normal text-gray-900 mb-2">
                             {property.title}
                           </h3>
                           <p className="text-gray-600 text-lg mb-4">

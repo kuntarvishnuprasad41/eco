@@ -34,19 +34,19 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <motion.h1
-            className="text-4xl md:text-6xl lg:text-7xl font-light mb-6 leading-tight font-montreal"
+            className="text-4xl md:text-6xl lg:text-7xl font-normal mb-6 leading-tight font-montreal"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             Where Design Meets{" "}
-            <span className="text-green-400 italic font-light font-funnel">
+            <span className="text-green-400 italic font-normal font-ivy">
               {locale === "ar" ? "الاستدامة" : "Sustainability"}
             </span>
           </motion.h1>
 
           <motion.p
-            className="text-lg md:text-xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed font-light"
+            className="text-lg md:text-xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed font-normal"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}

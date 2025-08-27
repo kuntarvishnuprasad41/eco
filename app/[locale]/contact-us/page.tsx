@@ -48,12 +48,12 @@ export default function EcoHomesContact() {
           {/* Left Content */}
           <div className="space-y-6">
             <div>
-              <h1 className="text-5xl lg:text-6xl font-light text-black leading-tight">
+              <h1 className="text-5xl lg:text-6xl font-normal text-black leading-tight">
                 Shape Your
                 <br />
                 Dream
                 <br />
-                <span className="text-green-500 italic font-light">
+                <span className="text-green-500 italic font-normal">
                   Space Together
                 </span>
               </h1>
@@ -181,7 +181,7 @@ export default function EcoHomesContact() {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-start">
             <div>
-              <h2 className="text-4xl font-light text-black mb-4">
+              <h2 className="text-4xl font-normal text-black mb-4">
                 Our Office
               </h2>
               <div className="space-y-2 text-gray-600">

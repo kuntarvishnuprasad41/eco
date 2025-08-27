@@ -43,7 +43,7 @@ export function ContactSection({ locale, translations }: ContactSectionProps) {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-start">
           <div>
-            <h2 className="text-4xl font-light text-black mb-4">Our Office</h2>
+            <h2 className="text-4xl font-normal text-black mb-4">Our Office</h2>
             <div className="space-y-2 text-gray-600">
               <p className="text-lg">Eco Homes Architectural Engineering</p>
               <p>Al Narjes, Riyadh, Saudi Arabia</p>

@@ -31,7 +31,7 @@ export default async function Verticals({
           <div className="absolute inset-0 bg-[url('/images/v1.png')] bg-cover" />
         </div>
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-light mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal mb-6 leading-tight">
             Shaping Excellence <br />
             Across Every <br />
             <span className="text-emerald-400 italic">Design Verticals</span>
@@ -50,7 +50,7 @@ export default async function Verticals({
       {/* Main Content Section */}
       <div className="w-full flex flex-col lg:flex-row justify-between bg-gray-50">
         {/* Sidebar */}
-        <div className="w-full lg:w-1/6 border-b lg:border-b-0  border-green-500 px-4 py-6">
+        <div className="w-full lg:w-1/6 border-b lg:border-b-0 border-green-500 px-4 py-6 lg:sticky lg:top-20 self-start h-fit">
           {[
             "Architecture",
             "Interior Design ",
@@ -146,7 +146,7 @@ export default async function Verticals({
           ].map((section, index) => (
             <section key={index} className="space-y-8">
               <div className="space-y-6">
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-gray-900 leading-tight">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight">
                   {section.title}
                 </h2>
                 <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
@@ -194,7 +194,7 @@ export default async function Verticals({
       {/* Sustainability Section */}
       <section className="py-20 bg-black text-white px-4">
         <div className="max-w-6xl mx-auto   space-y-10">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal">
             How Our Verticals Drive <br />
             <span className="text-emerald-400 italic">Sustainable Impact</span>
           </h2>
@@ -217,7 +217,7 @@ export default async function Verticals({
       {/* Call to Action */}
       <section className="py-20 bg-emerald-50 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             Let's Shape Together
             <br />
             <span className="text-emerald-600 italic">Your Atmosphere</span>

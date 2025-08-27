@@ -12,6 +12,8 @@ const config: Config = {
       fontFamily: {
         montreal: ["NeueMontreal", "sans-serif"],
         funnel: ["FunnelSans", "sans-serif"],
+        ivyora: ["var(--font-ivyora-display)", "serif"],
+        ivy: ["IvyOraDisplay", "serif"],
       },
       colors: {
         border: "hsl(var(--border))",

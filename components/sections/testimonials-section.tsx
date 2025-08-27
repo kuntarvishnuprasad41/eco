@@ -74,7 +74,7 @@ export function TestimonialsSection({ locale }: TestimonialsSectionProps) {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
               What Our <br />
               Clients <span className="text-green-500 italic">Say</span>
             </h2>

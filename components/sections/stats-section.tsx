@@ -57,7 +57,7 @@ export function StatsSection({ locale }: StatsSectionProps) {
               <span className="text-[#3dbf7e]">{stat.highlight}</span>
               <span className="text-[#ffffff]">{stat.title}</span>
             </h3>
-            <p className="self-stretch font-light text-[#ffffff] text-lg tracking-[0] leading-[25.2px] font-[Funnel_Sans]">
+            <p className="self-stretch font-normal text-[#ffffff] text-lg tracking-[0] leading-[25.2px] font-[Funnel_Sans]">
               {stat.description}
             </p>
           </motion.div>

@@ -32,6 +32,29 @@ const neueMontreal = localFont({
   display: "swap",
 });
 
+const ivyOraDisplay = localFont({
+  src: [
+    {
+      path: "../../public/fonts/IvyOraDisplay/IvyOraDisplay-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/IvyOraDisplay/IvyOraDisplay-Medium.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/IvyOraDisplay/IvyOraDisplay-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-ivyora-display",
+  display: "swap",
+  fallback: ["serif"],
+});
+
 const notoSansArabic = Noto_Sans_Arabic({
   subsets: ["arabic"],
   variable: "--font-arabic",
@@ -63,7 +86,7 @@ export default function RootLayout({
     <html
       lang={locale}
       dir={isRTL ? "rtl" : "ltr"}
-      className={`${neueMontreal.variable} ${notoSansArabic.variable}`}
+      className={`${neueMontreal.variable} ${ivyOraDisplay.variable}`}
     >
       <body
         className={`${isRTL ? "font-arabic" : "font-montreal"} antialiased`}

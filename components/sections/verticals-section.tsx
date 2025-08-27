@@ -56,7 +56,7 @@ export function VerticalsSection({ locale }: VerticalsSectionProps) {
           transition={{ duration: 0.8 }}
           className="flex justify-between mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             {locale === "ar" ? "خدماتنا" : "Our verticals"}
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">

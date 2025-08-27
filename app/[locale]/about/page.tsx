@@ -28,10 +28,10 @@ export default function AboutPage() {
         />
         <div className="relative z-10 flex items-center justify-center h-full px-6">
           <div className="text-center max-w-4xl">
-            <h1 className="text-5xl md:text-7xl font-light text-white mb-6">
+            <h1 className="text-5xl md:text-7xl font-normal text-white mb-6">
               Designing With Intention,
             </h1>
-            <h2 className="text-4xl md:text-6xl font-light text-green-400 mb-8 italic">
+            <h2 className="text-4xl md:text-6xl font-normal text-green-400 mb-8 italic">
               Building With Precision
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
@@ -47,7 +47,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-light text-gray-900 mb-6">
+              <h2 className="text-4xl font-normal text-gray-900 mb-6">
                 Who We Are
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
@@ -80,7 +80,7 @@ export default function AboutPage() {
       <section className="py-20 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-light text-gray-900 mb-4">
+            <h2 className="text-4xl font-normal text-gray-900 mb-4">
               Our Philosophy
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -146,7 +146,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl font-light mb-6">Mission</h2>
+              <h2 className="text-3xl font-normal mb-6">Mission</h2>
               <p className="text-gray-300 leading-relaxed">
                 To craft sustainable, innovative, and high-quality design
                 solutions that improve daily living while reducing environmental
@@ -155,7 +155,7 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-light mb-6">Vision</h2>
+              <h2 className="text-3xl font-normal mb-6">Vision</h2>
               <p className="text-gray-300 leading-relaxed">
                 To become the leading design and consulting firm in the
                 region—where architecture, sustainability, and modern living
@@ -171,7 +171,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-light text-gray-900 mb-6">
+              <h2 className="text-4xl font-normal text-gray-900 mb-6">
                 Your Trusted Partner for
                 <br />
                 Sustainable, World-Class Design
@@ -239,8 +239,10 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-white">
-              <h2 className="text-4xl font-light mb-2">Let's Shape Together</h2>
-              <h3 className="text-2xl font-light italic text-green-100 mb-6">
+              <h2 className="text-4xl font-normal mb-2">
+                Let's Shape Together
+              </h2>
+              <h3 className="text-2xl font-normal italic text-green-100 mb-6">
                 Your Atmosphere
               </h3>
               <p className="text-green-100 mb-8">contact@ecohomes.com</p>
@@ -262,7 +264,7 @@ export default function AboutPage() {
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8">
-              <h3 className="text-2xl font-light text-white mb-6">
+              <h3 className="text-2xl font-normal text-white mb-6">
                 Contact Us
               </h3>
               <form className="space-y-4">
@@ -298,7 +300,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="text-2xl font-light mb-4">ECO</div>
+              <div className="text-2xl font-normal mb-4">ECO</div>
               <p className="text-gray-400 text-sm">
                 We are Workspace Design & Build Specialists with 200+ projects
                 delivered across Saudi Arabia.

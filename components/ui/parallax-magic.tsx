@@ -72,7 +72,7 @@ export default function ParallaxSection() {
       {/* Sticky Content */}
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="text-center text-white max-w-4xl px-6">
-          <h2 className="text-5xl md:text-7xl font-light mb-6 leading-tight">
+          <h2 className="text-5xl md:text-7xl font-normal mb-6 leading-tight">
             Parallax Magic
           </h2>
           <p className="text-xl md:text-2xl mb-8 leading-relaxed opacity-90">

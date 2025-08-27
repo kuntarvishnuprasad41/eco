@@ -102,7 +102,7 @@ export function PortfolioSection({ locale }: VerticalsSectionProps) {
   return (
     <div className="relative bg-white">
       <div className="text-center mb-16 pt-10">
-        <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+        <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
           Showcasing <br />
           Our <span className="text-green-500 italic">Works</span>
         </h2>
@@ -142,7 +142,7 @@ export function PortfolioSection({ locale }: VerticalsSectionProps) {
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-6">
                     <div>
-                      <h3 className="text-2xl font-light text-foreground mb-1">
+                      <h3 className="text-2xl font-normal text-foreground mb-1">
                         {property.title}
                       </h3>
                       <p className="text-muted-foreground text-lg">

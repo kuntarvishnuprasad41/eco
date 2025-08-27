@@ -1,3 +1,4 @@
+import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -17,7 +18,7 @@ export default function SustainabilityPage() {
           }}
         />
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-light mb-6">
+          <h1 className="text-5xl md:text-7xl font-normal mb-6">
             Sustainability at the
             <br />
             Heart of
@@ -39,7 +40,7 @@ export default function SustainabilityPage() {
       <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-light text-gray-900 mb-4">
+            <h2 className="text-4xl font-normal text-gray-900 mb-4">
               Our Sustainability
               <br />
               <span className="text-emerald-500 italic">Philosophy</span>
@@ -52,7 +53,7 @@ export default function SustainabilityPage() {
           </div>
           <div className="relative">
             <img
-              src="/placeholder-awo65.png"
+              src="/images/s.png"
               alt="Sustainable architecture with green glass ceiling"
               className="rounded-lg shadow-lg w-full h-80 object-cover"
             />
@@ -132,7 +133,7 @@ export default function SustainabilityPage() {
       {/* How We Integrate Sustainability */}
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-4xl font-light mb-4">
+          <h2 className="text-4xl font-normal mb-4">
             How We Integrate
             <br />
             <span className="text-emerald-400 italic">Sustainability</span>
@@ -141,7 +142,7 @@ export default function SustainabilityPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
             <div className="relative group cursor-pointer">
               <img
-                src="/sustainable-modern-house.png"
+                src="/images/s1.png"
                 alt="Sustainable Architecture"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -158,7 +159,7 @@ export default function SustainabilityPage() {
 
             <div className="relative group cursor-pointer">
               <img
-                src="/sustainable-interior.png"
+                src="/images/s2.png"
                 alt="Interior Design"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -177,7 +178,7 @@ export default function SustainabilityPage() {
 
             <div className="relative group cursor-pointer">
               <img
-                src="/sustainable-landscape.png"
+                src="/images/s1.png"
                 alt="Landscape Design"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -196,7 +197,7 @@ export default function SustainabilityPage() {
 
             <div className="relative group cursor-pointer">
               <img
-                src="/sustainable-engineering.png"
+                src="/images/s2.png"
                 alt="Engineering"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -213,7 +214,7 @@ export default function SustainabilityPage() {
 
             <div className="relative group cursor-pointer">
               <img
-                src="/placeholder-dv3up.png"
+                src="/images/s1.png"
                 alt="Consultation"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -234,7 +235,7 @@ export default function SustainabilityPage() {
       {/* Our Impact in Numbers */}
       <section className="py-20 bg-emerald-500 text-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-light mb-4">
+          <h2 className="text-4xl font-normal mb-4">
             Our Impact in
             <br />
             <span className="italic">Numbers</span>
@@ -247,27 +248,27 @@ export default function SustainabilityPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
-              <div className="text-6xl font-light mb-2">200+</div>
+              <div className="text-6xl font-normal mb-2">200+</div>
               <p className="text-emerald-100">
                 Sustainable projects completed with innovative eco-friendly
                 solutions
               </p>
             </div>
             <div>
-              <div className="text-6xl font-light mb-2">30%</div>
+              <div className="text-6xl font-normal mb-2">30%</div>
               <p className="text-emerald-100">
                 Average energy reduction achieved through our sustainable
                 designs
               </p>
             </div>
             <div>
-              <div className="text-6xl font-light mb-2">40%</div>
+              <div className="text-6xl font-normal mb-2">40%</div>
               <p className="text-emerald-100">
                 Reduction in construction waste through efficient planning
               </p>
             </div>
             <div>
-              <div className="text-6xl font-light mb-2">95%</div>
+              <div className="text-6xl font-normal mb-2">95%</div>
               <p className="text-emerald-100">
                 Client satisfaction rate with our sustainable solutions
               </p>
@@ -285,7 +286,7 @@ export default function SustainabilityPage() {
           }}
         />
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center text-white">
-          <h2 className="text-4xl font-light mb-6">
+          <h2 className="text-4xl font-normal mb-6">
             Why Sustainability Matters to Us
           </h2>
           <p className="text-xl leading-relaxed">
@@ -300,7 +301,7 @@ export default function SustainabilityPage() {
       {/* Call to Action */}
       <section className="py-20 bg-gray-50 text-center">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl font-light text-gray-900 mb-4">
+          <h2 className="text-4xl font-normal text-gray-900 mb-4">
             Let's Build a<br />
             <span className="text-emerald-500 italic">
               Greener Tomorrow Together
@@ -318,70 +319,7 @@ export default function SustainabilityPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-emerald-500 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                  <span className="text-emerald-500 font-light text-sm">
-                    eco
-                  </span>
-                </div>
-                <span className="font-semibold">Eco Homes</span>
-              </div>
-              <p className="text-emerald-100 text-sm">
-                We are passionate about creating sustainable living spaces that
-                benefit both people and the environment.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="font-semibold mb-4">OUR SERVICES</h4>
-              <ul className="space-y-2 text-emerald-100 text-sm">
-                <li>Architecture</li>
-                <li>Interior Design</li>
-                <li>Landscape Design</li>
-                <li>Engineering</li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-semibold mb-4">SUSTAINABILITY</h4>
-              <ul className="space-y-2 text-emerald-100 text-sm">
-                <li>Green Innovation</li>
-                <li>Energy Efficiency</li>
-                <li>Resource Management</li>
-                <li>Healthy Living</li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-semibold mb-4">CONTACT US</h4>
-              <div className="text-emerald-100 text-sm space-y-2">
-                <p>123 Green Street</p>
-                <p>Eco City, EC 12345</p>
-                <p>Phone: (555) 123-4567</p>
-                <p>Email: info@ecohomes.com</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-emerald-400 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-emerald-100 text-sm">
-              © 2024 Eco Homes. All rights reserved.
-            </p>
-            <div className="flex space-x-4 mt-4 md:mt-0">
-              <a href="#" className="text-emerald-100 hover:text-white">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-emerald-100 hover:text-white">
-                Terms of Service
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
