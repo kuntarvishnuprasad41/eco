@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 
-import { Noto_Sans_Arabic } from "next/font/google";
+import { Inter, Noto_Sans_Arabic } from "next/font/google";
 import "../globals.css";
 import { generateMetadata as generateSEOMetadata } from "@/components/seo/metadata";
 
@@ -50,17 +50,13 @@ export async function generateStaticParams() {
   return [{ locale: "en" }, { locale: "ar" }];
 }
 
-interface RootLayoutProps {
-  children: React.ReactNode;
-  params: {
-    locale: string;
-  };
-}
-
 export default function RootLayout({
   children,
   params: { locale },
-}: RootLayoutProps) {
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
   const isRTL = locale === "ar";
 
   return (

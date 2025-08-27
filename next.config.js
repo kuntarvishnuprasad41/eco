@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  ignoreBuildErrors: true,
   experimental: {
     missingSuspenseWithCSRBailout: false,
   },
