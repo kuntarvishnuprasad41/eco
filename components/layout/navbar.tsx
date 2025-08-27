@@ -53,6 +53,10 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
     },
   ];
 
+  // Helper to detect if current page is contact-us
+  const isContactPage =
+    pathname.endsWith("/contact-us/") || pathname.endsWith("/contact-us");
+
   return (
     <motion.nav
       initial={{ y: -100 }}
@@ -65,7 +69,6 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
         {/* Logo section */}
         {scrolled ? (
           <>
-            {" "}
             {/* Desktop Layout */}
             <div
               className={`hidden md:flex items-center justify-between transition-all duration-300 ${
@@ -117,9 +120,14 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={` hover:text-[#3ebf7e] transition-colors duration-200 font-medium  ${
-                    scrolled ? "text-white" : `text-[${text}]`
-                  } `}
+                  className={`hover:text-[#3ebf7e] transition-colors duration-200 font-medium ${
+                    // If current page is contact-us, use original logic
+                    isContactPage
+                      ? scrolled
+                        ? "text-white"
+                        : `text-[${text}]`
+                      : "text-white"
+                  }`}
                 >
                   {item.label}
                 </Link>

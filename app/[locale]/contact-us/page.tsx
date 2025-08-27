@@ -40,7 +40,7 @@ export default function EcoHomesContact() {
       {/* Header */}
       <div className="mb-60">
         <JsonLd locale={"en"} />
-        <Navbar locale={"en"} text={"#374151"} />
+        <Navbar locale={"en"} text={"#000"} />
       </div>
       {/* Main Content */}
       <main className="container mx-auto px-4 py-16">
