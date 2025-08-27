@@ -32,7 +32,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
 
   const navItems = [
     {
-      href: `/${locale}#verticals`,
+      href: `/${locale}/verticals`,
       label: locale === "ar" ? "خدماتنا" : "OUR VERTICALS",
     },
     {

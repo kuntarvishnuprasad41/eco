@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/layout/navbar";
 import {
   Building2,
   Leaf,
@@ -9,40 +10,20 @@ import {
   MapPin,
 } from "lucide-react";
 import Image from "next/image";
+import { Nav } from "react-day-picker";
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="absolute top-0 left-0 right-0 z-50 px-6 py-6">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="text-white font-light text-xl">ECO</div>
-          <div className="hidden md:flex space-x-8 text-white text-sm">
-            <a href="#" className="hover:text-green-400 transition-colors">
-              OUR VERTICALS
-            </a>
-            <a href="#" className="hover:text-green-400 transition-colors">
-              SUSTAINABILITY
-            </a>
-            <a href="#" className="hover:text-green-400 transition-colors">
-              ABOUT US
-            </a>
-            <a href="#" className="hover:text-green-400 transition-colors">
-              PORTFOLIO
-            </a>
-            <a href="#" className="hover:text-green-400 transition-colors">
-              CONTACT US
-            </a>
-          </div>
-        </div>
-      </nav>
+      <Navbar locale="en" text="#374151" />
 
       {/* Hero Section */}
       <section className="relative h-screen bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
           style={{
-            backgroundImage: `url('/dark-forest-modern-building.png')`,
+            backgroundImage: `url('/images/about.png')`,
           }}
         />
         <div className="relative z-10 flex items-center justify-center h-full px-6">

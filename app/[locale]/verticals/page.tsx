@@ -48,21 +48,25 @@ export default async function Verticals({
       </section>
 
       {/* Main Content Section */}
-      <div className="w-full flex flex-col lg:flex-row bg-gray-50">
+      <div className="w-full flex flex-col lg:flex-row justify-between bg-gray-50">
         {/* Sidebar */}
-        <div className="w-full lg:w-1/4 border-b lg:border-b-0  border-green-500 px-4 py-6">
+        <div className="w-full lg:w-1/6 border-b lg:border-b-0  border-green-500 px-4 py-6">
           {[
-            "Section 1",
-            "Section 2",
-            "Section 3",
-            "Section 4",
-            "Section 5",
+            "Architecture",
+            "Interior Design ",
+            "Landscape Design",
+            "Engineering",
+            "Consultation and Supervision",
           ].map((title, index) => (
             <div
               key={index}
               className="py-6 border-t border-green-500 first:border-t-0 text-center"
             >
               <h2 className="text-sm sm:text-md font-semibold">{title}</h2>
+              <p>
+                Designing timeless, sustainable structures that balance culture,
+                climate, creativity, and innovation.
+              </p>
             </div>
           ))}
         </div>
