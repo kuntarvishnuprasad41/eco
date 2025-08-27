@@ -142,7 +142,7 @@ export function PortfolioSection({ locale }: VerticalsSectionProps) {
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-6">
                     <div>
-                      <h3 className="text-2xl font-bold text-foreground mb-1">
+                      <h3 className="text-2xl font-light text-foreground mb-1">
                         {property.title}
                       </h3>
                       <p className="text-muted-foreground text-lg">

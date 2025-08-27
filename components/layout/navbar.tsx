@@ -73,7 +73,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
               }`}
             >
               {/* Logo */}
-              <div className="flex-shrink-0">
+              <Link className="flex-shrink-0" href={"/"}>
                 <Image
                   alt="Eco Homes"
                   src="/icons/logo.svg"
@@ -81,7 +81,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
                   width={scrolled ? 120 : 180}
                   className="transition-all duration-300"
                 />
-              </div>
+              </Link>
 
               {/* Nav Links + Language Switcher */}
               <div className="flex items-center space-x-8 rtl:space-x-reverse">
@@ -96,20 +96,20 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
                     {item.label}
                   </Link>
                 ))}
-                <LanguageSwitcher currentLocale={locale} scrolled={scrolled} />
+                {/* <LanguageSwitcher currentLocale={locale} scrolled={scrolled} /> */}
               </div>
             </div>
           </>
         ) : (
           <>
-            <div className="flex justify-center py-4">
+            <Link className="flex justify-center py-4" href={"/"}>
               <Image
                 alt="Eco Homes"
                 src="/icons/logo.svg"
                 height={250}
                 width={250}
               />
-            </div>
+            </Link>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center justify-center space-x-8 rtl:space-x-reverse pb-4 ">
@@ -118,7 +118,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
                   key={item.href}
                   href={item.href}
                   className={` hover:text-[#3ebf7e] transition-colors duration-200 font-medium  ${
-                    scrolled ? "text-gray-700" : `text-['${text}']`
+                    scrolled ? "text-gray-700" : `text-[${text}]`
                   } `}
                 >
                   {item.label}

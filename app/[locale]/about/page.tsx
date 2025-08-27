@@ -16,7 +16,7 @@ export default function AboutPage() {
       {/* Navigation */}
       <nav className="absolute top-0 left-0 right-0 z-50 px-6 py-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="text-white font-bold text-xl">ECO</div>
+          <div className="text-white font-light text-xl">ECO</div>
           <div className="hidden md:flex space-x-8 text-white text-sm">
             <a href="#" className="hover:text-green-400 transition-colors">
               OUR VERTICALS
@@ -317,7 +317,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="text-2xl font-bold mb-4">ECO</div>
+              <div className="text-2xl font-light mb-4">ECO</div>
               <p className="text-gray-400 text-sm">
                 We are Workspace Design & Build Specialists with 200+ projects
                 delivered across Saudi Arabia.

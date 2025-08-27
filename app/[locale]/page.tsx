@@ -22,10 +22,14 @@ export default async function HomePage({
     <main className="min-h-screen">
       <div className="relative z-[9999]">
         <JsonLd locale={params.locale} />
-        <Navbar locale={params.locale} translations={translations} />
+        <Navbar
+          locale={params.locale}
+          translations={translations}
+          text={"#FFF"}
+        />
         <HeroSection locale={params.locale} translations={translations} />
       </div>
-      <HeroParallaxW locale={params.locale} translations={translations} />
+      {/* <HeroParallaxW locale={params.locale} translations={translations} /> */}
       <div className=" relative">
         <StatsSection locale={params.locale} />
         <VerticalsSection locale={params.locale} />

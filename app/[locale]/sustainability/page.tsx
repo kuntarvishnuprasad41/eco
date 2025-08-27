@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/layout/navbar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Leaf, Zap, Recycle, Heart } from "lucide-react";
@@ -6,36 +7,7 @@ export default function SustainabilityPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">eco</span>
-              </div>
-              <span className="font-semibold text-gray-900">Eco Homes</span>
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <a href="#" className="text-gray-700 hover:text-emerald-600">
-                OUR SERVICES
-              </a>
-              <a href="#" className="text-gray-700 hover:text-emerald-600">
-                SUSTAINABILITY
-              </a>
-              <a href="#" className="text-gray-700 hover:text-emerald-600">
-                ABOUT US
-              </a>
-              <a href="#" className="text-gray-700 hover:text-emerald-600">
-                PORTFOLIO
-              </a>
-              <a href="#" className="text-gray-700 hover:text-emerald-600">
-                CONTACT US
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+      <Navbar locale={"en"} text={"#374151"} />
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center">
         <div
@@ -45,7 +17,7 @@ export default function SustainabilityPage() {
           }}
         />
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          <h1 className="text-5xl md:text-7xl font-light mb-6">
             Sustainability at the
             <br />
             Heart of
@@ -67,7 +39,7 @@ export default function SustainabilityPage() {
       <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-4xl font-light text-gray-900 mb-4">
               Our Sustainability
               <br />
               <span className="text-emerald-500 italic">Philosophy</span>
@@ -160,7 +132,7 @@ export default function SustainabilityPage() {
       {/* How We Integrate Sustainability */}
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-4xl font-light mb-4">
             How We Integrate
             <br />
             <span className="text-emerald-400 italic">Sustainability</span>
@@ -262,7 +234,7 @@ export default function SustainabilityPage() {
       {/* Our Impact in Numbers */}
       <section className="py-20 bg-emerald-500 text-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-4xl font-light mb-4">
             Our Impact in
             <br />
             <span className="italic">Numbers</span>
@@ -275,27 +247,27 @@ export default function SustainabilityPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
-              <div className="text-6xl font-bold mb-2">200+</div>
+              <div className="text-6xl font-light mb-2">200+</div>
               <p className="text-emerald-100">
                 Sustainable projects completed with innovative eco-friendly
                 solutions
               </p>
             </div>
             <div>
-              <div className="text-6xl font-bold mb-2">30%</div>
+              <div className="text-6xl font-light mb-2">30%</div>
               <p className="text-emerald-100">
                 Average energy reduction achieved through our sustainable
                 designs
               </p>
             </div>
             <div>
-              <div className="text-6xl font-bold mb-2">40%</div>
+              <div className="text-6xl font-light mb-2">40%</div>
               <p className="text-emerald-100">
                 Reduction in construction waste through efficient planning
               </p>
             </div>
             <div>
-              <div className="text-6xl font-bold mb-2">95%</div>
+              <div className="text-6xl font-light mb-2">95%</div>
               <p className="text-emerald-100">
                 Client satisfaction rate with our sustainable solutions
               </p>
@@ -313,7 +285,7 @@ export default function SustainabilityPage() {
           }}
         />
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center text-white">
-          <h2 className="text-4xl font-bold mb-6">
+          <h2 className="text-4xl font-light mb-6">
             Why Sustainability Matters to Us
           </h2>
           <p className="text-xl leading-relaxed">
@@ -328,7 +300,7 @@ export default function SustainabilityPage() {
       {/* Call to Action */}
       <section className="py-20 bg-gray-50 text-center">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-light text-gray-900 mb-4">
             Let's Build a<br />
             <span className="text-emerald-500 italic">
               Greener Tomorrow Together
@@ -352,7 +324,7 @@ export default function SustainabilityPage() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                  <span className="text-emerald-500 font-bold text-sm">
+                  <span className="text-emerald-500 font-light text-sm">
                     eco
                   </span>
                 </div>

@@ -10,7 +10,7 @@ export function Footer() {
           <div className="flex-1 max-w-md text-center lg:text-left">
             {/* ECO Logo */}
             <Image
-              src="/icons/logo.svg"
+              src="/icons/logo-w.svg"
               alt="Eco Homes"
               width={150}
               height={50}
@@ -105,21 +105,21 @@ export function Footer() {
                 </svg>
               </Link>
             </div>
+            <div className="flex flex-col sm:flex-row justify-between items-center pt-8 mt-8   text-center sm:text-left">
+              <Link
+                href="#"
+                className="text-black hover:text-white transition-colors text-sm mb-4 sm:mb-0 mr-6"
+              >
+                Privacy policy
+              </Link>
+              <p className="text-black text-sm">
+                © Eco Homes 2025. All Rights Reserved
+              </p>
+            </div>
           </div>
         </div>
 
         {/* Bottom section */}
-        <div className="flex flex-col sm:flex-row justify-between items-center pt-8 mt-8 border-t border-black/20 text-center sm:text-left">
-          <Link
-            href="#"
-            className="text-black hover:text-white transition-colors text-sm mb-4 sm:mb-0"
-          >
-            Privacy policy
-          </Link>
-          <p className="text-black text-sm">
-            © Eco Homes 2025. All Rights Reserved
-          </p>
-        </div>
       </div>
     </footer>
   );
