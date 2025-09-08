@@ -33,7 +33,7 @@ export default async function Verticals({
         </div>
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal mb-6 leading-tight">
-            Shaping Excellence <br />
+            Bringing Excellence <br />
             Across Every <br />
             <span className="text-emerald-400 italic">Design Verticals</span>
           </h1>
