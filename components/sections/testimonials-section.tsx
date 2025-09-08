@@ -15,50 +15,42 @@ export function TestimonialsSection({ locale }: TestimonialsSectionProps) {
   const reviews = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      role: "Product Manager",
+      name: "Abdullah Al-Qahtani",
+      role: "Riyadh",
       content:
-        "This platform has completely transformed how we handle our workflow. The intuitive design and powerful features make it a joy to use every day.",
+        "Eco Homes transformed our villa into a sustainable, modern sanctuary. Their attention to detail and commitment to eco-friendly design exceeded our expectations.",
       rating: 5,
     },
     {
       id: 2,
-      name: "Michael Chen",
-      role: "Software Engineer",
+      name: "Salam Al-Dosari",
+      role: "Jeddah",
       content:
-        "Outstanding performance and reliability. The development team has created something truly exceptional that scales beautifully.",
+        "Their designs blend elegance with sustainability—truly elevating the way we live and work",
       rating: 5,
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
-      role: "Marketing Director",
+      name: "Fahad",
+      role: "Dammam",
       content:
-        "The analytics and insights provided are game-changing. We've seen a 40% improvement in our campaign performance since switching.",
+        "From Concept to completion, Eco Homes delivered exceptional service and innovative solutions that perfectly matched our vision.",
       rating: 5,
     },
     {
       id: 4,
-      name: "David Thompson",
-      role: "CEO",
+      name: "Nasser Al-Shehri",
+      role: "Jeddah",
       content:
-        "Incredible value for money. This solution has streamlined our operations and saved us countless hours every week.",
+        "Working with Eco Homes was a game-changer. Their expertise in sustainable architecture helped us create a home that is both beautiful and environmentally responsible.",
       rating: 5,
     },
     {
       id: 5,
-      name: "Lisa Wang",
-      role: "Designer",
+      name: "Laila",
+      role: "Riyadh",
       content:
-        "The user experience is phenomenal. Every interaction feels smooth and functional. Highly recommend to any team.",
-      rating: 5,
-    },
-    {
-      id: 6,
-      name: "James Miller",
-      role: "Operations Manager",
-      content:
-        "Robust, reliable, and feature-rich. This platform handles everything we throw at it with ease and precision.",
+        "The Eco Homes team brought our dream home to life with their innovative designs and sustainable practices. We couldn't be happier with the results!",
       rating: 5,
     },
   ];

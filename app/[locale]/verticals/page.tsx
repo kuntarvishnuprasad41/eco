@@ -5,6 +5,7 @@ import { Check } from "lucide-react";
 import Image from "next/image";
 import { getTranslations } from "@/lib/translations";
 import Explore from "@/components/Explore";
+import StartProjects from "@/components/StartProjects";
 // import { JsonLd } from "@/components/seo/json-ld"; // Optional
 
 export default async function Verticals({
@@ -51,21 +52,38 @@ export default async function Verticals({
         {/* Sidebar */}
         <div className="w-full lg:w-1/6 border-b lg:border-b-0 border-green-500 px-4 py-6 lg:sticky lg:top-20 self-start h-fit">
           {[
-            "Architecture",
-            "Interior Design ",
-            "Landscape Design",
-            "Engineering",
-            "Consultation and Supervision",
-          ].map((title, index) => (
+            {
+              title: "Architecture",
+              description:
+                "Crafting innovative and functional spaces that reflect cultural heritage, respond to the environment, and elevate everyday living.",
+            },
+            {
+              title: "Interior Design",
+              description:
+                "Creating harmonious interiors that blend aesthetics, comfort, and usability, tailored to enhance the lifestyle and vision of each client.",
+            },
+            {
+              title: "Landscape Design",
+              description:
+                "Designing outdoor environments that connect people with nature, promoting sustainability, biodiversity, and aesthetic appeal.",
+            },
+            {
+              title: "Engineering",
+              description:
+                "Delivering robust, efficient, and future-proof engineering solutions that support architectural integrity and performance.",
+            },
+            {
+              title: "Consultation and Supervision",
+              description:
+                "Providing expert guidance and project oversight to ensure quality, compliance, and seamless execution from concept to completion.",
+            },
+          ].map((item, index) => (
             <div
               key={index}
               className="py-6 border-t border-green-500 first:border-t-0 text-center"
             >
-              <h2 className="text-sm sm:text-md font-semibold">{title}</h2>
-              <p>
-                Designing timeless, sustainable structures that balance culture,
-                climate, creativity, and innovation.
-              </p>
+              <h2 className="text-sm sm:text-md font-semibold">{item.title}</h2>
+              <p>{item.description}</p>
             </div>
           ))}
         </div>
@@ -225,13 +243,11 @@ export default async function Verticals({
             <span className="text-emerald-600 italic">Your Atmosphere</span>
           </h2>
           <p className="text-base sm:text-lg text-gray-600 mb-8">
-            Partner with Eco Homes to create a landmark, innovative, and
-            sustainably environment that transforms your vision into reality.
-            Let's build something extraordinary together.
+            Join us to create a landmark, innovative, and sustainably
+            environment that transforms your vision into reality. Let's build
+            something extraordinary together.
           </p>
-          <Button className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 text-base sm:text-lg rounded-full">
-            Start Your Project
-          </Button>
+          <StartProjects />
         </div>
       </section>
 
