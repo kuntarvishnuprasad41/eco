@@ -54,7 +54,7 @@ export function VerticalsSection({ locale }: VerticalsSectionProps) {
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8 }}
-          className="flex justify-between mb-16"
+          className="flex-row md:flex justify-between mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             {locale === "ar" ? "خدماتنا" : "Our verticals"}

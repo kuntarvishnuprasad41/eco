@@ -16,10 +16,10 @@ export function AboutSection({ locale, translations }: AboutSectionProps) {
 
   return (
     <section id="about" className="py-20 bg-white" ref={ref}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 items-center">
+      <div className="max-w-7xl text-center mx-auto px-4 sm:px-6 lg:px-8 items-center">
         <div className="  flex-col justify-center content-center items-center w-full">
           {/* Text Content */}
-          <div className="flex justify-center items-center w-[60%] ">
+          <div className="flex justify-center items-center w-[100%] ">
             <motion.div className={locale === "ar" ? "lg:order-2" : ""}>
               <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6 leading-tight">
                 Designing Spaces, <br />

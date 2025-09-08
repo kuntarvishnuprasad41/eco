@@ -138,17 +138,31 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
         )}
 
         {/* Mobile menu button */}
-        <div className="md:hidden flex justify-center items-center space-x-4 rtl:space-x-reverse pb-4 ">
-          {/* <LanguageSwitcher currentLocale={locale} scrolled={scrolled} /> */}
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => setIsOpen(!isOpen)}
-            className="text-white"
-          >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </Button>
-        </div>
+        {scrolled && (
+          <div className="flex items-center justify-between py-2 md:hidden">
+            <Link href="/" className="flex-shrink-0">
+              <Image
+                alt="Eco Homes"
+                src="/icons/logo.svg"
+                height={40}
+                width={120}
+                className="transition-all duration-300"
+              />
+            </Link>
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-black"
+            >
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
+            </Button>
+          </div>
+        )}
 
         {/* Mobile Navigation */}
         <AnimatePresence>
