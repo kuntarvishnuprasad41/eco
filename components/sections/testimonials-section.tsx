@@ -50,7 +50,7 @@ export function TestimonialsSection({ locale }: TestimonialsSectionProps) {
       name: "Lisa Wang",
       role: "Designer",
       content:
-        "The user experience is phenomenal. Every interaction feels smooth and purposeful. Highly recommend to any team.",
+        "The user experience is phenomenal. Every interaction feels smooth and functional. Highly recommend to any team.",
       rating: 5,
     },
     {

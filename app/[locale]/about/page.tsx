@@ -58,7 +58,7 @@ export default function AboutPage() {
               </p>
               <p className="text-gray-600 leading-relaxed">
                 With a commitment to sustainability and innovation, we create
-                spaces that are purposeful, functional, and timeless. Our
+                spaces that are functional, functional, and timeless. Our
                 projects reflect cultural identity while embracing international
                 expertise through our network of global creative partners.
               </p>

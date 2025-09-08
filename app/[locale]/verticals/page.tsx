@@ -76,7 +76,7 @@ export default async function Verticals({
           {[
             {
               title: "Innovative & Sustainable Architecture",
-              text: "We design purposeful buildings that balance culture, climate, and creativity. Our architectural solutions are sustainable, functional, and timelessly crafted to inspire generations.",
+              text: "We design functional buildings that balance culture, climate, and creativity. Our architectural solutions are sustainable, functional, and timelessly crafted to inspire generations.",
               highlights: [
                 "Luxury residences & villas",
                 "Commercial & mixed-use developments",

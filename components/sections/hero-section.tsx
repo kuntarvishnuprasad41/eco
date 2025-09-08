@@ -53,7 +53,7 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
           >
             {locale === "ar"
               ? "إنشاء مساحات مدروسة تجمع بين الوظيفة والاستدامة والجمال الخالد لتحويل رؤيتك إلى واقع."
-              : "Creating purposeful spaces that combine innovation, elegance, and eco-conscious design for a sustainable future."}
+              : "Creating functional spaces that combine innovation, elegance, and eco-conscious design for a sustainable future."}
           </motion.p>
 
           <motion.div
