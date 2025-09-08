@@ -23,7 +23,7 @@ export function VerticalsSection({ locale }: VerticalsSectionProps) {
     },
     {
       title: locale === "ar" ? "التصميم الداخلي" : "Interior Design",
-      image: "/images/verticals.png",
+      image: "/images/v01.png",
       description:
         locale === "ar"
           ? "مساحات داخلية أنيقة ووظيفية"
@@ -31,7 +31,7 @@ export function VerticalsSection({ locale }: VerticalsSectionProps) {
     },
     {
       title: locale === "ar" ? "تصميم المناظر الطبيعية" : "Landscape Design",
-      image: "/images/verticals.png",
+      image: "/images/v02.png",
       description:
         locale === "ar"
           ? "مناظر طبيعية مستدامة وجميلة"
@@ -39,7 +39,7 @@ export function VerticalsSection({ locale }: VerticalsSectionProps) {
     },
     {
       title: locale === "ar" ? "الهندسة" : "Engineering",
-      image: "/images/verticals.png",
+      image: "/images/v03.png",
       description:
         locale === "ar"
           ? "حلول هندسية متطورة وموثوقة"

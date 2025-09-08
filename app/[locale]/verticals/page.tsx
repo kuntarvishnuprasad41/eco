@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import Image from "next/image";
 import { getTranslations } from "@/lib/translations";
+import Explore from "@/components/Explore";
 // import { JsonLd } from "@/components/seo/json-ld"; // Optional
 
 export default async function Verticals({
@@ -41,9 +42,7 @@ export default async function Verticals({
             spaces that harmonize with nature while delivering uncompromising
             quality and innovation.
           </p>
-          <Button className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full text-base sm:text-lg">
-            Explore Our Work
-          </Button>
+          <Explore />
         </div>
       </section>
 
@@ -72,7 +71,10 @@ export default async function Verticals({
         </div>
 
         {/* Verticals */}
-        <div className="w-full lg:w-3/4 px-4 md:px-6 py-12 space-y-24">
+        <div
+          className="w-full lg:w-3/4 px-4 md:px-6 py-12 space-y-24"
+          id="works"
+        >
           {[
             {
               title: "Innovative & Sustainable Architecture",

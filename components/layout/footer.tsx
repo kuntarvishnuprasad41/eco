@@ -19,8 +19,9 @@ export function Footer() {
 
             {/* Description */}
             <p className="text-black text-sm leading-relaxed">
-              We are Workplace Design & Build specialists with 5 years of
-              experience - Riyadh | 2020
+              We are Workplace Design & Build specialists with{" "}
+              {new Date().getFullYear() - 2020} years of experience - Riyadh |{" "}
+              {new Date().getFullYear()}
             </p>
           </div>
 

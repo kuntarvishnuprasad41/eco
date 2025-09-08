@@ -114,6 +114,9 @@ export function PortfolioSection({ locale }: VerticalsSectionProps) {
         <Button
           variant="outline"
           className="border-green-500 text-green-600 hover:bg-green-50 rounded-full px-8"
+          onClick={() => {
+            window.location.href = `/${locale}/verticals`;
+          }}
         >
           {locale === "ar" ? "عرض المحفظة" : "View Portfolio"}
         </Button>

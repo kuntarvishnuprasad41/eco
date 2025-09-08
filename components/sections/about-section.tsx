@@ -23,8 +23,8 @@ export function AboutSection({ locale, translations }: AboutSectionProps) {
             <motion.div className={locale === "ar" ? "lg:order-2" : ""}>
               <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6 leading-tight">
                 Designing Spaces, <br />
-                Shaping{" "}
-                <span className="text-green-500 italic">Lifestyles</span>
+                Defining
+                <span className="text-green-500 italic">The Future</span>
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
                 {locale === "ar"
