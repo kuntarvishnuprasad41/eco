@@ -4,6 +4,44 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Leaf, Zap, Recycle, Heart } from "lucide-react";
 
+const sustainabilityItems = [
+  {
+    title: "Architecture",
+    image: "/images/s1.png",
+    alt: "Sustainable Architecture",
+    description:
+      "Designing buildings with sustainable materials, efficient layouts, and renewable energy integration.",
+  },
+  {
+    title: "Interior Design",
+    image: "/images/s2.png",
+    alt: "Interior Design",
+    description:
+      "Creating beautiful interiors using eco-friendly materials and energy-efficient solutions.",
+  },
+  {
+    title: "Landscape Design",
+    image: "/images/s3.png",
+    alt: "Landscape Design",
+    description:
+      "Designing outdoor spaces with native plants and sustainable water management systems.",
+  },
+  {
+    title: "Engineering",
+    image: "/images/s4.png",
+    alt: "Engineering",
+    description:
+      "Implementing advanced sustainable technologies and energy-efficient building systems.",
+  },
+  {
+    title: "Consultation",
+    image: "/images/s5.png",
+    alt: "Consultation",
+    description:
+      "Providing expert guidance on sustainable building practices and green certifications.",
+  },
+];
+
 export default function SustainabilityPage() {
   return (
     <div className="min-h-screen bg-white">
@@ -139,95 +177,36 @@ export default function SustainabilityPage() {
             <span className="text-emerald-400 italic">Sustainability</span>
           </h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
-            <div className="relative group cursor-pointer">
-              <img
-                src="/images/s1.png"
-                alt="Sustainable Architecture"
-                className="w-full h-64 object-cover rounded-lg"
-              />
-              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Architecture</h3>
-                  <p className="text-sm text-gray-200">
-                    Designing buildings with sustainable materials, efficient
-                    layouts, and renewable energy integration.
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-fr">
+            {sustainabilityItems.map((item, index) => {
+              // Custom spans for the first two items
+              let colSpan = "col-span-1";
+              if (index === 0) colSpan = "md:col-span-2"; // Wider card
+              if (index === 1) colSpan = "md:col-span-1"; // Regular next to wide card
 
-            <div className="relative group cursor-pointer">
-              <img
-                src="/images/s2.png"
-                alt="Interior Design"
-                className="w-full h-64 object-cover rounded-lg"
-              />
-              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    Interior Design
-                  </h3>
-                  <p className="text-sm text-gray-200">
-                    Creating beautiful interiors using eco-friendly materials
-                    and energy-efficient solutions.
-                  </p>
+              return (
+                <div
+                  key={index}
+                  className={`relative group cursor-pointer ${colSpan} row-span-1`}
+                >
+                  <img
+                    src={item.image}
+                    alt={item.alt}
+                    className="w-full h-64 object-cover rounded-lg"
+                  />
+                  <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
+                    <div>
+                      <h3 className="text-xl font-semibold mb-2">
+                        {item.title}
+                      </h3>
+                      <p className="text-sm text-gray-200">
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-
-            <div className="relative group cursor-pointer">
-              <img
-                src="/images/s1.png"
-                alt="Landscape Design"
-                className="w-full h-64 object-cover rounded-lg"
-              />
-              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    Landscape Design
-                  </h3>
-                  <p className="text-sm text-gray-200">
-                    Designing outdoor spaces with native plants and sustainable
-                    water management systems.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative group cursor-pointer">
-              <img
-                src="/images/s2.png"
-                alt="Engineering"
-                className="w-full h-64 object-cover rounded-lg"
-              />
-              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Engineering</h3>
-                  <p className="text-sm text-gray-200">
-                    Implementing advanced sustainable technologies and
-                    energy-efficient building systems.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative group cursor-pointer">
-              <img
-                src="/images/s1.png"
-                alt="Consultation"
-                className="w-full h-64 object-cover rounded-lg"
-              />
-              <div className="absolute inset-0 bg-black/50 rounded-lg flex items-end p-6">
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Consultation</h3>
-                  <p className="text-sm text-gray-200">
-                    Providing expert guidance on sustainable building practices
-                    and green certifications.
-                  </p>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </section>

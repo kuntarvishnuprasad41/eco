@@ -109,8 +109,8 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
               <Image
                 alt="Eco Homes"
                 src="/icons/logo.svg"
-                height={250}
-                width={250}
+                height={150}
+                width={150}
               />
             </Link>
 
@@ -138,13 +138,13 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
         )}
 
         {/* Mobile menu button */}
-        <div className="md:hidden flex justify-center items-center space-x-4 rtl:space-x-reverse pb-4">
+        <div className="md:hidden flex justify-center items-center space-x-4 rtl:space-x-reverse pb-4 ">
           {/* <LanguageSwitcher currentLocale={locale} scrolled={scrolled} /> */}
           <Button
             variant="ghost"
             size="icon"
             onClick={() => setIsOpen(!isOpen)}
-            className="text-gray-700"
+            className="text-white"
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>

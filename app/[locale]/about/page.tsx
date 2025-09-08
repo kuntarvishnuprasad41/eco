@@ -65,7 +65,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/geometric-glass-steel-building.png"
+                src="/images/s1.png"
                 alt="Modern Architecture"
                 width={600}
                 height={400}
@@ -223,7 +223,7 @@ export default function AboutPage() {
 
             <div className="relative">
               <Image
-                src="/sustainable-glass-house.png"
+                src="/images/s2.png"
                 alt="Sustainable Modern House"
                 width={400}
                 height={500}
