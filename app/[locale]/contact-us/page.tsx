@@ -227,6 +227,7 @@ export default function EcoHomesContact() {
             >
               +966 50 867 6290
             </a>
+            <br />
             <a
               href="mailto:info@ecohomes.sa"
               className="text-gray-600 hover:text-green-500"
