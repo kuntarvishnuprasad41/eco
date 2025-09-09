@@ -73,6 +73,21 @@ export default function AboutPage() {
               />
             </div>
           </div>
+          <br />
+          <div>
+            <h2 className="text-4xl font-normal text-gray-900 mb-6">
+              Founder's Message
+            </h2>
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              “With a shared vision to create a company built on trust,
+              innovation, and sustainability. As partners, we believe in
+              combining our strengths to deliver projects that not only meet
+              expectations but also inspire and endure. Our journey is driven by
+              passion for design, dedication to quality, and a commitment to
+              leaving a positive mark through every project we take on.”
+            </p>
+            <p>— Chief Executive Officer</p>
+          </div>
         </div>
       </section>
 

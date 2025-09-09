@@ -58,7 +58,7 @@ const properties = [
     id: 5,
     title: "Urban Sanctuary",
     location: "Doha",
-    image: "/images/car4.png",
+    image: "/images/us.png",
     area: "5,100 sq.ft",
     completion: "2025",
     sustainability: "94%",

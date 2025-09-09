@@ -65,7 +65,7 @@ export function Footer() {
                 rel="noopener noreferrer"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-7 h-7"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
