@@ -75,6 +75,22 @@ export interface Translations {
       };
     };
   };
+  verticals: {
+    hero: { title: string; subtitle: string };
+    sidebar: { title: string; description: string }[];
+    sections: {
+      title: string;
+      text: string;
+      highlights: string[];
+      outcome: string;
+      image: string;
+      alt: string;
+    }[];
+    keyHighlightsTitle: string;
+    outcomeTitle: string;
+    sustainability: { title: string; text: string };
+    cta: { title: string; text: string };
+  };
   portfolioSection: {
     title: string;
     subtitle: string;

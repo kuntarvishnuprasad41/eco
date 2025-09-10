@@ -264,5 +264,110 @@
       "message": "Your Message",
       "submit": "Send Message"
     }
+  },
+  "verticals": {
+    "hero": {
+      "title": "Bringing Excellence\nAcross Every\nDesign Verticals",
+      "subtitle": "From architectural marvels to sustainable landscapes, we create spaces that harmonize with nature while delivering uncompromising quality and innovation."
+    },
+    "sidebar": [
+      {
+        "title": "Architecture",
+        "description": "Crafting innovative and functional spaces that reflect cultural heritage, respond to the environment, and elevate everyday living."
+      },
+      {
+        "title": "Interior Design",
+        "description": "Creating harmonious interiors that blend aesthetics, comfort, and usability, tailored to enhance the lifestyle and vision of each client."
+      },
+      {
+        "title": "Landscape Design",
+        "description": "Designing outdoor environments that connect people with nature, promoting sustainability, biodiversity, and aesthetic appeal."
+      },
+      {
+        "title": "Engineering",
+        "description": "Delivering robust, efficient, and future-proof engineering solutions that support architectural integrity and performance."
+      },
+      {
+        "title": "Consultation and Supervision",
+        "description": "Providing expert guidance and project oversight to ensure quality, compliance, and seamless execution from concept to completion."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Innovative & Sustainable Architecture",
+        "text": "We design functional buildings that balance culture, climate, and creativity. Our architectural solutions are sustainable, functional, and timelessly crafted to inspire generations.",
+        "highlights": [
+          "Luxury residences & villas",
+          "Commercial & mixed-use developments",
+          "Sustainable building design",
+          "Master planning & urban design"
+        ],
+        "outcome": "Spaces that inspire, adapt to modern lifestyles, and endure with elegance.",
+        "image": "/images/1.png",
+        "alt": "Modern kitchen interior"
+      },
+      {
+        "title": "Elegant Interiors That Elevate Living",
+        "text": "Creating interior beauty with practicality, tailored to reflect personal identity and functionality while embracing eco-conscious materials and modern aesthetics.",
+        "highlights": [
+          "Luxury residential interiors",
+          "Corporate & commercial fit-outs",
+          "Lighting & spatial optimization",
+          "Sustainable material selection"
+        ],
+        "outcome": "Interiors that transform everyday living into refined experiences.",
+        "image": "/images/2.png",
+        "alt": "Luxurious bathroom interior"
+      },
+      {
+        "title": "Green, Serene & Smart Landscapes",
+        "text": "We create outdoor environments that blend nature and design, enhancing well-being while conserving resources with sustainable strategies and smart systems.",
+        "highlights": [
+          "Gardens & courtyards",
+          "Urban & commercial landscapes",
+          "Native planting & green coverage",
+          "Water-saving irrigation systems"
+        ],
+        "outcome": "Serene, resource-efficient spaces that nurture people and the planet.",
+        "image": "/images/3.png",
+        "alt": "Modern landscape design"
+      },
+      {
+        "title": "Precision-Driven Engineering",
+        "text": "Our engineering solutions provide structural integrity, efficiency, and innovation. We ensure every project is reliable, safe, and built for long-term sustainability.",
+        "highlights": [
+          "Structural & civil engineering",
+          "Mechanical, electrical & plumbing (MEP)",
+          "Smart building systems",
+          "Sustainable energy solutions"
+        ],
+        "outcome": "Future-ready infrastructure that supports modern living.",
+        "image": "/images/4.png",
+        "alt": "Modern building facade"
+      },
+      {
+        "title": "End-to-End Project Consultation",
+        "text": "We provide expert guidance and supervision from design to delivery, ensuring quality, timeliness, and cost-efficiency in every project.",
+        "highlights": [
+          "Feasibility & design consultation",
+          "Vendor & contractor coordination",
+          "On-site supervision & quality checks",
+          "Project scheduling & budget control"
+        ],
+        "outcome": "Seamless execution and successful project delivery.",
+        "image": "/images/5.png",
+        "alt": "Project consultation interior"
+      }
+    ],
+    "keyHighlightsTitle": "Key Highlights",
+    "outcomeTitle": "Outcome",
+    "sustainability": {
+      "title": "How Our Verticals Drive\nSustainable Impact",
+      "text": "Each vertical integrates eco-conscious practices, from architecture to engineering, ensuring reduced carbon footprint, enhanced resource efficiency, and sustainable living environments for future generations."
+    },
+    "cta": {
+      "title": "Let's Shape Together\nYour Atmosphere",
+      "text": "Join us to create a landmark, innovative, and sustainably environment that transforms your vision into reality. Let's build something extraordinary together."
+    }
   }
 }

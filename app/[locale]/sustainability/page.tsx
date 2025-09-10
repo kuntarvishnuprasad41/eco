@@ -298,7 +298,7 @@ export default function SustainabilityPage() {
       </section>
 
       {/* Footer */}
-      <Footer />
+      <Footer translations={} />
     </div>
   );
 }
