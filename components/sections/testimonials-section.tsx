@@ -1,81 +1,54 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Star, Quote } from "lucide-react";
+import { useInView } from "framer-motion";
+import type { Translations } from "@/lib/translations";
 
 interface TestimonialsSectionProps {
   locale: string;
+  translations: Translations;
 }
-export function TestimonialsSection({ locale }: TestimonialsSectionProps) {
+
+export function TestimonialsSection({
+  locale,
+  translations,
+}: TestimonialsSectionProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const reviews = [
-    {
-      id: 1,
-      name: "Abdullah Al-Qahtani",
-      role: "Riyadh",
-      content:
-        "Eco Homes transformed our villa into a sustainable, modern sanctuary. Their attention to detail and commitment to eco-friendly design exceeded our expectations.",
-      rating: 5,
-    },
-    {
-      id: 2,
-      name: "Salam Al-Dosari",
-      role: "Jeddah",
-      content:
-        "Their designs blend elegance with sustainability—truly elevating the way we live and work",
-      rating: 5,
-    },
-    {
-      id: 3,
-      name: "Fahad",
-      role: "Dammam",
-      content:
-        "From Concept to completion, Eco Homes delivered exceptional service and innovative solutions that perfectly matched our vision.",
-      rating: 5,
-    },
-    {
-      id: 4,
-      name: "Nasser Al-Shehri",
-      role: "Jeddah",
-      content:
-        "Working with Eco Homes was a game-changer. Their expertise in sustainable architecture helped us create a home that is both beautiful and environmentally responsible.",
-      rating: 5,
-    },
-    {
-      id: 5,
-      name: "Laila",
-      role: "Riyadh",
-      content:
-        "The Eco Homes team brought our dream home to life with their innovative designs and sustainable practices. We couldn't be happier with the results!",
-      rating: 5,
-    },
-  ];
+  const testimonials = translations.testimonials;
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-white" ref={ref}>
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Left side - Heading and description */}
+          {/* Left side - Heading */}
           <div
-            initial={{ opacity: 0, y: 50 }}
-            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-            transition={{ duration: 0.8 }}
             className="text-center mb-16"
+            style={{
+              opacity: isInView ? 1 : 0,
+              transform: isInView ? "translateY(0)" : "translateY(50px)",
+              transition: "all 0.8s ease",
+            }}
           >
             <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
-              What Our <br />
-              Clients <span className="text-green-500 italic">Say</span>
+              {testimonials.title} <br />
+              <span className="text-green-500 italic">
+                {testimonials.highlight}
+              </span>
             </h2>
           </div>
 
-          {/* Right side - Auto-scrolling review cards in 2 columns */}
+          {/* Right side - Auto-scrolling review cards */}
           <div className="grid grid-cols-2 gap-4 h-96 overflow-hidden">
-            <ScrollingColumn reviews={reviews.slice(0, 3)} direction="up" />
-            <ScrollingColumn reviews={reviews.slice(3, 6)} direction="down" />
+            <ScrollingColumn
+              reviews={testimonials.reviews.slice(0, 3)}
+              direction="up"
+            />
+            <ScrollingColumn
+              reviews={testimonials.reviews.slice(3, 6)}
+              direction="down"
+            />
           </div>
         </div>
       </div>
@@ -91,7 +64,7 @@ function ScrollingColumn({
   direction: "up" | "down";
 }) {
   return (
-    <div className="flex flex-col gap-4 animate-scroll-vertical group ">
+    <div className="flex flex-col gap-4 animate-scroll-vertical group">
       <style jsx>{`
         @keyframes scroll-up {
           0% {
@@ -118,7 +91,6 @@ function ScrollingColumn({
         }
       `}</style>
 
-      {/* Duplicate reviews for seamless loop */}
       {[...reviews, ...reviews].map((review, index) => (
         <div
           key={`${review.id}-${index}`}

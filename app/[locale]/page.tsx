@@ -34,8 +34,11 @@ export default async function HomePage({
       <div className=" relative">
         <StatsSection locale={params.locale} />
         <VerticalsSection locale={params.locale} />
-        <PortfolioSection locale={params.locale} />
-        <TestimonialsSection locale={params.locale} />
+        <PortfolioSection locale={params.locale} translations={translations} />
+        <TestimonialsSection
+          locale={params.locale}
+          translations={translations}
+        />
         <ContactSection locale={params.locale} translations={translations} />
         <Footer locale={params.locale} />
       </div>

@@ -61,6 +61,32 @@ export interface Translations {
       };
     };
   };
+  portfolioSection: {
+    title: string;
+    subtitle: string;
+    button: string;
+    properties: {
+      id: number;
+      title: string;
+      location: string;
+      image: string;
+      area: string;
+      completion: string;
+      sustainability: string;
+      energySavings: string;
+    }[];
+  };
+  testimonials: {
+    title: string;
+    highlight: string;
+    reviews: {
+      id: number;
+      name: string;
+      role: string;
+      content: string;
+      rating: number;
+    }[];
+  };
   hero: {
     title: string;
     subtitle: string;

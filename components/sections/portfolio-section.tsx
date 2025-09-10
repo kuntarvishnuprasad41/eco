@@ -5,68 +5,15 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
-import { useRef } from "react";
+import type { Translations } from "@/lib/translations";
 
-interface VerticalsSectionProps {
+export function PortfolioSection({
+  locale,
+  translations,
+}: {
   locale: string;
-}
-
-const properties = [
-  {
-    id: 1,
-    title: "Modern Villa",
-    location: "Riyadh",
-    image: "/images/villa.png",
-    area: "5,500 sq.ft",
-    completion: "2024",
-    sustainability: "95%",
-    energySavings: "30% annually",
-  },
-  {
-    id: 2,
-    title: "Eco Residence",
-    location: "Dubai",
-    image: "/images/car1.png",
-    area: "4,200 sq.ft",
-    completion: "2024",
-    sustainability: "92%",
-    energySavings: "35% annually",
-  },
-  {
-    id: 3,
-    title: "Smart Home",
-    location: "Abu Dhabi",
-    image: "/images/car2.png",
-    area: "6,800 sq.ft",
-    completion: "2025",
-    sustainability: "98%",
-    energySavings: "40% annually",
-  },
-  {
-    id: 4,
-    title: "Green Oasis",
-    location: "Jeddah",
-    image: "/images/car3.png",
-    area: "3,900 sq.ft",
-    completion: "2024",
-    sustainability: "89%",
-    energySavings: "28% annually",
-  },
-  {
-    id: 5,
-    title: "Urban Sanctuary",
-    location: "Doha",
-    image: "/images/us.png",
-    area: "5,100 sq.ft",
-    completion: "2025",
-    sustainability: "94%",
-    energySavings: "32% annually",
-  },
-];
-
-export function PortfolioSection({ locale }: VerticalsSectionProps) {
+  translations: Translations;
+}) {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: "center",
@@ -74,16 +21,9 @@ export function PortfolioSection({ locale }: VerticalsSectionProps) {
   });
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) emblaApi.scrollPrev();
-  }, [emblaApi]);
-
-  const scrollNext = useCallback(() => {
-    if (emblaApi) emblaApi.scrollNext();
-  }, [emblaApi]);
+  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
@@ -92,38 +32,36 @@ export function PortfolioSection({ locale }: VerticalsSectionProps) {
 
   useEffect(() => {
     if (!emblaApi) return;
-
     onSelect();
     setScrollSnaps(emblaApi.scrollSnapList());
     emblaApi.on("reInit", onSelect);
     emblaApi.on("select", onSelect);
   }, [emblaApi, onSelect]);
 
+  const portfolio = translations.portfolioSection;
+
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white" dir="ltr">
       <div className="text-center mb-16 pt-10">
-        <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
-          Our <span className="text-green-500 italic">Works</span>
-        </h2>
+        <h2
+          className="text-4xl md:text-5xl font-normal text-gray-900 mb-6"
+          dangerouslySetInnerHTML={{ __html: portfolio.title }}
+        />
         <p className="text-gray-600 text-lg max-w-3xl mx-auto mb-8">
-          {locale === "ar"
-            ? "اكتشف مجموعة مختارة من مشاريعنا المتميزة التي تجمع بين الابتكار والاستدامة والجمال الخالد."
-            : "Discover a curated selection of our standout projects that blend innovation, sustainability, and timeless beauty in every detail."}
+          {portfolio.subtitle}
         </p>
         <Button
           variant="outline"
           className="border-green-500 text-green-600 hover:bg-green-50 rounded-full px-8"
-          onClick={() => {
-            window.location.href = `/${locale}/verticals`;
-          }}
+          onClick={() => (window.location.href = `/${locale}/verticals`)}
         >
-          {locale === "ar" ? "عرض المحفظة" : "View Portfolio"}
+          {portfolio.button}
         </Button>
       </div>
 
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
-          {properties.map((property, index) => (
+          {portfolio.properties.map((property, index) => (
             <div
               key={property.id}
               className={cn(
@@ -136,7 +74,7 @@ export function PortfolioSection({ locale }: VerticalsSectionProps) {
                   <img
                     src={property.image || "/placeholder.svg"}
                     alt={property.title}
-                    className="w-full h-full object-cover relative z-100"
+                    className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
                 </div>
@@ -217,22 +155,6 @@ export function PortfolioSection({ locale }: VerticalsSectionProps) {
       >
         <ChevronRight className="h-4 w-4" />
       </Button>
-
-      {/* Dots Indicator */}
-      <div className="flex justify-center mt-8 gap-2">
-        {scrollSnaps.map((_, index) => (
-          <button
-            key={index}
-            className={cn(
-              "w-2 h-2 rounded-full transition-all duration-300",
-              index === selectedIndex
-                ? "bg-primary w-8"
-                : "bg-muted-foreground/30 hover:bg-muted-foreground/50"
-            )}
-            onClick={() => emblaApi?.scrollTo(index)}
-          />
-        ))}
-      </div>
     </div>
   );
 }

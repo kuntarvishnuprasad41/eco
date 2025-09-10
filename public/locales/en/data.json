@@ -94,6 +94,104 @@
       }
     }
   },
+  "portfolioSection": {
+    "title": "Our <span class='text-green-500 italic'>Works</span>",
+    "subtitle": "Discover a curated selection of our standout projects that blend innovation, sustainability, and timeless beauty in every detail.",
+    "button": "View Portfolio",
+    "properties": [
+      {
+        "id": 1,
+        "title": "Modern Villa",
+        "location": "Riyadh",
+        "image": "/images/villa.png",
+        "area": "5,500 sq.ft",
+        "completion": "2024",
+        "sustainability": "95%",
+        "energySavings": "30% annually"
+      },
+      {
+        "id": 2,
+        "title": "Eco Residence",
+        "location": "Dubai",
+        "image": "/images/car1.png",
+        "area": "4,200 sq.ft",
+        "completion": "2024",
+        "sustainability": "92%",
+        "energySavings": "35% annually"
+      },
+      {
+        "id": 3,
+        "title": "Smart Home",
+        "location": "Abu Dhabi",
+        "image": "/images/car2.png",
+        "area": "6,800 sq.ft",
+        "completion": "2025",
+        "sustainability": "98%",
+        "energySavings": "40% annually"
+      },
+      {
+        "id": 4,
+        "title": "Green Oasis",
+        "location": "Jeddah",
+        "image": "/images/car3.png",
+        "area": "3,900 sq.ft",
+        "completion": "2024",
+        "sustainability": "89%",
+        "energySavings": "28% annually"
+      },
+      {
+        "id": 5,
+        "title": "Urban Sanctuary",
+        "location": "Doha",
+        "image": "/images/us.png",
+        "area": "5,100 sq.ft",
+        "completion": "2025",
+        "sustainability": "94%",
+        "energySavings": "32% annually"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our",
+    "highlight": "Clients Say",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Abdullah Al-Qahtani",
+        "role": "Riyadh",
+        "content": "Eco Homes transformed our villa into a sustainable, modern sanctuary. Their attention to detail and commitment to eco-friendly design exceeded our expectations.",
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "name": "Salam Al-Dosari",
+        "role": "Jeddah",
+        "content": "Their designs blend elegance with sustainability—truly elevating the way we live and work.",
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "name": "Fahad",
+        "role": "Dammam",
+        "content": "From concept to completion, Eco Homes delivered exceptional service and innovative solutions that perfectly matched our vision.",
+        "rating": 5
+      },
+      {
+        "id": 4,
+        "name": "Nasser Al-Shehri",
+        "role": "Jeddah",
+        "content": "Working with Eco Homes was a game-changer. Their expertise in sustainable architecture helped us create a home that is both beautiful and environmentally responsible.",
+        "rating": 5
+      },
+      {
+        "id": 5,
+        "name": "Laila",
+        "role": "Riyadh",
+        "content": "The Eco Homes team brought our dream home to life with their innovative designs and sustainable practices. We couldn't be happier with the results!",
+        "rating": 5
+      }
+    ]
+  },
   "services": {
     "title": "Our Services",
     "list": [
