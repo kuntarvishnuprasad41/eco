@@ -20,3 +20,19 @@ function Explore() {
 }
 
 export default Explore;
+
+export function LearnMore({ data }) {
+  return (
+    <Button
+      onClick={() => {
+        const element = document.getElementById("us");
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }}
+      className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full text-base sm:text-lg"
+    >
+      {data}
+    </Button>
+  );
+}

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import type { Translations } from "@/lib/translations";
+import Link from "next/link";
 
 interface HeroSectionProps {
   locale: string;
@@ -62,12 +63,14 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            <Button
-              size="lg"
-              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 text-base font-medium rounded-full border-0"
-            >
-              {translations.hero.button}
-            </Button>
+            <Link href={locale === "ar" ? "/ar/contact-us" : "/en/contact-us"}>
+              <Button
+                size="lg"
+                className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 text-base font-medium rounded-full border-0"
+              >
+                {translations.hero.button}
+              </Button>
+            </Link>
           </motion.div>
         </motion.div>
       </div>

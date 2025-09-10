@@ -6,6 +6,7 @@ import { Leaf, Zap, Recycle, Heart } from "lucide-react";
 import Image from "next/image";
 import { getTranslations } from "@/lib/translations";
 import React from "react";
+import { LearnMore } from "@/components/Explore";
 
 export default async function SustainabilityPage({
   params,
@@ -46,14 +47,12 @@ export default async function SustainabilityPage({
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
             {sustainability.hero.subtitle}
           </p>
-          <Button className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-full text-lg">
-            {sustainability.hero.ctaText}
-          </Button>
+          <LearnMore data={sustainability.hero.ctaText} />
         </div>
       </section>
 
       {/* Philosophy Section */}
-      <section className="py-20 px-4 max-w-7xl mx-auto">
+      <section className="py-20 px-4 max-w-7xl mx-auto" id="us">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-normal text-gray-900 mb-4">
