@@ -1,6 +1,22 @@
 import { promises as fs } from "fs";
 import path from "path";
 
+export interface Carousel {
+  sectionTitle: string;
+  sectionDescription: string;
+  properties: Array<{
+    title: string;
+    category: string;
+    location: string;
+    description: string;
+    area: string;
+    completion: string;
+    sustainability: string;
+    energySavings: string;
+    image: string;
+  }>;
+}
+
 export interface PortfolioPageTranslations {
   hero: {
     backgroundImage: string;
@@ -26,21 +42,9 @@ export interface PortfolioPageTranslations {
     description: string;
     buttonText: string;
   };
-  carousel: {
-    sectionTitle: string;
-    sectionDescription: string;
-    properties: Array<{
-      title: string;
-      category: string;
-      location: string;
-      description: string;
-      area: string;
-      completion: string;
-      sustainability: string;
-      energySavings: string;
-      image: string;
-    }>;
-  };
+  carousel: Carousel;
+  carousel1: Carousel;
+  carousel2: Carousel;
   impactStats: Array<{
     number: string;
     label: string;

@@ -124,6 +124,8 @@ export default function PortfolioSection({
 
       {/* Project Categories Carousel */}
       {t?.carousel && <ProjectCategoriesCarousel carousel={t.carousel} />}
+      {t?.carousel1 && <ProjectCategoriesCarousel carousel={t.carousel1} />}
+      {t?.carousel2 && <ProjectCategoriesCarousel carousel={t.carousel2} />}
 
       {/* Impact Statistics */}
       <div className="py-20 bg-green-500" ref={ref}>

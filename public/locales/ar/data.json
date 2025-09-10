@@ -553,6 +553,62 @@
         }
       ]
     },
+    "carousel1": {
+      "sectionTitle": "مشاريع سكنية",
+      "sectionDescription": "نخلق منازل تجمع بين الراحة والفخامة والوعي البيئي. من الفيلات الحديثة إلى الأبراج السكنية، تصاميمنا تعيد تعريف المعيشة المستدامة.",
+      "properties": [
+        {
+          "title": "فيلا حديثة",
+          "category": "سكني",
+          "location": "الرياض",
+          "description": "مشروع سكني رائع يجمع بين الهندسة المعمارية الحديثة ومبادئ التصميم المستدام.",
+          "area": "5,500 قدم مربع",
+          "completion": "2024",
+          "sustainability": "95%",
+          "energySavings": "30% سنوياً",
+          "image": "/images/1.png"
+        },
+        {
+          "title": "مركز تجاري",
+          "category": "تجاري",
+          "location": "دبي",
+          "description": "مساحة تجارية مبتكرة تحتوي على أحدث التقنيات المستدامة وبيئة عمل ملهمة.",
+          "area": "45,000 قدم مربع",
+          "completion": "2024",
+          "sustainability": "92%",
+          "energySavings": "35% سنوياً",
+          "image": "/images/1.png"
+        }
+      ]
+    },
+    "carousel2": {
+      "sectionTitle": "مشاريع سكنية",
+      "sectionDescription": "نخلق منازل تجمع بين الراحة والفخامة والوعي البيئي. من الفيلات الحديثة إلى الأبراج السكنية، تصاميمنا تعيد تعريف المعيشة المستدامة.",
+      "properties": [
+        {
+          "title": "فيلا حديثة",
+          "category": "سكني",
+          "location": "الرياض",
+          "description": "مشروع سكني رائع يجمع بين الهندسة المعمارية الحديثة ومبادئ التصميم المستدام.",
+          "area": "5,500 قدم مربع",
+          "completion": "2024",
+          "sustainability": "95%",
+          "energySavings": "30% سنوياً",
+          "image": "/images/1.png"
+        },
+        {
+          "title": "مركز تجاري",
+          "category": "تجاري",
+          "location": "دبي",
+          "description": "مساحة تجارية مبتكرة تحتوي على أحدث التقنيات المستدامة وبيئة عمل ملهمة.",
+          "area": "45,000 قدم مربع",
+          "completion": "2024",
+          "sustainability": "92%",
+          "energySavings": "35% سنوياً",
+          "image": "/images/1.png"
+        }
+      ]
+    },
     "impactStats": [
       {
         "number": "200+",

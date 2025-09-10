@@ -538,7 +538,7 @@
           "completion": "2024",
           "sustainability": "95%",
           "energySavings": "30% annually",
-          "image": "/images/1.png"
+          "image": "/images/r1.png"
         },
         {
           "title": "Commercial Hub",
@@ -549,7 +549,7 @@
           "completion": "2024",
           "sustainability": "92%",
           "energySavings": "35% annually",
-          "image": "/images/1.png"
+          "image": "/images/r2.png"
         },
         {
           "title": "Landscape Retreat",
@@ -560,7 +560,7 @@
           "completion": "2025",
           "sustainability": "98%",
           "energySavings": "40% annually",
-          "image": "/images/1.png"
+          "image": "/images/r3.png"
         },
         {
           "title": "Green Office Complex",
@@ -571,7 +571,129 @@
           "completion": "2024",
           "sustainability": "89%",
           "energySavings": "28% annually",
+          "image": "/images/r4.png"
+        },
+        {
+          "title": "Urban Sanctuary",
+          "category": "Residential",
+          "location": "Doha",
+          "description": "An urban residential project that creates a peaceful sanctuary within the bustling city environment.",
+          "area": "5,100 sq.ft",
+          "completion": "2025",
+          "sustainability": "94%",
+          "energySavings": "32% annually",
           "image": "/images/1.png"
+        }
+      ]
+    },
+    "carousel1": {
+      "sectionTitle": "Commercial Projects",
+      "sectionDescription": "Our commercial projects combine modern functionality with sustainable systems, enabling smarter, greener business environments.",
+      "properties": [
+        {
+          "title": "Commercial Hub",
+          "category": "Commercial",
+          "location": "Riyadh",
+          "description": "A stunning residential project that seamlessly blends modern architecture with sustainable design principles.",
+          "area": "5,500 sq.ft",
+          "completion": "2024",
+          "sustainability": "95%",
+          "energySavings": "30% annually",
+          "image": "/images/c1.png"
+        },
+        {
+          "title": "Commercial Hub",
+          "category": "Commercial",
+          "location": "Dubai",
+          "description": "An innovative commercial space featuring cutting-edge sustainable technologies and inspiring work environments.",
+          "area": "45,000 sq.ft",
+          "completion": "2024",
+          "sustainability": "92%",
+          "energySavings": "35% annually",
+          "image": "/images/c2.png"
+        },
+        {
+          "title": "Landscape Retreat",
+          "category": "Commercial",
+          "location": "Abu Dhabi",
+          "description": "A harmonious integration of architecture and landscape design creating a sustainable living environment.",
+          "area": "8,200 sq.ft",
+          "completion": "2025",
+          "sustainability": "98%",
+          "energySavings": "40% annually",
+          "image": "/images/c3.png"
+        },
+        {
+          "title": "Green Office Complex",
+          "category": "Commercial",
+          "location": "Jeddah",
+          "description": "A revolutionary office complex that prioritizes employee wellbeing and environmental responsibility.",
+          "area": "32,000 sq.ft",
+          "completion": "2024",
+          "sustainability": "89%",
+          "energySavings": "28% annually",
+          "image": "/images/c4.png"
+        },
+        {
+          "title": "Urban Sanctuary",
+          "category": "Residential",
+          "location": "Doha",
+          "description": "An urban residential project that creates a peaceful sanctuary within the bustling city environment.",
+          "area": "5,100 sq.ft",
+          "completion": "2025",
+          "sustainability": "94%",
+          "energySavings": "32% annually",
+          "image": "/images/1.png"
+        }
+      ]
+    },
+    "carousel2": {
+      "sectionTitle": "Landscape Projects",
+      "sectionDescription": "We design landscapes that enhance well-being while conserving natural resources.",
+      "properties": [
+        {
+          "title": "Landscape Retreat",
+          "category": "Residential",
+          "location": "Riyadh",
+          "description": "A stunning residential project that seamlessly blends modern architecture with sustainable design principles.",
+          "area": "5,500 sq.ft",
+          "completion": "2024",
+          "sustainability": "95%",
+          "energySavings": "30% annually",
+          "image": "/images/l1.png"
+        },
+        {
+          "title": "Commercial Hub",
+          "category": "Commercial",
+          "location": "Dubai",
+          "description": "An innovative commercial space featuring cutting-edge sustainable technologies and inspiring work environments.",
+          "area": "45,000 sq.ft",
+          "completion": "2024",
+          "sustainability": "92%",
+          "energySavings": "35% annually",
+          "image": "/images/l2.png"
+        },
+        {
+          "title": "Landscape Retreat",
+          "category": "Landscape",
+          "location": "Abu Dhabi",
+          "description": "A harmonious integration of architecture and landscape design creating a sustainable living environment.",
+          "area": "8,200 sq.ft",
+          "completion": "2025",
+          "sustainability": "98%",
+          "energySavings": "40% annually",
+          "image": "/images/l3.png"
+        },
+        {
+          "title": "Green Office Complex",
+          "category": "Commercial",
+          "location": "Jeddah",
+          "description": "A revolutionary office complex that prioritizes employee wellbeing and environmental responsibility.",
+          "area": "32,000 sq.ft",
+          "completion": "2024",
+          "sustainability": "89%",
+          "energySavings": "28% annually",
+          "image": "/images/l4.png"
         },
         {
           "title": "Urban Sanctuary",
