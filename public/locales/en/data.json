@@ -18,6 +18,82 @@
     "highlight": "The Future",
     "description": "Eco Homes is a leading architectural and design consultancy based in Riyadh, Saudi Arabia. We specialize in architecture, interior design, landscape design, and engineering solutions delivering integrated, sustainable designs that reflect culture, functionality, and innovation. From concept to completion, we bring unparalleled creativity and expertise to local projects, creating spaces that inspire and endure."
   },
+  "aboutPage": {
+    "hero": {
+      "title": "Designing With Intention,",
+      "subtitle": "Building With Precision",
+      "description": "At Eco Homes, great design goes beyond aesthetics—it embraces lifestyles, respects nature, and shapes the modern world."
+    },
+    "whoWeAre": {
+      "title": "Who We Are",
+      "paragraphs": [
+        "Eco Homes is a multidisciplinary design and consulting firm based in Riyadh, Saudi Arabia, specializing in architecture, interior design, landscape design, engineering, and construction.",
+        "With a commitment to sustainability and innovation, we create spaces that are functional and timeless. Our projects reflect cultural identity while embracing international expertise through our network of global creative partners."
+      ]
+    },
+    "founder": {
+      "title": "Founder's Message",
+      "message": "“With a shared vision to create a company built on trust, innovation, and sustainability. As partners, we believe in combining our strengths to deliver projects that not only meet expectations but also inspire and endure.”",
+      "signature": "Chief Executive Officer"
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "subtitle": "We design with a clear purpose merging innovation, culture, and sustainability to shape spaces that matter.",
+      "values": [
+        {
+          "title": "Sustainability",
+          "description": "Every design integrates eco-conscious solutions."
+        },
+        {
+          "title": "Functionality",
+          "description": "Spaces built for real lifestyles, not just aesthetics."
+        },
+        {
+          "title": "Precision",
+          "description": "Attention to detail from concept to execution."
+        },
+        {
+          "title": "Culture",
+          "description": "Designs that respect context, tradition, and local identity."
+        }
+      ]
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "To craft sustainable, innovative, and high-quality design solutions that improve daily living while reducing environmental impact."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "To become the leading design and consulting firm in the region—where architecture, sustainability, and modern living meet."
+    },
+    "partner": {
+      "title": "Your Trusted Partner for Sustainable, World-Class Design",
+      "description": "Choosing Eco Homes means more than hiring a design firm; it's partnering with a team blending creativity, sustainability, and precision engineering.",
+      "uniqueTitle": "What Sets Us Apart?",
+      "uniquePoints": [
+        "Multidisciplinary Expertise Under One Roof",
+        "Designs Rooted in Sustainability and Innovation",
+        "A Global Perspective with Local Cultural Touch",
+        "Proven Experience with Measurable Results"
+      ],
+      "stats": "With 200+ projects delivered, we consistently achieve tangible outcomes like 30% energy savings, 40% water conservation, and 50% less construction waste per project."
+    },
+    "contact": {
+      "title": "Let's Shape Together",
+      "subtitle": "Your Atmosphere",
+      "email": "contact@ecohomes.com",
+      "altEmail": "info@ecohomes.com",
+      "phone": "+966 XX XXX XXXX",
+      "address": "Riyadh, Saudi Arabia",
+      "formTitle": "Contact Us",
+      "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Your Message",
+        "submit": "Send Message"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "list": [

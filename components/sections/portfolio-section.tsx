@@ -103,7 +103,6 @@ export function PortfolioSection({ locale }: VerticalsSectionProps) {
     <div className="relative bg-white">
       <div className="text-center mb-16 pt-10">
         <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
-          Showcasing <br />
           Our <span className="text-green-500 italic">Works</span>
         </h2>
         <p className="text-gray-600 text-lg max-w-3xl mx-auto mb-8">

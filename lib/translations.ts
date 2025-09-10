@@ -10,6 +10,57 @@ export interface Translations {
     contact: string;
     language: string;
   };
+  aboutPage: {
+    hero: {
+      title: string;
+      subtitle: string;
+      description: string;
+    };
+    whoWeAre: {
+      title: string;
+      paragraphs: string[];
+    };
+    founder: {
+      title: string;
+      message: string;
+      signature: string;
+    };
+    philosophy: {
+      title: string;
+      subtitle: string;
+      values: { title: string; description: string }[];
+    };
+    mission: {
+      title: string;
+      description: string;
+    };
+    vision: {
+      title: string;
+      description: string;
+    };
+    partner: {
+      title: string;
+      description: string;
+      uniqueTitle: string;
+      uniquePoints: string[];
+      stats: string;
+    };
+    contact: {
+      title: string;
+      subtitle: string;
+      email: string;
+      altEmail: string;
+      phone: string;
+      address: string;
+      formTitle: string;
+      form: {
+        name: string;
+        email: string;
+        message: string;
+        submit: string;
+      };
+    };
+  };
   hero: {
     title: string;
     subtitle: string;
