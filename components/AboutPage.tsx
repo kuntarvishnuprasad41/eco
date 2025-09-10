@@ -181,7 +181,7 @@ export default function AboutPage({
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-6 bg-gradient-to-br from-green-400 to-green-600">
+      {/* <section className="py-20 px-6 bg-gradient-to-br from-green-400 to-green-600">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="text-white">
             <h2 className="text-4xl font-normal mb-2">
@@ -216,7 +216,7 @@ export default function AboutPage({
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer locale={locale} translations={translations} />
     </div>
