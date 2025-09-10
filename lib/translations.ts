@@ -108,7 +108,32 @@ export interface Translations {
     cta: { title: string; subtitle: string; buttonText: string };
   };
   portfolioPage: PortfolioPageTranslations;
-
+  contactPage?: {
+    hero?: {
+      title: string;
+      subtitle: string;
+      description: string;
+    };
+    form?: {
+      name: string;
+      email: string;
+      location: string;
+      contact: string;
+      message: string;
+      submit: string;
+      submitting: string;
+      successMessage: string;
+      errorMessage: string;
+      disclaimer: string;
+    };
+    office?: {
+      title: string;
+      companyName: string;
+      address: string;
+      phone: string;
+      email: string;
+    };
+  };
   aboutPage: {
     hero: {
       title: string;

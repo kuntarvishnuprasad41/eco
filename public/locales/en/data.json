@@ -474,6 +474,32 @@
       "buttonText": "Get Started"
     }
   },
+  "contactPage": {
+    "hero": {
+      "title": "Shape Your Dream",
+      "subtitle": "Space Together",
+      "description": "We'd love to hear from you. Whether it's a new home, a commercial project, or landscape design, our team is ready to bring your vision to life."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email address",
+      "location": "Location",
+      "contact": "Contact",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "successMessage": "✅ Thank you! Your message has been sent.",
+      "errorMessage": "❌ Oops! Something went wrong. Please try again.",
+      "disclaimer": "By pressing the submit button, I agree to Eco Homes contacting me by email. I also understand that any information I've shared in this form is subject to Eco Homes privacy policy."
+    },
+    "office": {
+      "title": "Our Office",
+      "companyName": "Eco Homes Architectural Engineering",
+      "address": "Al Narjes, Riyadh, Saudi Arabia",
+      "phone": "+966 50 867 6290",
+      "email": "info@ecohomes.sa"
+    }
+  },
   "portfolioPage": {
     "hero": {
       "backgroundImage": "/images/portfolio.png",
