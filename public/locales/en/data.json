@@ -192,6 +192,13 @@
       }
     ]
   },
+  "contactSection": {
+    "title": "Our Office",
+    "company": "Eco Homes Architectural Engineering",
+    "address": "Al Narjes, Riyadh, Saudi Arabia",
+    "phone": "+966 50 867 6290",
+    "email": "info@ecohomes.sa"
+  },
   "services": {
     "title": "Our Services",
     "list": [
@@ -201,6 +208,52 @@
       "Engineering Supervision",
       "Consultation Services"
     ]
+  },
+  "footerSection": {
+    "description": "We are Workplace Design & Build specialists with {years} years of experience",
+    "navigation": [
+      {
+        "label": "OUR VERTICALS",
+        "href": "/verticals"
+      },
+      {
+        "label": "SUSTAINABILITY",
+        "href": "/sustainability"
+      },
+      {
+        "label": "ABOUT US",
+        "href": "/about"
+      },
+      {
+        "label": "PORTFOLIO",
+        "href": "/portfolio"
+      }
+    ],
+    "socials": [
+      {
+        "label": "TikTok",
+        "name": "TikTok",
+        "href": "https://www.tiktok.com/@ecohomes_sa?_t=ZS-8zRjHP3Nhwt&_r=1",
+        "icon": "tiktok"
+      },
+      {
+        "label": "X",
+        "name": "X",
+        "href": "https://x.com/ecohomes_sa?s=11&t=d4uO1dZjmqyGUf-agwZf_Q",
+        "icon": "x"
+      },
+      {
+        "label": "Instagram",
+        "name": "Instagram",
+        "href": "https://www.instagram.com/ecohomes_sa?igsh=bXR6OWVwbDlpOXF0",
+        "icon": "instagram"
+      }
+    ],
+    "privacy": {
+      "label": "Privacy policy",
+      "href": "/privacy"
+    },
+    "copyright": "© Eco Homes 2025. All Rights Reserved"
   },
   "contact": {
     "title": "Get in Touch",

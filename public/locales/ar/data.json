@@ -192,6 +192,13 @@
       }
     ]
   },
+  "contactSection": {
+    "title": "مكتبنا",
+    "company": "إيكو هومز للاستشارات الهندسية",
+    "address": "النرجس، الرياض، المملكة العربية السعودية",
+    "phone": "+966 50 867 6290",
+    "email": "info@ecohomes.sa"
+  },
   "services": {
     "title": "خدماتنا",
     "list": [
@@ -211,5 +218,48 @@
       "message": "رسالتك",
       "submit": "إرسال"
     }
+  },
+  "footerSection": {
+    "description": "نحن متخصصون في تصميم وبناء أماكن العمل مع خبرة {years} سنوات",
+    "navigation": [
+      {
+        "label": "قطاعاتنا",
+        "href": "/verticals"
+      },
+      {
+        "label": "الاستدامة",
+        "href": "/sustainability"
+      },
+      {
+        "label": "من نحن",
+        "href": "/about"
+      },
+      {
+        "label": "أعمالنا",
+        "href": "/portfolio"
+      }
+    ],
+    "socials": [
+      {
+        "label": "تيك توك",
+        "href": "https://www.tiktok.com/@ecohomes_sa?_t=ZS-8zRjHP3Nhwt&_r=1",
+        "icon": "tiktok"
+      },
+      {
+        "label": "إكس",
+        "href": "https://x.com/ecohomes_sa?s=11&t=d4uO1dZjmqyGUf-agwZf_Q",
+        "icon": "x"
+      },
+      {
+        "label": "إنستغرام",
+        "href": "https://www.instagram.com/ecohomes_sa?igsh=bXR6OWVwbDlpOXF0",
+        "icon": "instagram"
+      }
+    ],
+    "privacy": {
+      "label": "سياسة الخصوصية",
+      "href": "/privacy"
+    },
+    "copyright": "© إيكو هومز 2025. جميع الحقوق محفوظة"
   }
 }

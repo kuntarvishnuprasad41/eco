@@ -40,7 +40,7 @@ export default async function HomePage({
           translations={translations}
         />
         <ContactSection locale={params.locale} translations={translations} />
-        <Footer locale={params.locale} />
+        <Footer locale={params.locale} translations={translations} />
       </div>
     </main>
   );

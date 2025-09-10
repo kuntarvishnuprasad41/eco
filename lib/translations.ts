@@ -10,6 +10,20 @@ export interface Translations {
     contact: string;
     language: string;
   };
+  contactSection: {
+    title: string;
+    company: string;
+    address: string;
+    phone: string;
+    email: string;
+  };
+  footerSection: {
+    description: string; // will contain {years} placeholder
+    navigation: { label: string; href: string }[];
+    socials: { label: string; href: string; icon: string }[];
+    privacy: { label: string; href: string };
+    copyright: string;
+  };
   aboutPage: {
     hero: {
       title: string;
