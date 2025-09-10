@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import type { Translations } from "@/lib/translations";
+import { Footer } from "./layout/footer";
 
 export default function AboutPage({
   locale,
@@ -214,37 +215,10 @@ export default function AboutPage({
               </div>
             </div>
           </div>
-
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8">
-            <h3 className="text-2xl font-normal text-white mb-6">
-              {translations.aboutPage.contact.formTitle}
-            </h3>
-            <form className="space-y-4">
-              <input
-                type="text"
-                placeholder={translations.aboutPage.contact.form.name}
-                className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
-              />
-              <input
-                type="email"
-                placeholder={translations.aboutPage.contact.form.email}
-                className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
-              />
-              <textarea
-                placeholder={translations.aboutPage.contact.form.message}
-                rows={4}
-                className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50 resize-none"
-              />
-              <button
-                type="submit"
-                className="w-full bg-white text-green-600 py-3 rounded-lg font-medium hover:bg-green-50 transition-colors"
-              >
-                {translations.aboutPage.contact.form.submit}
-              </button>
-            </form>
-          </div>
         </div>
       </section>
+
+      <Footer locale={locale} translations={translations} />
     </div>
   );
 }
