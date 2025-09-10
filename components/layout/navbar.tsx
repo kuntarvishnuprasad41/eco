@@ -184,6 +184,12 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
                     {item.label}
                   </Link>
                 ))}
+                <div className="px-3 py-2">
+                  <LanguageSwitcher
+                    currentLocale={locale}
+                    scrolled={scrolled}
+                  />
+                </div>
               </div>
             </motion.div>
           )}
