@@ -9,11 +9,14 @@
   },
   "hero": {
     "title": "Where Design Meets Sustainability",
-    "subtitle": "Innovative architectural, interior, and engineering solutions tailored to your vision."
+    "subtitle": "Creating functional spaces that combine innovation, elegance, and eco-conscious design for a sustainable future.",
+    "button": "Get A Consultation",
+    "highlight": "Sustainability"
   },
   "about": {
-    "title": "Who We Are",
-    "description": "ECO Homes is a multidisciplinary firm offering architecture, landscape, and interior design services. Our goal is to create functional spaces that balance functionality and sustainability."
+    "title": "Designing Spaces, Defining",
+    "highlight": "The Future",
+    "description": "Eco Homes is a leading architectural and design consultancy based in Riyadh, Saudi Arabia. We specialize in architecture, interior design, landscape design, and engineering solutions delivering integrated, sustainable designs that reflect culture, functionality, and innovation. From concept to completion, we bring unparalleled creativity and expertise to local projects, creating spaces that inspire and endure."
   },
   "services": {
     "title": "Our Services",

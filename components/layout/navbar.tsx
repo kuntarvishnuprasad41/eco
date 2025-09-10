@@ -99,7 +99,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
                     {item.label}
                   </Link>
                 ))}
-                {/* <LanguageSwitcher currentLocale={locale} scrolled={scrolled} /> */}
+                <LanguageSwitcher currentLocale={locale} scrolled={scrolled} />
               </div>
             </div>
           </>
@@ -132,7 +132,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
                   {item.label}
                 </Link>
               ))}
-              {/* <LanguageSwitcher currentLocale={locale} scrolled={scrolled} /> */}
+              <LanguageSwitcher currentLocale={locale} scrolled={scrolled} />
             </div>
           </>
         )}

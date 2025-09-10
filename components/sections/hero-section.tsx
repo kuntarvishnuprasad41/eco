@@ -15,10 +15,11 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden  "
+      dir={isRTL ? "rtl" : "ltr"}
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background Image */}
-      <div className="absolute inset-0 ">
+      <div className="absolute inset-0">
         <img
           src="/images/hero.png"
           alt="Modern Architecture"
@@ -27,7 +28,7 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
-      <div className="relative   max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -39,10 +40,12 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Where Design Meets{" "}
+            {translations.hero.title.split(translations.hero.highlight)[0]}
             <span className="text-green-400 italic font-normal font-ivy">
-              {locale === "ar" ? "الاستدامة" : "Sustainability"}
+              {translations.hero.highlight}
             </span>
+            {translations.hero.title.split(translations.hero.highlight)[1] ||
+              ""}
           </motion.h1>
 
           <motion.p
@@ -51,9 +54,7 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            {locale === "ar"
-              ? "إنشاء مساحات مدروسة تجمع بين الوظيفة والاستدامة والجمال الخالد لتحويل رؤيتك إلى واقع."
-              : "Creating functional spaces that combine innovation, elegance, and eco-conscious design for a sustainable future."}
+            {translations.hero.subtitle}
           </motion.p>
 
           <motion.div
@@ -65,7 +66,7 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
               size="lg"
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 text-base font-medium rounded-full border-0"
             >
-              {locale === "ar" ? "احصل على استشارة" : "Get A Consultation"}
+              {translations.hero.button}
             </Button>
           </motion.div>
         </motion.div>
