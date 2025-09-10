@@ -1,6 +1,53 @@
 import { promises as fs } from "fs";
 import path from "path";
 
+export interface PortfolioPageTranslations {
+  hero: {
+    backgroundImage: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    ctaText: string;
+  };
+  overview: {
+    title: string;
+    description: string;
+    image: string;
+    alt: string;
+  };
+  impact: {
+    title: string;
+    subtitle: string;
+    description: string;
+  };
+  cta: {
+    title: string;
+    subtitle: string;
+    description: string;
+    buttonText: string;
+  };
+  carousel: {
+    sectionTitle: string;
+    sectionDescription: string;
+    properties: Array<{
+      title: string;
+      category: string;
+      location: string;
+      description: string;
+      area: string;
+      completion: string;
+      sustainability: string;
+      energySavings: string;
+      image: string;
+    }>;
+  };
+  impactStats: Array<{
+    number: string;
+    label: string;
+    description: string;
+  }>;
+}
+
 export interface Translations {
   navbar: {
     home: string;
@@ -24,6 +71,44 @@ export interface Translations {
     privacy: { label: string; href: string };
     copyright: string;
   };
+  sustainabilityPage?: {
+    hero: {
+      title: string;
+      subtitle: string;
+      backgroundImage: string;
+      ctaText: string;
+    };
+    philosophy: {
+      title: string;
+      highlight: string;
+      description: string;
+      image: string;
+      alt: string;
+    };
+    pillars: {
+      title: string;
+      icon: "Leaf" | "Zap" | "Recycle" | "Heart";
+      description: string;
+    }[];
+    integration: {
+      title: string;
+      items: {
+        title: string;
+        image: string;
+        alt: string;
+        description: string;
+      }[];
+    };
+    impact: {
+      title: string;
+      subtitle: string;
+      stats: { value: string; label: string }[];
+    };
+    why: { title: string; description: string; image: string };
+    cta: { title: string; subtitle: string; buttonText: string };
+  };
+  portfolioPage: PortfolioPageTranslations;
+
   aboutPage: {
     hero: {
       title: string;

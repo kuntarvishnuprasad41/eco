@@ -369,5 +369,218 @@
       "title": "Let's Shape Together\nYour Atmosphere",
       "text": "Join us to create a landmark, innovative, and sustainably environment that transforms your vision into reality. Let's build something extraordinary together."
     }
+  },
+  "sustainabilityPage": {
+    "hero": {
+      "title": "Sustainability at the\nHeart of\nEvery Design",
+      "subtitle": "At Eco Homes, sustainability isn't just an option, it's our foundation.",
+      "backgroundImage": "/images/sustainability.png",
+      "ctaText": "Learn More"
+    },
+    "philosophy": {
+      "title": "Our Sustainability",
+      "highlight": "Philosophy",
+      "description": "We believe great design should elevate lifestyles and protect the planet.",
+      "image": "/images/s.png",
+      "alt": "Sustainable architecture with green glass ceiling"
+    },
+    "pillars": [
+      {
+        "title": "Green Innovation",
+        "icon": "Leaf",
+        "description": "Using innovative and recycled materials to reduce environmental impact."
+      },
+      {
+        "title": "Energy Efficiency",
+        "icon": "Zap",
+        "description": "Maximizing natural light, airflow, and renewable energy."
+      },
+      {
+        "title": "Resource Management",
+        "icon": "Recycle",
+        "description": "Implementing smart technologies to conserve resources."
+      },
+      {
+        "title": "Healthy Living",
+        "icon": "Heart",
+        "description": "Promoting healthier environments for well-being and comfort."
+      }
+    ],
+    "integration": {
+      "title": "How We Integrate\nSustainability",
+      "items": [
+        {
+          "title": "Architecture",
+          "image": "/images/s1.png",
+          "alt": "Sustainable Architecture",
+          "description": "Designing buildings with sustainable materials, layouts, and renewable energy."
+        },
+        {
+          "title": "Interior Design",
+          "image": "/images/s2.png",
+          "alt": "Interior Design",
+          "description": "Eco-friendly interior solutions with energy-efficient design."
+        },
+        {
+          "title": "Landscape Design",
+          "image": "/images/s3.png",
+          "alt": "Landscape Design",
+          "description": "Outdoor spaces with native plants and water-saving systems."
+        },
+        {
+          "title": "Engineering",
+          "image": "/images/s4.png",
+          "alt": "Engineering",
+          "description": "Advanced sustainable technologies and building systems."
+        },
+        {
+          "title": "Consultation",
+          "image": "/images/s5.png",
+          "alt": "Consultation",
+          "description": "Expert guidance on sustainable practices and certifications."
+        }
+      ]
+    },
+    "impact": {
+      "title": "Our Impact in\nNumbers",
+      "subtitle": "Every decision from planning to material selection is rooted in sustainability.",
+      "stats": [
+        {
+          "value": "200+",
+          "label": "Sustainable projects completed"
+        },
+        {
+          "value": "30%",
+          "label": "Average energy reduction"
+        },
+        {
+          "value": "40%",
+          "label": "Construction waste reduction"
+        },
+        {
+          "value": "95%",
+          "label": "Client satisfaction rate"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Sustainability Matters to Us",
+      "description": "Sustainability is our responsibility. We create eco-friendly spaces that enhance lifestyles and preserve the planet.",
+      "image": "/images/sustainable-wooden-building.png"
+    },
+    "cta": {
+      "title": "Let's Build a\nGreener Tomorrow Together",
+      "subtitle": "Join Eco Homes in shaping a cleaner, sustainable future.",
+      "buttonText": "Get Started"
+    }
+  },
+  "portfolioPage": {
+    "hero": {
+      "backgroundImage": "/images/portfolio.png",
+      "title": "Designing Sustainable\nSpaces",
+      "subtitle": "That Inspire",
+      "description": "Every project tells a story of innovation, sustainability, and design excellence. We create spaces that not only inspire but also respect our environment.",
+      "ctaText": "Explore Projects"
+    },
+    "overview": {
+      "title": "Portfolio Overview",
+      "description": "At Eco Homes, our portfolio reflects 200+ successful projects across diverse sectors. Each design blends sustainability, cultural relevance, and modern innovation resulting in spaces that are functional, timeless, and environmentally conscious.",
+      "image": "/images/p-overview.png",
+      "alt": "Portfolio Overview"
+    },
+    "impact": {
+      "title": "Our Impact in",
+      "subtitle": "Numbers",
+      "description": "We believe great design should not only create beautiful but also protect our planet. That's why every decision from planning to material selection is rooted in sustainability."
+    },
+    "cta": {
+      "title": "Your Vision,",
+      "subtitle": "Our Design",
+      "description": "Explore how Eco Homes can bring your dream project to life. Whether it's sustainability, innovation or beauty.",
+      "buttonText": "Start Project"
+    },
+    "carousel": {
+      "sectionTitle": "Residential Projects",
+      "sectionDescription": "We create homes that balance comfort, luxury, and eco-consciousness. From modern villas to high-rise residences, our designs redefine sustainable living.",
+      "properties": [
+        {
+          "title": "Modern Villa",
+          "category": "Residential",
+          "location": "Riyadh",
+          "description": "A stunning residential project that seamlessly blends modern architecture with sustainable design principles.",
+          "area": "5,500 sq.ft",
+          "completion": "2024",
+          "sustainability": "95%",
+          "energySavings": "30% annually",
+          "image": "/images/1.png"
+        },
+        {
+          "title": "Commercial Hub",
+          "category": "Commercial",
+          "location": "Dubai",
+          "description": "An innovative commercial space featuring cutting-edge sustainable technologies and inspiring work environments.",
+          "area": "45,000 sq.ft",
+          "completion": "2024",
+          "sustainability": "92%",
+          "energySavings": "35% annually",
+          "image": "/images/1.png"
+        },
+        {
+          "title": "Landscape Retreat",
+          "category": "Landscape",
+          "location": "Abu Dhabi",
+          "description": "A harmonious integration of architecture and landscape design creating a sustainable living environment.",
+          "area": "8,200 sq.ft",
+          "completion": "2025",
+          "sustainability": "98%",
+          "energySavings": "40% annually",
+          "image": "/images/1.png"
+        },
+        {
+          "title": "Green Office Complex",
+          "category": "Commercial",
+          "location": "Jeddah",
+          "description": "A revolutionary office complex that prioritizes employee wellbeing and environmental responsibility.",
+          "area": "32,000 sq.ft",
+          "completion": "2024",
+          "sustainability": "89%",
+          "energySavings": "28% annually",
+          "image": "/images/1.png"
+        },
+        {
+          "title": "Urban Sanctuary",
+          "category": "Residential",
+          "location": "Doha",
+          "description": "An urban residential project that creates a peaceful sanctuary within the bustling city environment.",
+          "area": "5,100 sq.ft",
+          "completion": "2025",
+          "sustainability": "94%",
+          "energySavings": "32% annually",
+          "image": "/images/1.png"
+        }
+      ]
+    },
+    "impactStats": [
+      {
+        "number": "200+",
+        "label": "Successful Projects",
+        "description": "Completed sustainable projects across the region"
+      },
+      {
+        "number": "30%",
+        "label": "Energy Reduction",
+        "description": "Average energy savings in our buildings"
+      },
+      {
+        "number": "40%",
+        "label": "Water Conservation",
+        "description": "Water usage reduction through smart design"
+      },
+      {
+        "number": "95%",
+        "label": "Client Satisfaction",
+        "description": "Client satisfaction rate across all projects"
+      }
+    ]
   }
 }
