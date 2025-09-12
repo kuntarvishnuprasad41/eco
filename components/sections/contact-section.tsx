@@ -18,8 +18,9 @@ export function ContactSection({ locale, translations }: ContactSectionProps) {
   return (
     <section className="bg-gray-50 py-16" ref={ref}>
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-start">
-          <div>
+        <div className="flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start gap-8 text-center md:text-left">
+          {/* Left Section */}
+          <div className="md:w-1/2">
             <h2 className="text-4xl font-normal text-black mb-4">
               {contact.title}
             </h2>
@@ -28,7 +29,9 @@ export function ContactSection({ locale, translations }: ContactSectionProps) {
               <p>{contact.address}</p>
             </div>
           </div>
-          <div className="text-right space-y-2">
+
+          {/* Right Section */}
+          <div className="md:w-1/2 space-y-2">
             <a
               href={`tel:${contact.phone.replace(/\s/g, "")}`}
               className="text-lg text-black hover:text-green-500 transition-colors block"
