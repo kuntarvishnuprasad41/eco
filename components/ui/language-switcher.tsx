@@ -27,7 +27,7 @@ export function LanguageSwitcher({
       variant="outline"
       size="sm"
       onClick={switchLanguage}
-      className="flex items-center space-x-2 rtl:space-x-reverse border-none"
+      className="flex items-center space-x-2 rtl:space-x-reverse border-none "
     >
       <Globe className={`h-4 w-4 ${scrolled ? "text-black" : "text-white"}`} />
       <span className={`${scrolled ? "text-black" : "text-white"}`}>
