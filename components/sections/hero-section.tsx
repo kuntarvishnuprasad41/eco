@@ -43,7 +43,7 @@ export function HeroSection({ locale, translations }: HeroSectionProps) {
           >
             {translations.hero.title.split(translations.hero.highlight)[0]}
             <span className="text-green-400 italic font-normal font-ivy">
-              {translations.hero.highlight}
+              {"   " + translations.hero.highlight}
             </span>
             {translations.hero.title.split(translations.hero.highlight)[1] ||
               ""}
