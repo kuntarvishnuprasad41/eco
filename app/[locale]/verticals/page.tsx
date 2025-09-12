@@ -136,7 +136,7 @@ export default async function Verticals({
       </section>
 
       <Image
-        src="/images/complex.png"
+        src="/images/impact.png"
         alt="Sustainable building complex"
         width={1200}
         height={600}
