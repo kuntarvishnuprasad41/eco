@@ -36,7 +36,7 @@ export default async function Verticals({
             {verticals.hero.title.split("\n").map((line, i) => (
               <span
                 key={i}
-                className={i === 2 ? "text-emerald-400 italic block" : "block"}
+                className={i === 2 ? "text-emerald-400 italic block " : "block"}
               >
                 {line}
               </span>
@@ -58,7 +58,9 @@ export default async function Verticals({
               key={index}
               className="py-6 border-t border-green-500 first:border-t-0 text-center"
             >
-              <h2 className="text-sm sm:text-md font-semibold">{item.title}</h2>
+              <h2 className="text-lg sm:text-md font-semibold">
+                {item.title?.toUpperCase()}
+              </h2>
               <p>{item.description}</p>
             </div>
           ))}
