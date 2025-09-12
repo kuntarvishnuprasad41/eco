@@ -353,6 +353,7 @@ export default function EcoHomesContact({
             <a
               href={`tel:${t?.office?.phone}`}
               className="text-lg text-black hover:text-green-500"
+              dir="ltr"
             >
               {t?.office?.phone}
             </a>

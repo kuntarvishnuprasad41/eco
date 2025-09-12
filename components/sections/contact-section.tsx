@@ -32,6 +32,7 @@ export function ContactSection({ locale, translations }: ContactSectionProps) {
             <a
               href={`tel:${contact.phone.replace(/\s/g, "")}`}
               className="text-lg text-black hover:text-green-500 transition-colors block"
+              dir="ltr"
             >
               {contact.phone}
             </a>
