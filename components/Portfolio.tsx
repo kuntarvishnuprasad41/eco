@@ -67,9 +67,9 @@ export default function PortfolioSection({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-light mb-6"
+            className="text-5xl md:text-7xl font-light mb-6 "
           >
-            {safeText(t?.hero?.title)}
+            {safeText(t?.hero?.title) + " "}
             <span className="text-green-400 italic font-light">
               {safeText(t?.hero?.subtitle)}
             </span>
