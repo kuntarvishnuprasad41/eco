@@ -83,8 +83,8 @@
       "subtitle": "Your Atmosphere",
       "email": "contact@ecohomes.com",
       "altEmail": "info@ecohomes.com",
-      "phone": "+966 XX XXX XXXX",
-      "address": "Riyadh, Saudi Arabia",
+      "phone": "+966 50 867 6290",
+      "address": "Al Narjis, Riyadh, Saudi Arabia",
       "formTitle": "Contact Us",
       "form": {
         "name": "Your Name",
@@ -195,7 +195,7 @@
   "contactSection": {
     "title": "Our Office",
     "company": "Eco Homes Architectural Engineering",
-    "address": "Al Narjes, Riyadh, Saudi Arabia",
+    "address": "Al Narjis, Riyadh, Saudi Arabia",
     "phone": "+966 50 867 6290",
     "email": "info@ecohomes.sa"
   },
@@ -210,7 +210,7 @@
     ]
   },
   "footerSection": {
-    "description": "We are Workplace Design & Build specialists with {years} years of experience",
+    "description": "We are Workplace Design & Build specialists with years of experience",
     "navigation": [
       {
         "label": "OUR VERTICALS",

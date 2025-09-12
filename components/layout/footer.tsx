@@ -46,11 +46,7 @@ export function Footer({ locale, translations }: FooterProps) {
             />
 
             <p className="text-black text-sm leading-relaxed">
-              {footer.description.replace(
-                "{years}",
-                (new Date().getFullYear() - 2023).toString()
-              )}{" "}
-              - Riyadh | {new Date().getFullYear()}
+              {footer.description}- Riyadh | {new Date().getFullYear()}
             </p>
           </div>
 
