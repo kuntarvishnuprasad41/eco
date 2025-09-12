@@ -67,10 +67,10 @@ export default function PortfolioSection({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-light mb-6 "
+            className="text-5xl md:text-7xl font-normal mb-6"
           >
             {safeText(t?.hero?.title) + " "}
-            <span className="text-green-400 italic font-light">
+            <span className="text-green-400 italic font-normal">
               {safeText(t?.hero?.subtitle)}
             </span>
           </motion.h1>
@@ -79,7 +79,7 @@ export default function PortfolioSection({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed"
+            className="text-lg md:text-xl mb-8 text-gray-200 max-w-2xl mx-auto leading-relaxed"
           >
             {safeText(t?.hero?.description)}
           </motion.p>
@@ -91,7 +91,7 @@ export default function PortfolioSection({
           >
             <Button
               size="lg"
-              className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 text-lg rounded-full"
+              className="bg-[#3EBF7E] hover:bg-green-600 text-white px-8 py-4 text-lg rounded-full"
             >
               {safeText(t?.hero?.ctaText)}
             </Button>
@@ -103,7 +103,7 @@ export default function PortfolioSection({
       <div className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
               {safeText(t?.overview?.title)}
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -128,10 +128,10 @@ export default function PortfolioSection({
       {t?.carousel2 && <ProjectCategoriesCarousel carousel={t.carousel2} />}
 
       {/* Impact Statistics */}
-      <div className="py-20 bg-green-500" ref={ref}>
+      <div className="py-20 bg-[#3EBF7E]" ref={ref}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-light text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-normal text-white mb-6">
               {safeText(t?.impact?.title)}
               <br />
               <span className="italic">{safeText(t?.impact?.subtitle)}</span>
@@ -166,7 +166,7 @@ export default function PortfolioSection({
       {/* Call to Action */}
       <div className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center px-6">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             {safeText(t?.cta?.title)}
             <br />
             <span className="text-green-500 italic">
@@ -178,7 +178,7 @@ export default function PortfolioSection({
           </p>
           <Button
             size="lg"
-            className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 text-lg rounded-full"
+            className="bg-[#3EBF7E] hover:bg-green-600 text-white px-8 py-4 text-lg rounded-full"
           >
             {safeText(t?.cta?.buttonText)}
           </Button>
@@ -227,7 +227,7 @@ export function ProjectCategoriesCarousel({
     <div className="py-20 bg-gray-50" dir="ltr">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             {carousel.sectionTitle}
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto mb-8">
@@ -264,7 +264,7 @@ export function ProjectCategoriesCarousel({
                     <div className="p-8">
                       <div className="flex justify-between items-start mb-6">
                         <div>
-                          <h3 className="text-3xl font-light text-gray-900 mb-2">
+                          <h3 className="text-3xl font-normal text-gray-900 mb-2">
                             {property.title}
                           </h3>
                           <p className="text-gray-600 text-lg mb-4">
