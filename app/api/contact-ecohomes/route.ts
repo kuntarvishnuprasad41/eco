@@ -1,55 +1,134 @@
-// import { NextResponse } from "next/server";
+// // import { NextResponse } from "next/server";
 
-// export async function POST(req: Request) {
-//   const body = await req.json();
+// // export async function POST(req: Request) {
+// //   const body = await req.json();
 
-//   // Honeypot
-//   if (body.website) {
-//     return NextResponse.json({ ok: true });
-//   }
+// //   // Honeypot
+// //   if (body.website) {
+// //     return NextResponse.json({ ok: true });
+// //   }
 
-//   // map formData -> Google Form entry fields
-//   const formData = new URLSearchParams();
-//   formData.append("entry.382402243", body.name); // Name
-//   formData.append("entry.1489392737", body.email); // Email
-//   formData.append("entry.1296811649", body.location); // Location
-//   formData.append("entry.1395841341", body.contact); // Contact
-//   formData.append("entry.1665094489", body.message); // Message
+// //   // map formData -> Google Form entry fields
+// //   const formData = new URLSearchParams();
+// //   formData.append("entry.382402243", body.name); // Name
+// //   formData.append("entry.1489392737", body.email); // Email
+// //   formData.append("entry.1296811649", body.location); // Location
+// //   formData.append("entry.1395841341", body.contact); // Contact
+// //   formData.append("entry.1665094489", body.message); // Message
 
-//   try {
-//     const res = await fetch(
-//       "https://docs.google.com/forms/d/e/1FAIpQLSeBynS9qBqqnhIz777b4Rq-GYiwUTyCCFya-pff9xXKiKVtxg/formResponse",
-//       {
-//         method: "POST",
-//         body: formData,
-//         headers: {
-//           "Content-Type": "application/x-www-form-urlencoded",
-//         },
-//       }
-//     );
+// //   try {
+// //     const res = await fetch(
+// //       "https://docs.google.com/forms/d/e/1FAIpQLSeBynS9qBqqnhIz777b4Rq-GYiwUTyCCFya-pff9xXKiKVtxg/formResponse",
+// //       {
+// //         method: "POST",
+// //         body: formData,
+// //         headers: {
+// //           "Content-Type": "application/x-www-form-urlencoded",
+// //         },
+// //       }
+// //     );
 
-//     if (res.ok) {
-//       return NextResponse.json({ ok: true });
-//     }
-//     return NextResponse.json({ ok: false }, { status: 500 });
-//   } catch (err) {
-//     return NextResponse.json({ ok: false }, { status: 500 });
-//   }
-// }
+// //     if (res.ok) {
+// //       return NextResponse.json({ ok: true });
+// //     }
+// //     return NextResponse.json({ ok: false }, { status: 500 });
+// //   } catch (err) {
+// //     return NextResponse.json({ ok: false }, { status: 500 });
+// //   }
+// // }
 
-// Test 1
+// // Test 1
+// // import { NextResponse } from "next/server";
+// // import nodemailer from "nodemailer";
+
+// // export async function POST(req: Request) {
+// //   const body = await req.json();
+
+// //   // Honeypot check
+// //   if (body.website) {
+// //     return NextResponse.json({ ok: true });
+// //   }
+
+// //   // Map formData -> Google Form fields
+// //   const formData = new URLSearchParams();
+// //   formData.append("entry.382402243", body.name); // Name
+// //   formData.append("entry.1489392737", body.email); // Email
+// //   formData.append("entry.1296811649", body.location); // Location
+// //   formData.append("entry.1395841341", body.contact); // Contact
+// //   formData.append("entry.1665094489", body.message); // Message
+
+// //   try {
+// //     // ✅ 1. Send to Google Form
+// //     const res = await fetch(
+// //       "https://docs.google.com/forms/d/e/1FAIpQLSeBynS9qBqqnhIz777b4Rq-GYiwUTyCCFya-pff9xXKiKVtxg/formResponse",
+// //       {
+// //         method: "POST",
+// //         body: formData,
+// //         headers: {
+// //           "Content-Type": "application/x-www-form-urlencoded",
+// //         },
+// //       }
+// //     );
+
+// //     // ✅ 2. Setup SMTP transport (Gmail/Zoho/your provider)
+// //     const transporter = nodemailer.createTransport({
+// //       host: process.env.SMTP_HOST, // e.g. "smtp.gmail.com"
+// //       port: Number(process.env.SMTP_PORT) || 587,
+// //       secure: false, // true for 465, false for other ports
+// //       auth: {
+// //         user: process.env.SMTP_USER, // your email
+// //         pass: process.env.SMTP_PASS, // app password
+// //       },
+// //     });
+
+// //     // ✅ 3. Build HTML email
+// //     const htmlContent = `
+// //       <div style="font-family: Arial, sans-serif; padding: 20px; background:#f9f9f9;">
+// //         <h2 style="color: #333;">📩 New Contact Form Submission</h2>
+// //         <p><strong>Name:</strong> ${body.name}</p>
+// //         <p><strong>Email:</strong> ${body.email}</p>
+// //         <p><strong>Location:</strong> ${body.location}</p>
+// //         <p><strong>Contact:</strong> ${body.contact}</p>
+// //         <p><strong>Message:</strong></p>
+// //         <blockquote style="border-left: 4px solid #ccc; margin: 10px 0; padding-left: 10px; color: #555;">
+// //           ${body.message}
+// //         </blockquote>
+// //         <hr/>
+// //         <small style="color: #999;">This email was sent automatically from your website form.</small>
+// //       </div>
+// //     `;
+
+// //     // ✅ 4. Send email
+// //     await transporter.sendMail({
+// //       from: `"Website Form" <${process.env.SMTP_USER}>`,
+// //       to: "kuntarvishnuprasad41@gmail.com",
+// //       subject: "New Contact Form Submission",
+// //       html: htmlContent,
+// //     });
+
+// //     if (res.ok) {
+// //       return NextResponse.json({ ok: true });
+// //     }
+// //     return NextResponse.json({ ok: false }, { status: 500 });
+// //   } catch (err) {
+// //     console.error("Error sending form/email:", err);
+// //     return NextResponse.json({ ok: false }, { status: 500 });
+// //   }
+// // }
+
+// // Test 2
 // import { NextResponse } from "next/server";
 // import nodemailer from "nodemailer";
 
 // export async function POST(req: Request) {
 //   const body = await req.json();
 
-//   // Honeypot check
+//   // 🚨 Honeypot spam check
 //   if (body.website) {
 //     return NextResponse.json({ ok: true });
 //   }
 
-//   // Map formData -> Google Form fields
+//   // 🔹 1. Submit to Google Form
 //   const formData = new URLSearchParams();
 //   formData.append("entry.382402243", body.name); // Name
 //   formData.append("entry.1489392737", body.email); // Email
@@ -58,8 +137,7 @@
 //   formData.append("entry.1665094489", body.message); // Message
 
 //   try {
-//     // ✅ 1. Send to Google Form
-//     const res = await fetch(
+//     const googleRes = await fetch(
 //       "https://docs.google.com/forms/d/e/1FAIpQLSeBynS9qBqqnhIz777b4Rq-GYiwUTyCCFya-pff9xXKiKVtxg/formResponse",
 //       {
 //         method: "POST",
@@ -70,18 +148,18 @@
 //       }
 //     );
 
-//     // ✅ 2. Setup SMTP transport (Gmail/Zoho/your provider)
+//     // 🔹 2. Configure SMTP
 //     const transporter = nodemailer.createTransport({
 //       host: process.env.SMTP_HOST, // e.g. "smtp.gmail.com"
 //       port: Number(process.env.SMTP_PORT) || 587,
-//       secure: false, // true for 465, false for other ports
+//       secure: Number(process.env.SMTP_PORT) === 465, // true only for 465
 //       auth: {
-//         user: process.env.SMTP_USER, // your email
-//         pass: process.env.SMTP_PASS, // app password
+//         user: process.env.SMTP_USER,
+//         pass: process.env.SMTP_PASS,
 //       },
 //     });
 
-//     // ✅ 3. Build HTML email
+//     // 🔹 3. Email template
 //     const htmlContent = `
 //       <div style="font-family: Arial, sans-serif; padding: 20px; background:#f9f9f9;">
 //         <h2 style="color: #333;">📩 New Contact Form Submission</h2>
@@ -98,25 +176,20 @@
 //       </div>
 //     `;
 
-//     // ✅ 4. Send email
+//     // 🔹 4. Send email
 //     await transporter.sendMail({
 //       from: `"Website Form" <${process.env.SMTP_USER}>`,
-//       to: "kuntarvishnuprasad41@gmail.com",
+//       to: "kuntarvishnuprasad41@gmail.com", // your receiving email
 //       subject: "New Contact Form Submission",
 //       html: htmlContent,
 //     });
 
-//     if (res.ok) {
-//       return NextResponse.json({ ok: true });
-//     }
-//     return NextResponse.json({ ok: false }, { status: 500 });
+//     return NextResponse.json({ ok: googleRes.ok });
 //   } catch (err) {
-//     console.error("Error sending form/email:", err);
+//     console.error("❌ Error sending form/email:", err);
 //     return NextResponse.json({ ok: false }, { status: 500 });
 //   }
 // }
-
-// Test 2
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
@@ -159,28 +232,48 @@ export async function POST(req: Request) {
       },
     });
 
-    // 🔹 3. Email template
+    // 🔹 3. Stylish Email Template
     const htmlContent = `
-      <div style="font-family: Arial, sans-serif; padding: 20px; background:#f9f9f9;">
-        <h2 style="color: #333;">📩 New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${body.name}</p>
-        <p><strong>Email:</strong> ${body.email}</p>
-        <p><strong>Location:</strong> ${body.location}</p>
-        <p><strong>Contact:</strong> ${body.contact}</p>
-        <p><strong>Message:</strong></p>
-        <blockquote style="border-left: 4px solid #ccc; margin: 10px 0; padding-left: 10px; color: #555;">
-          ${body.message}
-        </blockquote>
-        <hr/>
-        <small style="color: #999;">This email was sent automatically from your website form.</small>
-      </div>
+  <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #eaeaea; border-radius: 8px; overflow: hidden;">
+    <div style="background-color: #4CAF50; color: white; padding: 16px; text-align: center;">
+      <h2 style="margin: 0;">🌱 New Enquiry Received</h2>
+    </div>
+    <div style="padding: 20px; background-color: #f9f9f9;">
+      <p style="font-size: 16px; margin-bottom: 20px;">You have received a new enquiry. Here are the details:</p>
+      <table style="width: 100%; border-collapse: collapse; font-size: 15px;">
+        <tr>
+          <td style="padding: 8px; font-weight: bold; width: 120px;">Name:</td>
+          <td style="padding: 8px; background-color: #ffffff; border: 1px solid #ddd;">${body.name}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Email:</td>
+          <td style="padding: 8px; background-color: #ffffff; border: 1px solid #ddd;">${body.email}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Contact:</td>
+          <td style="padding: 8px; background-color: #ffffff; border: 1px solid #ddd;">${body.contact}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Location:</td>
+          <td style="padding: 8px; background-color: #ffffff; border: 1px solid #ddd;">${body.location}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Message:</td>
+          <td style="padding: 8px; background-color: #ffffff; border: 1px solid #ddd;">${body.message}</td>
+        </tr>
+      </table>
+    </div>
+    <div style="background-color: #4CAF50; color: white; text-align: center; padding: 12px; font-size: 14px;">
+      <p style="margin: 0;">EcoHomes SA • Enquiry Notification</p>
+    </div>
+  </div>
     `;
 
     // 🔹 4. Send email
     await transporter.sendMail({
       from: `"Website Form" <${process.env.SMTP_USER}>`,
-      to: "kuntarvishnuprasad41@gmail.com", // your receiving email
-      subject: "New Contact Form Submission",
+      to: "kuntarvishnuprasad41@gmail.com", // 📥 Your receiving email
+      subject: `New Contact Form Submission from ${body.name}`,
       html: htmlContent,
     });
 
