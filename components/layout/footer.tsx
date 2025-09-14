@@ -52,7 +52,8 @@ export function Footer({ locale, translations }: FooterProps) {
             </p>
           </div>
 
-          <div className="flex-1 text-center lg:text-left space-y-2">
+          {/* our office */}
+          <div className="flex-1 text-center space-y-2">
             <h3 className="text-lg font-semibold">{contact.title}</h3>
             <p className="text-sm">{contact.company}</p>
             <p className="text-sm">{contact.address}</p>
@@ -72,9 +73,9 @@ export function Footer({ locale, translations }: FooterProps) {
           </div>
 
           {/* Right side - Navigation and Social */}
-          <div className="flex flex-col items-center lg:items-end gap-8">
+          <div className="flex flex-col items-center gap-8">
             {/* Navigation Menu */}
-            <nav className="flex flex-col items-center lg:items-end gap-4">
+            <nav className="flex flex-col items-center gap-4">
               {footer.navigation.map((item, idx) => (
                 <Link
                   key={idx}
