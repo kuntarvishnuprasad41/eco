@@ -5,6 +5,9 @@ import Image from "next/image";
 import { getTranslations } from "@/lib/translations";
 import Explore from "@/components/Explore";
 import StartProjects from "@/components/StartProjects";
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
+import HashScroller from "@/components/HasScroller";
 
 export default async function Verticals({
   params,
@@ -16,6 +19,7 @@ export default async function Verticals({
 
   return (
     <div className="bg-white text-black">
+      <HashScroller />
       {/* Navbar */}
       <Navbar locale={params.locale} translations={translations} text="#FFF" />
 
@@ -72,7 +76,11 @@ export default async function Verticals({
           id="works"
         >
           {verticals.sections.map((section, index) => (
-            <section key={index} className="space-y-8">
+            <section
+              key={index}
+              className="space-y-8 scroll-mt-28"
+              id={section.id}
+            >
               <div className="space-y-6">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight">
                   {section.title}

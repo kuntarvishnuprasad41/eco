@@ -82,7 +82,7 @@ export default function AboutPage({
             <p className="text-gray-600 mb-6 leading-relaxed">
               {translations.aboutPage.founder.message}
             </p>
-            <p>— {translations.aboutPage.founder.signature}</p>
+            {/* <p>— {translations.aboutPage.founder.signature}</p> */}
           </div>
         </div>
       </section>

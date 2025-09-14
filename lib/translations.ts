@@ -199,6 +199,7 @@ export interface Translations {
       outcome: string;
       image: string;
       alt: string;
+      id: string;
     }[];
     keyHighlightsTitle: string;
     outcomeTitle: string;

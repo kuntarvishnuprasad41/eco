@@ -9,6 +9,10 @@
   --font-arabic: "Noto Sans Arabic", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-inter {
   font-family: var(--font-inter);
 }

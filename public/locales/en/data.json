@@ -20,7 +20,7 @@
   },
   "aboutPage": {
     "hero": {
-      "title": "Designing With Intention,",
+      "title": "Designing With Passion,",
       "subtitle": "Building With Precision",
       "description": "At Eco Homes, great design goes beyond aesthetics—it embraces lifestyles, respects nature, and shapes the modern world."
     },
@@ -32,9 +32,9 @@
       ]
     },
     "founder": {
-      "title": "Founder's Message",
+      "title": "CEO's Message",
       "message": "“With a shared vision to create a company built on trust, innovation, and sustainability. As partners, we believe in combining our strengths to deliver projects that not only meet expectations but also inspire and endure.”",
-      "signature": "Chief Executive Officer"
+      "signature": "CEO"
     },
     "philosophy": {
       "title": "Our Philosophy",
@@ -210,7 +210,7 @@
     ]
   },
   "footerSection": {
-    "description": "We are Workplace Design & Build specialists with years of experience",
+    "description": "We are experts in comprehensive design and engineering consultancy with cumulative experiences of more than 10 years.",
     "navigation": [
       {
         "label": "OUR VERTICALS",
@@ -227,6 +227,10 @@
       {
         "label": "PORTFOLIO",
         "href": "/portfolio"
+      },
+      {
+        "label": "Contact Us",
+        "href": "/contact-us"
       }
     ],
     "socials": [
@@ -302,6 +306,7 @@
           "Sustainable building design",
           "Master planning & urban design"
         ],
+        "id": "architecture",
         "outcome": "Spaces that inspire, adapt to modern lifestyles, and endure with elegance.",
         "image": "/images/v/v00.png",
         "alt": "Modern kitchen interior"
@@ -315,6 +320,7 @@
           "Lighting & spatial optimization",
           "Sustainable material selection"
         ],
+        "id": "interior",
         "outcome": "Interiors that transform everyday living into refined experiences.",
         "image": "/images/v/v01.png",
         "alt": "Luxurious bathroom interior"
@@ -328,6 +334,7 @@
           "Native planting & green coverage",
           "Water-saving irrigation systems"
         ],
+        "id": "landscape",
         "outcome": "Serene, resource-efficient spaces that nurture people and the planet.",
         "image": "/images/v/v02.png",
         "alt": "Modern landscape design"
@@ -341,6 +348,7 @@
           "Smart building systems",
           "Sustainable energy solutions"
         ],
+        "id": "engineering",
         "outcome": "Future-ready infrastructure that supports modern living.",
         "image": "/images/v/v03.png",
         "alt": "Modern building facade"
@@ -469,8 +477,8 @@
       "image": "/images/sustainable-wooden-building.png"
     },
     "cta": {
-      "title": "Let's Build a\nGreener Tomorrow Together",
-      "subtitle": "Join Eco Homes in shaping a cleaner, sustainable future.",
+      "title": "Let's Make it Together",
+      "subtitle": "Join us to make this world a better place to live.",
       "buttonText": "Get Started"
     }
   },
