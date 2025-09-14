@@ -47,7 +47,8 @@ export function Footer({ locale, translations }: FooterProps) {
             />
 
             <p className="text-black text-sm leading-relaxed">
-              {footer.description}- Riyadh | {new Date().getFullYear()}
+              {footer.description} {locale != "ar" ? "Riyadh" : "الرياض"} |{" "}
+              {new Date().getFullYear()}
             </p>
           </div>
 
