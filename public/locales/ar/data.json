@@ -100,7 +100,7 @@
     "button": "عرض المحفظة",
     "properties": [
       {
-        "id": ١,
+        "id": 1,
         "title": "فيلا عصرية",
         "location": "الرياض",
         "image": "/images/villa.png",
@@ -110,7 +110,7 @@
         "energySavings": "٣٠٪ سنوياً"
       },
       {
-        "id": ٢,
+        "id": 2,
         "title": "الإقامة البيئية",
         "location": "دبي",
         "image": "/images/car1.png",
@@ -120,7 +120,7 @@
         "energySavings": "٣٥٪ سنوياً"
       },
       {
-        "id": ٣,
+        "id": 3,
         "title": "المنزل الذكي",
         "location": "أبوظبي",
         "image": "/images/car2.png",
@@ -130,7 +130,7 @@
         "energySavings": "٤٠٪ سنوياً"
       },
       {
-        "id": ٤,
+        "id": 4,
         "title": "الواحة الخضراء",
         "location": "جدة",
         "image": "/images/car3.png",
@@ -140,7 +140,7 @@
         "energySavings": "٢٨٪ سنوياً"
       },
       {
-        "id": ٥,
+        "id": 5,
         "title": "الملاذ الحضري",
         "location": "الدوحة",
         "image": "/images/us.png",
