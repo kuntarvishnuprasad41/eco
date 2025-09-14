@@ -148,11 +148,11 @@ export default async function Verticals({
         alt="Sustainable building complex"
         width={1200}
         height={600}
-        className="shadow-2xl w-full h-auto object-cover scale-110"
+        className="shadow-2xl w-full overflow-hidden h-auto object-cover scale-100"
       />
 
       {/* Call to Action */}
-      <section className="py-20 bg-emerald-50 px-4">
+      <section className="py-20 bg-emerald-50 px-4 w-full">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             {verticals.cta.title.split("\n").map((line, i) => (
