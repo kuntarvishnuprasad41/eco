@@ -84,7 +84,7 @@ export default function EcoHomesContact({
           {/* Left */}
           <div className="space-y-6">
             <h1 className="text-5xl lg:text-6xl font-normal text-black leading-tight">
-              {t?.hero?.title}
+              {/* {t?.hero?.title} */}
               <br />
               <span className="text-green-500 italic font-normal">
                 {t?.hero?.subtitle}
