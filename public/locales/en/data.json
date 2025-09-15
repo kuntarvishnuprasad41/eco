@@ -214,23 +214,23 @@
     "navigation": [
       {
         "label": "OUR VERTICALS",
-        "href": "/verticals"
+        "href": "/en/verticals"
       },
       {
         "label": "SUSTAINABILITY",
-        "href": "/sustainability"
+        "href": "/en/sustainability"
       },
       {
         "label": "ABOUT US",
-        "href": "/about"
+        "href": "/en/about"
       },
       {
         "label": "PORTFOLIO",
-        "href": "/portfolio"
+        "href": "/wn/portfolio"
       },
       {
         "label": "CONTACT US",
-        "href": "/contact-us"
+        "href": "/en/contact-us"
       }
     ],
     "socials": [
