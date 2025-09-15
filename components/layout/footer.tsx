@@ -46,7 +46,7 @@ export function Footer({ locale, translations }: FooterProps) {
               className="mx-auto lg:mx-0 mb-4"
             />
 
-            <p className="text-black text-sm text-justify max-w-64">
+            <p className="text-black text-sm max-w-64">
               {footer.description} {locale != "ar" ? "Riyadh" : "الرياض"} |{" "}
               {new Date().getFullYear()}
             </p>
