@@ -46,7 +46,7 @@ export function Footer({ locale, translations }: FooterProps) {
               className="mx-auto lg:mx-0 mb-4"
             />
 
-            <p className="text-black text-sm text-justify">
+            <p className="text-black text-sm text-justify max-w-64">
               {footer.description} {locale != "ar" ? "Riyadh" : "الرياض"} |{" "}
               {new Date().getFullYear()}
             </p>
@@ -55,8 +55,7 @@ export function Footer({ locale, translations }: FooterProps) {
           {/* our office */}
           <div className="flex-1 text-center space-y-2">
             <h3 className="text-lg font-semibold">{contact.title}</h3>
-            <p className="text-sm">{contact.company}</p>
-            <br />
+            <p className="text-sm ">{contact.company}</p>
             <p className="text-sm">{contact.address}</p>
             <a
               href={`tel:${contact.phone.replace(/\s/g, "")}`}
