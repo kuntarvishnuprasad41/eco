@@ -134,6 +134,7 @@ export default function PortfolioSection({
             <h2 className="text-4xl md:text-5xl font-normal text-white mb-6">
               {safeText(t?.impact?.title)}
               <br />
+              <br />
               <span className="italic">{safeText(t?.impact?.subtitle)}</span>
             </h2>
             <p className="text-green-100 text-lg max-w-3xl mx-auto">
