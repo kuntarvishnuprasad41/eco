@@ -101,53 +101,43 @@
     "properties": [
       {
         "id": 1,
-        "title": "فيلا عصرية",
-        "location": "الرياض",
-        "image": "/images/villa.png",
-        "area": "٥,٥٠٠ قدم مربع",
-        "completion": "٢٠٢٤",
-        "sustainability": "٩٥٪",
-        "energySavings": "٣٠٪ سنوياً"
+        "title": "Modern Villa",
+        "location": "Riyadh",
+        "image": "/images/home/1.png",
+        "area": "5,500 sq.ft",
+        "completion": "2024",
+        "sustainability": "95%",
+        "energySavings": "30% annually"
       },
       {
         "id": 2,
-        "title": "الإقامة البيئية",
-        "location": "دبي",
-        "image": "/images/car1.png",
-        "area": "٤,٢٠٠ قدم مربع",
-        "completion": "٢٠٢٤",
-        "sustainability": "٩٢٪",
-        "energySavings": "٣٥٪ سنوياً"
+        "title": "Eco Residence",
+        "location": "Dammam",
+        "image": "/images/home/2.png",
+        "area": "4,200 sq.ft",
+        "completion": "2024",
+        "sustainability": "92%",
+        "energySavings": "35% annually"
       },
       {
         "id": 3,
-        "title": "المنزل الذكي",
-        "location": "أبوظبي",
-        "image": "/images/car2.png",
-        "area": "٦,٨٠٠ قدم مربع",
-        "completion": "٢٠٢٥",
-        "sustainability": "٩٨٪",
-        "energySavings": "٤٠٪ سنوياً"
+        "title": "Smart Home",
+        "location": "Jeddah",
+        "image": "/images/home/3.png",
+        "area": "6,800 sq.ft",
+        "completion": "2025",
+        "sustainability": "98%",
+        "energySavings": "40% annually"
       },
       {
         "id": 4,
-        "title": "الواحة الخضراء",
-        "location": "جدة",
-        "image": "/images/car3.png",
-        "area": "٣,٩٠٠ قدم مربع",
-        "completion": "٢٠٢٤",
-        "sustainability": "٨٩٪",
-        "energySavings": "٢٨٪ سنوياً"
-      },
-      {
-        "id": 5,
-        "title": "الملاذ الحضري",
-        "location": "الدوحة",
-        "image": "/images/us.png",
-        "area": "٥,١٠٠ قدم مربع",
-        "completion": "٢٠٢٥",
-        "sustainability": "٩٤٪",
-        "energySavings": "٣٢٪ سنوياً"
+        "title": "Green Oasis",
+        "location": "Jeddah",
+        "image": "/images/home/4.png",
+        "area": "3,900 sq.ft",
+        "completion": "2024",
+        "sustainability": "89%",
+        "energySavings": "28% annually"
       }
     ]
   },
@@ -547,7 +537,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٥٪",
           "energySavings": "٣٠٪ سنوياً",
-          "image": "/images/r1.png"
+          "image": "/images/residential/1.png"
         },
         {
           "title": "مركز تجاري",
@@ -558,7 +548,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٢٪",
           "energySavings": "٣٥٪ سنوياً",
-          "image": "/images/r2.png"
+          "image": "/images/residential/2.png"
         },
         {
           "title": "منتجع طبيعي",
@@ -569,7 +559,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٨٪",
           "energySavings": "٤٠٪ سنوياً",
-          "image": "/images/r3.png"
+          "image": "/images/residential/3.png"
         },
         {
           "title": "مجمع مكاتب خضراء",
@@ -580,7 +570,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٨٩٪",
           "energySavings": "٢٨٪ سنوياً",
-          "image": "/images/r4.png"
+          "image": "/images/residential/4.png"
         },
         {
           "title": "الملاذ الحضري",
@@ -591,7 +581,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٤٪",
           "energySavings": "٣٢٪ سنوياً",
-          "image": "/images/1.png"
+          "image": "/images/residential/5.png"
         }
       ]
     },
@@ -608,7 +598,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٥٪",
           "energySavings": "٣٠٪ سنوياً",
-          "image": "/images/c1.png"
+          "image": "/images/residential/6.png"
         },
         {
           "title": "مركز تجاري",
@@ -619,101 +609,18 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٢٪",
           "energySavings": "٣٥٪ سنوياً",
-          "image": "/images/c2.png"
+          "image": "/images/residential/7.png"
         },
         {
-          "title": "منتجع طبيعي",
+          "title": "مركز تجاري",
           "category": "تجاري",
-          "location": "أبوظبي",
-          "description": "دمج متناغم بين العمارة وتصميم المناظر الطبيعية لخلق بيئة سكنية مستدامة.",
-          "area": "٨,٢٠٠ قدم²",
-          "completion": "٢٠٢٥",
-          "sustainability": "٩٨٪",
-          "energySavings": "٤٠٪ سنوياً",
-          "image": "/images/c3.png"
-        },
-        {
-          "title": "مجمع مكاتب خضراء",
-          "category": "تجاري",
-          "location": "جدة",
-          "description": "مجمع مكاتب ثوري يعطي الأولوية لرفاهية الموظفين والمسؤولية البيئية.",
-          "area": "٣٢,٠٠٠ قدم²",
-          "completion": "٢٠٢٤",
-          "sustainability": "٨٩٪",
-          "energySavings": "٢٨٪ سنوياً",
-          "image": "/images/c4.png"
-        },
-        {
-          "title": "الملاذ الحضري",
-          "category": "سكني",
-          "location": "الدوحة",
-          "description": "مشروع سكني حضري يخلق ملاذاً هادئاً داخل بيئة المدينة الصاخبة.",
-          "area": "٥,١٠٠ قدم²",
-          "completion": "٢٠٢٥",
-          "sustainability": "٩٤٪",
-          "energySavings": "٣٢٪ سنوياً",
-          "image": "/images/1.png"
-        }
-      ]
-    },
-    "carousel2": {
-      "sectionTitle": "مشاريع المناظر الطبيعية",
-      "sectionDescription": "نصمم مناظر طبيعية تعزز الرفاهية مع الحفاظ على الموارد الطبيعية.",
-      "properties": [
-        {
-          "title": "منتجع طبيعي",
-          "category": "سكني",
           "location": "الرياض",
           "description": "مشروع سكني رائع يدمج بسلاسة بين العمارة الحديثة ومبادئ التصميم المستدام.",
           "area": "٥,٥٠٠ قدم²",
           "completion": "٢٠٢٤",
           "sustainability": "٩٥٪",
           "energySavings": "٣٠٪ سنوياً",
-          "image": "/images/l1.png"
-        },
-        {
-          "title": "مركز تجاري",
-          "category": "تجاري",
-          "location": "دبي",
-          "description": "مساحة تجارية مبتكرة تضم أحدث تقنيات الاستدامة وبيئات عمل ملهمة.",
-          "area": "٤٥,٠٠٠ قدم²",
-          "completion": "٢٠٢٤",
-          "sustainability": "٩٢٪",
-          "energySavings": "٣٥٪ سنوياً",
-          "image": "/images/l2.png"
-        },
-        {
-          "title": "منتجع طبيعي",
-          "category": "مناظر طبيعية",
-          "location": "أبوظبي",
-          "description": "دمج متناغم بين العمارة وتصميم المناظر الطبيعية لخلق بيئة سكنية مستدامة.",
-          "area": "٨,٢٠٠ قدم²",
-          "completion": "٢٠٢٥",
-          "sustainability": "٩٨٪",
-          "energySavings": "٤٠٪ سنوياً",
-          "image": "/images/l3.png"
-        },
-        {
-          "title": "مجمع مكاتب خضراء",
-          "category": "تجاري",
-          "location": "جدة",
-          "description": "مجمع مكاتب ثوري يعطي الأولوية لرفاهية الموظفين والمسؤولية البيئية.",
-          "area": "٣٢,٠٠٠ قدم²",
-          "completion": "٢٠٢٤",
-          "sustainability": "٨٩٪",
-          "energySavings": "٢٨٪ سنوياً",
-          "image": "/images/l4.png"
-        },
-        {
-          "title": "الملاذ الحضري",
-          "category": "سكني",
-          "location": "الدوحة",
-          "description": "مشروع سكني حضري يخلق ملاذاً هادئاً داخل بيئة المدينة الصاخبة.",
-          "area": "٥,١٠٠ قدم²",
-          "completion": "٢٠٢٥",
-          "sustainability": "٩٤٪",
-          "energySavings": "٣٢٪ سنوياً",
-          "image": "/images/1.png"
+          "image": "/images/residential/6.png"
         }
       ]
     },

@@ -79,7 +79,7 @@ export function PortfolioSection({
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
                 </div>
 
-                <div className="p-6">
+                {/* <div className="p-6">
                   <div className="flex justify-between items-start mb-6">
                     <div>
                       <h3 className="text-2xl font-normal text-foreground mb-1">
@@ -129,7 +129,7 @@ export function PortfolioSection({
                       </div>
                     </div>
                   )}
-                </div>
+                </div> */}
               </div>
               <div className="h-10"></div>
             </div>

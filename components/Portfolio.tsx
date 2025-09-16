@@ -125,7 +125,7 @@ export default function PortfolioSection({
       {/* Project Categories Carousel */}
       {t?.carousel && <ProjectCategoriesCarousel carousel={t.carousel} />}
       {t?.carousel1 && <ProjectCategoriesCarousel carousel={t.carousel1} />}
-      {t?.carousel2 && <ProjectCategoriesCarousel carousel={t.carousel2} />}
+      {/* {t?.carousel2 && <ProjectCategoriesCarousel carousel={t.carousel2} />} */}
 
       {/* Impact Statistics */}
       <div className="py-20 bg-[#3EBF7E]" ref={ref}>
@@ -253,15 +253,15 @@ export function ProjectCategoriesCarousel({
                         alt={property.title}
                         className="w-full h-full object-cover"
                       />
-                      <div className="absolute top-4 left-4">
+                      {/* <div className="absolute top-4 left-4">
                         <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-medium">
                           {property.category}
                         </span>
-                      </div>
+                      </div> */}
                       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
                     </div>
 
-                    <div className="p-8">
+                    {/* <div className="p-8">
                       <div className="flex justify-between items-start mb-6">
                         <div>
                           <h3 className="text-3xl font-normal text-gray-900 mb-2">
@@ -317,7 +317,7 @@ export function ProjectCategoriesCarousel({
                           </div>
                         </motion.div>
                       )}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               ))}
