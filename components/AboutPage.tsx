@@ -53,27 +53,33 @@ export default function AboutPage({
       {/* Who We Are */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-normal text-gray-900 mb-6">
+          <div className="flex flex-col justify-center items-center gap-12">
+            <div className="md:w-[85%]">
+              <h2 className="text-4xl font-normal text-gray-900 mb-6 text-center md:text-left">
                 {translations.aboutPage.whoWeAre.title}
               </h2>
               {translations.aboutPage.whoWeAre.paragraphs.map((p, i) => (
-                <p key={i} className="text-gray-600 mb-6 leading-relaxed">
+                <p
+                  key={i}
+                  className="text-gray-600 mb-6 leading-relaxed text-center md:text-left"
+                >
                   {p}
                 </p>
               ))}
             </div>
-            <div className="relative">
+            <div className="relative  flex justify-center">
               <Image
-                src="/images/s1.png"
+                src="/images/pf/whoweare.png"
                 alt="Modern Architecture"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg"
+                width={1200}
+                height={800}
+                className="rounded-lg shadow-lg w-full h-auto "
               />
             </div>
           </div>
+
+          <br />
+          <br />
           <br />
           <div>
             <h2 className="text-4xl font-normal text-gray-900 mb-6">
@@ -170,7 +176,7 @@ export default function AboutPage({
           </div>
           <div className="relative">
             <Image
-              src="/images/s2.png"
+              src="/images/pf/trust.png"
               alt="Sustainable Modern House"
               width={400}
               height={500}
