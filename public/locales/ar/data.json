@@ -592,56 +592,122 @@
           "title": "فيلا عصرية",
           "category": "سكني",
           "location": "الرياض",
-          "description": "مشروع سكني رائع يدمج بسلاسة بين العمارة الحديثة ومبادئ التصميم المستدام.",
+          "description": "فيلا معاصرة تدمج بين الفخامة ومبادئ التصميم المستدام.",
           "area": "٥,٥٠٠ قدم²",
           "completion": "٢٠٢٤",
           "sustainability": "٩٥٪",
           "energySavings": "٣٠٪ سنوياً",
-          "image": "/images/residential/1.png"
+          "image": "/images/pf/pf-r-1.png"
         },
         {
-          "title": "مركز تجاري",
-          "category": "تجاري",
+          "title": "إقامة صديقة للبيئة",
+          "category": "سكني",
           "location": "دبي",
-          "description": "مساحة تجارية مبتكرة تضم أحدث تقنيات الاستدامة وبيئات عمل ملهمة.",
-          "area": "٤٥,٠٠٠ قدم²",
+          "description": "مشروع سكني يوازن بين الحياة العصرية والابتكار الأخضر.",
+          "area": "٦,٢٠٠ قدم²",
           "completion": "٢٠٢٤",
           "sustainability": "٩٢٪",
-          "energySavings": "٣٥٪ سنوياً",
-          "image": "/images/residential/2.png"
+          "energySavings": "٣٣٪ سنوياً",
+          "image": "/images/pf/pf-r-2.png"
         },
         {
-          "title": "منتجع طبيعي",
-          "category": "مناظر طبيعية",
+          "title": "برج فاخر",
+          "category": "سكني",
           "location": "أبوظبي",
-          "description": "دمج متناغم بين العمارة وتصميم المناظر الطبيعية لخلق بيئة سكنية مستدامة.",
-          "area": "٨,٢٠٠ قدم²",
+          "description": "برج سكني مستدام يوفر إطلالات بانورامية ومعيشة موفرة للطاقة.",
+          "area": "١٢,٠٠٠ قدم²",
           "completion": "٢٠٢٥",
-          "sustainability": "٩٨٪",
-          "energySavings": "٤٠٪ سنوياً",
-          "image": "/images/residential/3.png"
-        },
-        {
-          "title": "مجمع مكاتب خضراء",
-          "category": "تجاري",
-          "location": "جدة",
-          "description": "مجمع مكاتب ثوري يعطي الأولوية لرفاهية الموظفين والمسؤولية البيئية.",
-          "area": "٣٢,٠٠٠ قدم²",
-          "completion": "٢٠٢٤",
-          "sustainability": "٨٩٪",
-          "energySavings": "٢٨٪ سنوياً",
-          "image": "/images/residential/4.png"
+          "sustainability": "٩٧٪",
+          "energySavings": "٣٨٪ سنوياً",
+          "image": "/images/pf/pf-r-3.png"
         },
         {
           "title": "الملاذ الحضري",
           "category": "سكني",
+          "location": "جدة",
+          "description": "مجمع سكني عصري مصمم للراحة في قلب المدينة.",
+          "area": "٧,٨٠٠ قدم²",
+          "completion": "٢٠٢٤",
+          "sustainability": "٩٠٪",
+          "energySavings": "٢٨٪ سنوياً",
+          "image": "/images/pf/pf-r-4.png"
+        },
+        {
+          "title": "واحة العائلة",
+          "category": "سكني",
           "location": "الدوحة",
-          "description": "مشروع سكني حضري يخلق ملاذاً هادئاً داخل بيئة المدينة الصاخبة.",
+          "description": "مشروع سكني يوفر ملاذاً هادئاً داخل بيئة حضرية مزدحمة.",
           "area": "٥,١٠٠ قدم²",
           "completion": "٢٠٢٥",
           "sustainability": "٩٤٪",
           "energySavings": "٣٢٪ سنوياً",
-          "image": "/images/residential/5.png"
+          "image": "/images/pf/pf-r-5.png"
+        },
+        {
+          "title": "إقامة خضراء",
+          "category": "سكني",
+          "location": "الشارقة",
+          "description": "سكن مستدام يجمع بين العمارة الحديثة والأنظمة الصديقة للبيئة.",
+          "area": "٦,٨٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٣٪",
+          "energySavings": "٣٤٪ سنوياً",
+          "image": "/images/pf/pf-r-6.png"
+        },
+        {
+          "title": "الحياة العصرية",
+          "category": "سكني",
+          "location": "مكة",
+          "description": "مساكن ذكية تركز على كفاءة المساحة والطاقة المتجددة.",
+          "area": "٤,٩٠٠ قدم²",
+          "completion": "٢٠٢٤",
+          "sustainability": "٩١٪",
+          "energySavings": "٢٩٪ سنوياً",
+          "image": "/images/pf/pf-r-7.png"
+        },
+        {
+          "title": "شقق النخبة",
+          "category": "سكني",
+          "location": "المدينة",
+          "description": "شقق مميزة تعيد تعريف السكن المجتمعي مع حلول مستدامة.",
+          "area": "٨,٢٠٠ قدم²",
+          "completion": "٢٠٢٦",
+          "sustainability": "٩٦٪",
+          "energySavings": "٣٦٪ سنوياً",
+          "image": "/images/pf/pf-r-8.png"
+        },
+        {
+          "title": "فلل صديقة للبيئة",
+          "category": "سكني",
+          "location": "الدمام",
+          "description": "مجموعة فلل تعتمد على الطاقة المتجددة وأنظمة توفير المياه.",
+          "area": "٥,٦٠٠ قدم²",
+          "completion": "٢٠٢٤",
+          "sustainability": "٩٥٪",
+          "energySavings": "٣٠٪ سنوياً",
+          "image": "/images/pf/pf-r-9.png"
+        },
+        {
+          "title": "الحياة في الأفق",
+          "category": "سكني",
+          "location": "الرياض",
+          "description": "شقق شاهقة توفر رفاهية وراحة وإطلالات مستدامة.",
+          "area": "٩,٠٠٠ قدم²",
+          "completion": "٢٠٢٦",
+          "sustainability": "٩٧٪",
+          "energySavings": "٣٩٪ سنوياً",
+          "image": "/images/pf/pf-r-10.png"
+        },
+        {
+          "title": "بيوت الصفاء",
+          "category": "سكني",
+          "location": "الدوحة",
+          "description": "مساكن هادئة تمزج بين التصميم الحضري والعناية البيئية.",
+          "area": "٦,٣٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٣٪",
+          "energySavings": "٣١٪ سنوياً",
+          "image": "/images/pf/pf-r-11.png"
         }
       ]
     },
@@ -650,37 +716,258 @@
       "sectionDescription": "تجمع مشاريعنا التجارية بين الوظائف العصرية والأنظمة المستدامة، مما يتيح بيئات عمل أذكى وأكثر خضرة.",
       "properties": [
         {
-          "title": "مركز تجاري",
+          "title": "مركز أعمال",
           "category": "تجاري",
           "location": "الرياض",
-          "description": "مشروع سكني رائع يدمج بسلاسة بين العمارة الحديثة ومبادئ التصميم المستدام.",
-          "area": "٥,٥٠٠ قدم²",
-          "completion": "٢٠٢٤",
-          "sustainability": "٩٥٪",
-          "energySavings": "٣٠٪ سنوياً",
-          "image": "/images/residential/6.png"
-        },
-        {
-          "title": "مركز تجاري",
-          "category": "تجاري",
-          "location": "دبي",
-          "description": "مساحة تجارية مبتكرة تضم أحدث تقنيات الاستدامة وبيئات عمل ملهمة.",
-          "area": "٤٥,٠٠٠ قدم²",
+          "description": "مركز أعمال متطور يتميز بمكاتب عصرية وكفاءة عالية في استهلاك الطاقة.",
+          "area": "٢٠,٠٠٠ قدم²",
           "completion": "٢٠٢٤",
           "sustainability": "٩٢٪",
           "energySavings": "٣٥٪ سنوياً",
-          "image": "/images/residential/7.png"
+          "image": "/images/pf/pf-c-1.png"
         },
         {
-          "title": "مركز تجاري",
+          "title": "برج صديق للبيئة",
           "category": "تجاري",
+          "location": "دبي",
+          "description": "برج تجاري يدمج بين التصميم العصري والممارسات المستدامة المتقدمة.",
+          "area": "٤٥,٠٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٤٪",
+          "energySavings": "٣٧٪ سنوياً",
+          "image": "/images/pf/pf-c-2.png"
+        },
+        {
+          "title": "مول ذكي",
+          "category": "تجاري",
+          "location": "أبوظبي",
+          "description": "مول مبتكر يعتمد على الطاقة المتجددة ويوفر مساحات تجزئة ذكية.",
+          "area": "٦٠,٠٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٦٪",
+          "energySavings": "٤٠٪ سنوياً",
+          "image": "/images/pf/pf-c-3.png"
+        },
+        {
+          "title": "مركز الابتكار",
+          "category": "تجاري",
+          "location": "جدة",
+          "description": "مركز تجاري مخصص للشركات الناشئة والأعمال مع تركيز على الاستدامة.",
+          "area": "٣٠,٠٠٠ قدم²",
+          "completion": "٢٠٢٤",
+          "sustainability": "٩١٪",
+          "energySavings": "٢٩٪ سنوياً",
+          "image": "/images/pf/pf-c-4.png"
+        },
+        {
+          "title": "ساحة الشركات",
+          "category": "تجاري",
+          "location": "الدوحة",
+          "description": "ساحة شركات صديقة للبيئة توفر مساحات مكتبية مبتكرة ومنتجة.",
+          "area": "٣٥,٠٠٠ قدم²",
+          "completion": "٢٠٢٦",
+          "sustainability": "٩٣٪",
+          "energySavings": "٣٢٪ سنوياً",
+          "image": "/images/pf/pf-c-5.png"
+        },
+        {
+          "title": "سوق مستدام",
+          "category": "تجاري",
+          "location": "مكة",
+          "description": "سوق حديث يدمج تقنيات البناء الأخضر وأنظمة الكفاءة.",
+          "area": "٢٥,٠٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٠٪",
+          "energySavings": "٢٨٪ سنوياً",
+          "image": "/images/pf/pf-c-6.png"
+        },
+        {
+          "title": "حديقة التكنولوجيا",
+          "category": "تجاري",
+          "location": "الشارقة",
+          "description": "مجمع تكنولوجي مستدام يشجع التعاون والنماذج التجارية الواعية بالبيئة.",
+          "area": "٥٠,٠٠٠ قدم²",
+          "completion": "٢٠٢٦",
+          "sustainability": "٩٥٪",
+          "energySavings": "٣٨٪ سنوياً",
+          "image": "/images/pf/pf-c-7.png"
+        }
+      ]
+    },
+    "carousel2": {
+      "sectionTitle": "مشاريع المناظر الطبيعية",
+      "sectionDescription": "نصمم مناظر طبيعية تعزز رفاهية الأفراد مع الحفاظ على الموارد الطبيعية.",
+      "properties": [
+        {
+          "title": "حديقة حضرية",
+          "category": "مناظر طبيعية",
           "location": "الرياض",
-          "description": "مشروع سكني رائع يدمج بسلاسة بين العمارة الحديثة ومبادئ التصميم المستدام.",
-          "area": "٥,٥٠٠ قدم²",
+          "description": "مساحة خضراء مجتمعية تعزز التفاعل والاستدامة.",
+          "area": "١٢,٠٠٠ قدم²",
           "completion": "٢٠٢٤",
           "sustainability": "٩٥٪",
           "energySavings": "٣٠٪ سنوياً",
-          "image": "/images/residential/6.png"
+          "image": "/images/pf/pf-l-1.png"
+        },
+        {
+          "title": "واجهة بحرية خضراء",
+          "category": "مناظر طبيعية",
+          "location": "دبي",
+          "description": "منطقة واجهة مائية تمزج الجمال الطبيعي مع أنظمة حفظ المياه الذكية.",
+          "area": "٢٥,٠٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٣٪",
+          "energySavings": "٣٥٪ سنوياً",
+          "image": "/images/pf/pf-l-2.png"
+        },
+        {
+          "title": "منتجع طبيعي",
+          "category": "مناظر طبيعية",
+          "location": "أبوظبي",
+          "description": "منتجع صديق للبيئة يجمع بين المناظر الطبيعية والعمارة المستدامة.",
+          "area": "١٨,٠٠٠ قدم²",
+          "completion": "٢٠٢٦",
+          "sustainability": "٩٨٪",
+          "energySavings": "٤٠٪ سنوياً",
+          "image": "/images/pf/pf-l-3.png"
+        },
+        {
+          "title": "حرم مكاتب خضراء",
+          "category": "مناظر طبيعية",
+          "location": "جدة",
+          "description": "منطقة مكتبية خضراء تركز على رفاهية الموظفين والبيئة.",
+          "area": "١٥,٠٠٠ قدم²",
+          "completion": "٢٠٢٤",
+          "sustainability": "٩٠٪",
+          "energySavings": "٢٨٪ سنوياً",
+          "image": "/images/pf/pf-l-4.png"
+        },
+        {
+          "title": "واحة حضرية",
+          "category": "مناظر طبيعية",
+          "location": "الدوحة",
+          "description": "ملاذ أخضر داخل المدينة يوفر مساحات استرخاء مستدامة.",
+          "area": "١٠,٥٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٢٪",
+          "energySavings": "٣٢٪ سنوياً",
+          "image": "/images/pf/pf-l-5.png"
+        }
+      ]
+    },
+    "carousel3": {
+      "sectionTitle": "المشاريع الداخلية",
+      "sectionDescription": "تجمع مشاريعنا الداخلية بين الوظائف والجماليات والاستدامة لخلق مساحات داخلية ملهمة.",
+      "properties": [
+        {
+          "title": "غرفة معيشة فاخرة",
+          "category": "داخلي",
+          "location": "الرياض",
+          "description": "مساحة معيشة عصرية تجمع بين الراحة والأناقة والمواد الصديقة للبيئة.",
+          "area": "١,٢٠٠ قدم²",
+          "completion": "٢٠٢٤",
+          "sustainability": "٩٢٪",
+          "energySavings": "٢٠٪ سنوياً",
+          "image": "/images/pf/pf-i-1.png"
+        },
+        {
+          "title": "مكتب عصري",
+          "category": "داخلي",
+          "location": "دبي",
+          "description": "تصميم مكتبي مستدام يعزز الإنتاجية بالإضاءة الطبيعية والتوزيع الذكي.",
+          "area": "٢,٥٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٠٪",
+          "energySavings": "٢٥٪ سنوياً",
+          "image": "/images/pf/pf-i-2.png"
+        },
+        {
+          "title": "مطبخ أنيق",
+          "category": "داخلي",
+          "location": "أبوظبي",
+          "description": "مطبخ حديث بتشطيبات عصرية وأجهزة موفرة للطاقة.",
+          "area": "٦٠٠ قدم²",
+          "completion": "٢٠٢٤",
+          "sustainability": "٩٣٪",
+          "energySavings": "٢٢٪ سنوياً",
+          "image": "/images/pf/pf-i-3.png"
+        },
+        {
+          "title": "غرفة نوم معاصرة",
+          "category": "داخلي",
+          "location": "الدوحة",
+          "description": "غرفة نوم أنيقة تجمع بين الراحة والجماليات العصرية والتصميم الواعي بيئياً.",
+          "area": "٨٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٤٪",
+          "energySavings": "٢١٪ سنوياً",
+          "image": "/images/pf/pf-i-4.png"
+        },
+        {
+          "title": "مكاتب الشركات",
+          "category": "داخلي",
+          "location": "جدة",
+          "description": "تصميم داخلي ذكي للمكاتب يركز على رفاهية الموظفين والاستدامة.",
+          "area": "٣,٠٠٠ قدم²",
+          "completion": "٢٠٢٦",
+          "sustainability": "٩١٪",
+          "energySavings": "٢٧٪ سنوياً",
+          "image": "/images/pf/pf-i-5.png"
+        },
+        {
+          "title": "ردهة بسيطة",
+          "category": "داخلي",
+          "location": "مكة",
+          "description": "ردهة أنيقة بتصميم بسيط وأثاث مستدام.",
+          "area": "١,٠٠٠ قدم²",
+          "completion": "٢٠٢٤",
+          "sustainability": "٩٢٪",
+          "energySavings": "٢٠٪ سنوياً",
+          "image": "/images/pf/pf-i-6.png"
+        },
+        {
+          "title": "استوديو إبداعي",
+          "category": "داخلي",
+          "location": "الشارقة",
+          "description": "تصميم استوديو داخلي يعزز الإبداع والكفاءة من خلال التصميم الأخضر.",
+          "area": "١,٥٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٣٪",
+          "energySavings": "٢٣٪ سنوياً",
+          "image": "/images/pf/pf-i-7.png"
+        },
+        {
+          "title": "قاعة طعام فاخرة",
+          "category": "داخلي",
+          "location": "المدينة",
+          "description": "قاعة طعام أنيقة تجمع بين الفخامة والإضاءة الموفرة للطاقة.",
+          "area": "٢,٢٠٠ قدم²",
+          "completion": "٢٠٢٦",
+          "sustainability": "٩٤٪",
+          "energySavings": "٢٦٪ سنوياً",
+          "image": "/images/pf/pf-i-8.png"
+        },
+        {
+          "title": "تصميم بوتيك",
+          "category": "داخلي",
+          "location": "الدمام",
+          "description": "تصاميم داخلية للمتاجر تجمع بين الأناقة والمسؤولية البيئية.",
+          "area": "١,٨٠٠ قدم²",
+          "completion": "٢٠٢٥",
+          "sustainability": "٩٥٪",
+          "energySavings": "٢٤٪ سنوياً",
+          "image": "/images/pf/pf-i-9.png"
+        },
+        {
+          "title": "منتجع صحي داخلي",
+          "category": "داخلي",
+          "location": "أبوظبي",
+          "description": "منتجع صحي فاخر داخلي بتصميم طبيعي وتجهيزات موفرة للطاقة.",
+          "area": "٢,٥٠٠ قدم²",
+          "completion": "٢٠٢٦",
+          "sustainability": "٩٦٪",
+          "energySavings": "٢٨٪ سنوياً",
+          "image": "/images/pf/pf-i-10.png"
         }
       ]
     },
