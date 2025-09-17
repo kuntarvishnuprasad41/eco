@@ -185,7 +185,7 @@ export default async function SustainabilityPage({
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('${sustainability.why.image}')`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/whysys.png')`,
           }}
         />
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center text-white">

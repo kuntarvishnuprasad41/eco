@@ -125,7 +125,8 @@ export default function PortfolioSection({
       {/* Project Categories Carousel */}
       {t?.carousel && <ProjectCategoriesCarousel carousel={t.carousel} />}
       {t?.carousel1 && <ProjectCategoriesCarousel carousel={t.carousel1} />}
-      {/* {t?.carousel2 && <ProjectCategoriesCarousel carousel={t.carousel2} />} */}
+      {t?.carousel2 && <ProjectCategoriesCarousel carousel={t.carousel2} />}
+      {t?.carousel3 && <ProjectCategoriesCarousel carousel={t.carousel3} />}
 
       {/* Impact Statistics */}
       <div className="py-20 bg-[#3EBF7E]" ref={ref}>
