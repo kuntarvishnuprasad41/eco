@@ -272,7 +272,7 @@ export async function POST(req: Request) {
     // 🔹 4. Send email
     await transporter.sendMail({
       from: `"Website Form" <${process.env.SMTP_USER}>`,
-      to: "kuntarvishnuprasad41@gmail.com", // 📥 Your receiving email
+      to: "ecohomes.sa@gmail.com", // 📥 Your receiving email
       subject: `New Contact Form Submission from ${body.name}`,
       html: htmlContent,
     });
