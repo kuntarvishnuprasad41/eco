@@ -11,6 +11,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  assetPrefix: '/',
+  basePath: '',
   experimental: {
     // missingSuspenseWithCSRBailout: false,
   },
