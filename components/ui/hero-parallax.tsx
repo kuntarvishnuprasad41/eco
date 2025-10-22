@@ -42,7 +42,7 @@ export function HeroParallax() {
         }}
       >
         <img
-          src="/images/1.png"
+          src="https://ecohomes.sa/images/1.png"
           alt="Hero background"
           className="w-full h-full object-cover"
         />

@@ -79,7 +79,7 @@
 //               <Link className="flex-shrink-0" href={"/"}>
 //                 <Image
 //                   alt="Eco Homes"
-//                   src="/icons/logo.svg"
+//                   src="https://ecohomes.sa/icons/logo.svg"
 //                   height={scrolled ? 40 : 60} // Shrinks logo when scrolled
 //                   width={scrolled ? 120 : 180}
 //                   className="transition-all duration-300"
@@ -108,7 +108,7 @@
 //             <Link className="flex justify-center py-4" href={"/"}>
 //               <Image
 //                 alt="Eco Homes"
-//                 src="/icons/logo.svg"
+//                 src="https://ecohomes.sa/icons/logo.svg"
 //                 height={150}
 //                 width={150}
 //               />
@@ -143,7 +143,7 @@
 //             <Link href="/" className="flex-shrink-0">
 //               <Image
 //                 alt="Eco Homes"
-//                 src="/icons/logo.svg"
+//                 src="https://ecohomes.sa/icons/logo.svg"
 //                 height={40}
 //                 width={120}
 //                 className="transition-all duration-300"
@@ -279,7 +279,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
               <Link className="flex-shrink-0" href={"/"}>
                 <Image
                   alt="Eco Homes"
-                  src="/icons/logo.svg"
+                  src="https://ecohomes.sa/icons/logo.svg"
                   height={scrolled ? 40 : 60}
                   width={scrolled ? 120 : 180}
                   className="transition-all duration-300"
@@ -308,7 +308,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
             <Link className="flex justify-center py-4" href={"/"}>
               <Image
                 alt="Eco Homes"
-                src="/icons/logo.svg"
+                src="https://ecohomes.sa/icons/logo.svg"
                 height={150}
                 width={150}
               />
@@ -342,7 +342,7 @@ export function Navbar({ locale, translations, text }: NavbarProps) {
             <Link href="/" className="flex-shrink-0">
               <Image
                 alt="Eco Homes"
-                src="/icons/logo.svg"
+                src="https://ecohomes.sa/icons/logo.svg"
                 height={40}
                 width={120}
                 className="transition-all duration-300"

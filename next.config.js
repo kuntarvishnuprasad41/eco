@@ -4,24 +4,25 @@ const nextConfig = {
   images: {
     unoptimized: true, // disables built-in image optimization
     loader: 'default',
-    path: '/',         // serves images as /images/...
-  }, basePath: '', // keep it empty
-  assetPrefix: '', // keep it empty
+    path: '/',         // serves images as https://ecohomes.sa/images/...
+  },
+  basePath: '',       // keep empty
+  assetPrefix: '',    // keep empty
   typescript: {
     ignoreBuildErrors: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
-  async redirects() {
+  async rewrites() {
     return [
       {
         source: '/',
         destination: '/en/',
-        permanent: false, // 307 redirect
       },
     ];
-  },
+  }
+
 };
 
 module.exports = nextConfig;

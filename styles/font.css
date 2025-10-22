@@ -1,78 +1,89 @@
 /* ===== FunnelSans ===== */
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-Light.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-Light.ttf")
+    format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-LightItalic.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-LightItalic.ttf")
+    format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-Regular.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-Regular.ttf")
+    format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-Italic.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-Italic.ttf")
+    format("truetype");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-Medium.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-Medium.ttf")
+    format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-MediumItalic.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-MediumItalic.ttf")
+    format("truetype");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-SemiBold.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-SemiBold.ttf")
+    format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-SemiBoldItalic.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-SemiBoldItalic.ttf")
+    format("truetype");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-Bold.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-Bold.ttf")
+    format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-BoldItalic.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-BoldItalic.ttf")
+    format("truetype");
   font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-ExtraBold.ttf") format("truetype");
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-ExtraBold.ttf")
+    format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "FunnelSans";
-  src: url("/fonts/FunnelSans/FunnelSans-ExtraBoldItalic.ttf")
+  src: url("https://ecohomes.sa/fonts/FunnelSans/FunnelSans-ExtraBoldItalic.ttf")
     format("truetype");
   font-weight: 800;
   font-style: italic;
@@ -81,28 +92,32 @@
 /* ===== NeueMontreal ===== */
 @font-face {
   font-family: "NeueMontreal";
-  src: url("/fonts/NeueMontreal/NeueMontreal-Light.otf") format("opentype");
+  src: url("https://ecohomes.sa/fonts/NeueMontreal/NeueMontreal-Light.otf")
+    format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "NeueMontreal";
-  src: url("/fonts/NeueMontreal/NeueMontreal-Regular.otf") format("opentype");
+  src: url("https://ecohomes.sa/fonts/NeueMontreal/NeueMontreal-Regular.otf")
+    format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "NeueMontreal";
-  src: url("/fonts/NeueMontreal/NeueMontreal-Medium.otf") format("opentype");
+  src: url("https://ecohomes.sa/fonts/NeueMontreal/NeueMontreal-Medium.otf")
+    format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "NeueMontreal";
-  src: url("/fonts/NeueMontreal/NeueMontreal-Bold.otf") format("opentype");
+  src: url("https://ecohomes.sa/fonts/NeueMontreal/NeueMontreal-Bold.otf")
+    format("opentype");
   font-weight: 700;
   font-style: normal;
 }

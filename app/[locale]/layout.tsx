@@ -10,22 +10,22 @@ import { generateMetadata as generateSEOMetadata } from "@/components/seo/metada
 const neueMontreal = localFont({
   src: [
     {
-      path: "../../public/fonts/NeueMontreal/NeueMontreal-Light.otf",
+      path: "../../publichttps://ecohomes.sa/fonts/NeueMontreal/NeueMontreal-Light.otf",
       weight: "300",
       style: "normal",
     },
     {
-      path: "../../public/fonts/NeueMontreal/NeueMontreal-Regular.otf",
+      path: "../../publichttps://ecohomes.sa/fonts/NeueMontreal/NeueMontreal-Regular.otf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../public/fonts/NeueMontreal/NeueMontreal-Medium.otf",
+      path: "../../publichttps://ecohomes.sa/fonts/NeueMontreal/NeueMontreal-Medium.otf",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../../public/fonts/NeueMontreal/NeueMontreal-Bold.otf",
+      path: "../../publichttps://ecohomes.sa/fonts/NeueMontreal/NeueMontreal-Bold.otf",
       weight: "700",
       style: "normal",
     },
@@ -37,17 +37,17 @@ const neueMontreal = localFont({
 const ivyOraDisplay = localFont({
   src: [
     {
-      path: "../../public/fonts/IvyOraDisplay/IvyOraDisplay-Regular.woff2",
+      path: "../../publichttps://ecohomes.sa/fonts/IvyOraDisplay/IvyOraDisplay-Regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../public/fonts/IvyOraDisplay/IvyOraDisplay-Medium.woff2",
+      path: "../../publichttps://ecohomes.sa/fonts/IvyOraDisplay/IvyOraDisplay-Medium.woff2",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../../public/fonts/IvyOraDisplay/IvyOraDisplay-Bold.woff2",
+      path: "../../publichttps://ecohomes.sa/fonts/IvyOraDisplay/IvyOraDisplay-Bold.woff2",
       weight: "700",
       style: "normal",
     },
@@ -91,7 +91,7 @@ export default function RootLayout({
       className={`${neueMontreal.variable} ${ivyOraDisplay.variable}`}
     >
       <head>
-        <link rel="icon" href="/icons/logo.svg" />
+        <link rel="icon" href="https://ecohomes.sa/icons/logo.svg" />
       </head>
       <body
         className={`${isRTL ? "font-arabic" : "font-montreal"} antialiased`}
