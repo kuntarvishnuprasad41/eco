@@ -5,7 +5,8 @@ const nextConfig = {
     unoptimized: true, // disables built-in image optimization
     loader: 'default',
     path: '/',         // serves images as /images/...
-  },
+  }, basePath: '', // keep it empty
+  assetPrefix: '', // keep it empty
   typescript: {
     ignoreBuildErrors: true,
   },
