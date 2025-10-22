@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   trailingSlash: true,
   images: {
-    unoptimized: true
+    unoptimized: true, // disables built-in image optimization
+    loader: 'default',
+    path: '/',         // serves images as /images/...
   },
   typescript: {
     ignoreBuildErrors: true,
@@ -11,20 +12,15 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  assetPrefix: '/',
-  basePath: '',
-  experimental: {
-    // missingSuspenseWithCSRBailout: false,
-  },
   async redirects() {
     return [
       {
         source: '/',
-        destination: '/en',
-        permanent: false, // set to true for a 308 permanent redirect
+        destination: '/en/',
+        permanent: false, // 307 redirect
       },
     ];
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
