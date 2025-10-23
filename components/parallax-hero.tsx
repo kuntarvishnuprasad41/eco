@@ -21,6 +21,6 @@ export const products = [
   {
     title: "Moonbeam",
     link: "https://google.com",
-    thumbnail: "https://ecohomes.sa/images/effect.png",
+    thumbnail: "/images/effect.png",
   },
 ];

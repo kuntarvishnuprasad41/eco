@@ -17,7 +17,7 @@ export function VerticalsSection({ locale }: VerticalsSectionProps) {
   const verticals = [
     {
       title: locale === "ar" ? "العمارة" : "Architecture",
-      image: "https://ecohomes.sa/images/verticals/v01.png",
+      image: "/images/verticals/v01.png",
       id: "architecture",
       description:
         locale === "ar"
@@ -26,7 +26,7 @@ export function VerticalsSection({ locale }: VerticalsSectionProps) {
     },
     {
       title: locale === "ar" ? "التصميم الداخلي" : "Interior Design",
-      image: "https://ecohomes.sa/images/verticals/v02.png",
+      image: "/images/verticals/v02.png",
       id: "interior",
       description:
         locale === "ar"
@@ -35,7 +35,7 @@ export function VerticalsSection({ locale }: VerticalsSectionProps) {
     },
     {
       title: locale === "ar" ? "تصميم المناظر الطبيعية" : "Landscape Design",
-      image: "https://ecohomes.sa/images/verticals/v03.png",
+      image: "/images/verticals/v03.png",
       id: "landscape",
       description:
         locale === "ar"
@@ -44,7 +44,7 @@ export function VerticalsSection({ locale }: VerticalsSectionProps) {
     },
     {
       title: locale === "ar" ? "الهندسة" : "Engineering",
-      image: "https://ecohomes.sa/images/verticals/v04.png",
+      image: "/images/verticals/v04.png",
       id: "engineering",
       description:
         locale === "ar"

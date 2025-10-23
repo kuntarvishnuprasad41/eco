@@ -24,7 +24,7 @@ export default async function Verticals({
       <Navbar locale={params.locale} translations={translations} text="#FFF" />
 
       {/* Hero Section */}
-      <section className="relative min-h-[80vh] md:h-screen flex items-center justify-center overflow-hidden bg-cover bg-[url('https://ecohomes.sa/images/vertical.png')] px-4">
+      <section className="relative min-h-[80vh] md:h-screen flex items-center justify-center overflow-hidden bg-cover bg-[url('/images/vertical.png')] px-4">
         <div className="absolute inset-0 z-0">
           <Image
             src="/sustainable-glass-wood-building.png"
@@ -33,7 +33,7 @@ export default async function Verticals({
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-[url('https://ecohomes.sa/images/v1.png')] bg-cover" />
+          <div className="absolute inset-0 bg-[url('/images/v1.png')] bg-cover" />
         </div>
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal mb-6 leading-tight">
@@ -144,7 +144,7 @@ export default async function Verticals({
       </section>
 
       <Image
-        src="https://ecohomes.sa/images/impact.png"
+        src="/images/impact.png"
         alt="Sustainable building complex"
         width={1200}
         height={600}

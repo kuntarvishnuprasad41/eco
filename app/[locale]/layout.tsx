@@ -91,7 +91,7 @@ export default function RootLayout({
       className={`${neueMontreal.variable} ${ivyOraDisplay.variable}`}
     >
       <head>
-        <link rel="icon" href="https://ecohomes.sa/icons/logo.svg" />
+        <link rel="icon" href="/icons/logo.svg" />
       </head>
       <body
         className={`${isRTL ? "font-arabic" : "font-montreal"} antialiased`}

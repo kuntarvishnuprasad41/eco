@@ -2,27 +2,15 @@
 const nextConfig = {
   trailingSlash: true,
   images: {
-    unoptimized: true, // disables built-in image optimization
+    unoptimized: true,
     loader: 'default',
-    path: '/',         // serves images as https://ecohomes.sa/images/...
+    path: '/', // ensures public/ assets load correctly
   },
-  basePath: '',       // keep empty
-  assetPrefix: '',    // keep empty
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  async rewrites() {
-    return [
-      {
-        source: '/',
-        destination: '/en/',
-      },
-    ];
-  }
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
 
+  // Optional: allow LAN development
+  allowedDevOrigins: ['192.168.100.12'],
 };
 
 module.exports = nextConfig;

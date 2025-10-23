@@ -39,7 +39,7 @@ export function Footer({ locale, translations }: FooterProps) {
           {/* Left side - Logo and description */}
           <div className="flex-1 max-w-md text-center lg:text-left">
             <Image
-              src="https://ecohomes.sa/icons/logo-w.svg"
+              src="/icons/logo-w.svg"
               alt="Eco Homes"
               width={150}
               height={50}

@@ -103,7 +103,7 @@
         "id": 1,
         "title": "Modern Villa",
         "location": "Riyadh",
-        "image": "https://ecohomes.sa/images/home-vertical1.png",
+        "image": "/images/home-vertical1.png",
         "area": "5,500 sq.ft",
         "completion": "2024",
         "sustainability": "95%",
@@ -113,7 +113,7 @@
         "id": 2,
         "title": "Eco Residence",
         "location": "Dammam",
-        "image": "https://ecohomes.sa/images/home-vertical2.png",
+        "image": "/images/home-vertical2.png",
         "area": "4,200 sq.ft",
         "completion": "2024",
         "sustainability": "92%",
@@ -123,7 +123,7 @@
         "id": 3,
         "title": "Smart Home",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical3.png",
+        "image": "/images/home-vertical3.png",
         "area": "6,800 sq.ft",
         "completion": "2025",
         "sustainability": "98%",
@@ -133,7 +133,7 @@
         "id": 4,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical4.png",
+        "image": "/images/home-vertical4.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -143,7 +143,7 @@
         "id": 8,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical8.png",
+        "image": "/images/home-vertical8.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -153,7 +153,7 @@
         "id": 7,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical7.png",
+        "image": "/images/home-vertical7.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -163,7 +163,7 @@
         "id": 5,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical5.png",
+        "image": "/images/home-vertical5.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -173,7 +173,7 @@
         "id": 6,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical6.png",
+        "image": "/images/home-vertical6.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -183,7 +183,7 @@
         "id": 9,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical9.png",
+        "image": "/images/home-vertical9.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -193,7 +193,7 @@
         "id": 10,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical10.png",
+        "image": "/images/home-vertical10.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -354,7 +354,7 @@
         ],
         "id": "architecture",
         "outcome": "مساحات تلهم، تتكيف مع أنماط الحياة الحديثة، وتدوم بأناقة.",
-        "image": "https://ecohomes.sa/images/v/v00.png",
+        "image": "/images/v/v00.png",
         "alt": "تصميم داخلي مطبخ حديث"
       },
       {
@@ -368,7 +368,7 @@
         ],
         "id": "interior",
         "outcome": "ديكورات تحول الحياة اليومية إلى تجارب راقية.",
-        "image": "https://ecohomes.sa/images/v/v01.png",
+        "image": "/images/v/v01.png",
         "alt": "تصميم داخلي حمام فاخر"
       },
       {
@@ -382,7 +382,7 @@
         ],
         "id": "landscape",
         "outcome": "مساحات هادئة وموفرة للموارد ترعى الناس والكوكب.",
-        "image": "https://ecohomes.sa/images/v/v02.png",
+        "image": "/images/v/v02.png",
         "alt": "تصميم منظر طبيعي حديث"
       },
       {
@@ -396,7 +396,7 @@
         ],
         "id": "engineering",
         "outcome": "بنية تحتية جاهزة للمستقبل تدعم الحياة الحديثة.",
-        "image": "https://ecohomes.sa/images/v/v03.png",
+        "image": "/images/v/v03.png",
         "alt": "واجهة مبنى حديثة"
       },
       {
@@ -409,7 +409,7 @@
           "جدولة المشاريع والتحكم بالميزانية"
         ],
         "outcome": "تنفيذ سلس وتسليم مشاريع ناجحة.",
-        "image": "https://ecohomes.sa/images/v/v04.png",
+        "image": "/images/v/v04.png",
         "alt": "تصميم داخلي استشارة المشروع"
       }
     ],
@@ -428,14 +428,14 @@
     "hero": {
       "title": "الاستدامة في\nقلب\nكل تصميم",
       "subtitle": "في إيكو هومز، الاستدامة ليست خيارًا بل أساسنا.",
-      "backgroundImage": "https://ecohomes.sa/images/sustainability.png",
+      "backgroundImage": "/images/sustainability.png",
       "ctaText": "تعرف أكثر"
     },
     "philosophy": {
       "title": "فلسفتنا في",
       "highlight": "الاستدامة",
       "description": "نؤمن أن التصميم الرائع يجب أن يرفع مستوى الحياة ويحمي كوكبنا.",
-      "image": "https://ecohomes.sa/images/s.png",
+      "image": "/images/s.png",
       "alt": "هندسة معمارية مستدامة بسقف زجاجي أخضر"
     },
     "pillars": [
@@ -465,31 +465,31 @@
       "items": [
         {
           "title": "الهندسة المعمارية",
-          "image": "https://ecohomes.sa/images/s1.png",
+          "image": "/images/s1.png",
           "alt": "الهندسة المعمارية المستدامة",
           "description": "تصميم المباني بمواد مستدامة وأنظمة طاقة متجددة."
         },
         {
           "title": "التصميم الداخلي",
-          "image": "https://ecohomes.sa/images/s2.png",
+          "image": "/images/s2.png",
           "alt": "التصميم الداخلي",
           "description": "حلول داخلية صديقة للبيئة وموفرة للطاقة."
         },
         {
           "title": "تصميم المناظر الطبيعية",
-          "image": "https://ecohomes.sa/images/s3.png",
+          "image": "/images/s3.png",
           "alt": "تصميم المناظر الطبيعية",
           "description": "مساحات خارجية بالنباتات المحلية وأنظمة توفير المياه."
         },
         {
           "title": "الهندسة",
-          "image": "https://ecohomes.sa/images/s4.png",
+          "image": "/images/s4.png",
           "alt": "الهندسة",
           "description": "تطبيق تقنيات مستدامة متقدمة وأنظمة بناء ذكية."
         },
         {
           "title": "الاستشارات",
-          "image": "https://ecohomes.sa/images/s5.png",
+          "image": "/images/s5.png",
           "alt": "الاستشارات",
           "description": "تقديم المشورة حول الممارسات المستدامة والشهادات الخضراء."
         }
@@ -520,7 +520,7 @@
     "why": {
       "title": "لماذا الاستدامة مهمة بالنسبة لنا",
       "description": "الاستدامة مسؤوليتنا. نخلق مساحات صديقة للبيئة تعزز الحياة وتحمي كوكبنا.",
-      "image": "https://ecohomes.sa/images/sustainable-wooden-building.png"
+      "image": "/images/sustainable-wooden-building.png"
     },
     "cta": {
       "title": "معًا نصنع الأفضل",
@@ -561,7 +561,7 @@
   },
   "portfolioPage": {
     "hero": {
-      "backgroundImage": "https://ecohomes.sa/images/portfolio.png",
+      "backgroundImage": "/images/portfolio.png",
       "title": "تصميم مساحات مستدامة",
       "subtitle": "تلهم الجميع",
       "description": "كل مشروع يحكي قصة من الابتكار والاستدامة وروعة التصميم. نحن نخلق مساحات تلهم وتحترم البيئة.",
@@ -570,7 +570,7 @@
     "overview": {
       "title": "نظرة عامة على المشاريع",
       "description": "تعكس مجموعة مشاريعنا أكثر من 200 مشروع ناجح في قطاعات متنوعة. كل تصميم يمزج بين الاستدامة، الصلة الثقافية، والابتكار الحديث.",
-      "image": "https://ecohomes.sa/images/p-overview.png",
+      "image": "/images/p-overview.png",
       "alt": "نظرة عامة على المشاريع"
     },
     "impact": {
@@ -597,7 +597,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٥٪",
           "energySavings": "٣٠٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-1.png"
+          "image": "/images/pf/pf-r-1.png"
         },
         {
           "title": "إقامة صديقة للبيئة",
@@ -608,7 +608,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٢٪",
           "energySavings": "٣٣٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-2.png"
+          "image": "/images/pf/pf-r-2.png"
         },
         {
           "title": "برج فاخر",
@@ -619,7 +619,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٧٪",
           "energySavings": "٣٨٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-3.png"
+          "image": "/images/pf/pf-r-3.png"
         },
         {
           "title": "الملاذ الحضري",
@@ -630,7 +630,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٠٪",
           "energySavings": "٢٨٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-4.png"
+          "image": "/images/pf/pf-r-4.png"
         },
         {
           "title": "واحة العائلة",
@@ -641,7 +641,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٤٪",
           "energySavings": "٣٢٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-5.png"
+          "image": "/images/pf/pf-r-5.png"
         },
         {
           "title": "إقامة خضراء",
@@ -652,7 +652,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٣٪",
           "energySavings": "٣٤٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-6.png"
+          "image": "/images/pf/pf-r-6.png"
         },
         {
           "title": "الحياة العصرية",
@@ -663,7 +663,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩١٪",
           "energySavings": "٢٩٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-7.png"
+          "image": "/images/pf/pf-r-7.png"
         },
         {
           "title": "شقق النخبة",
@@ -674,7 +674,7 @@
           "completion": "٢٠٢٦",
           "sustainability": "٩٦٪",
           "energySavings": "٣٦٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-8.png"
+          "image": "/images/pf/pf-r-8.png"
         },
         {
           "title": "فلل صديقة للبيئة",
@@ -685,7 +685,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٥٪",
           "energySavings": "٣٠٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-9.png"
+          "image": "/images/pf/pf-r-9.png"
         },
         {
           "title": "الحياة في الأفق",
@@ -696,7 +696,7 @@
           "completion": "٢٠٢٦",
           "sustainability": "٩٧٪",
           "energySavings": "٣٩٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-10.png"
+          "image": "/images/pf/pf-r-10.png"
         },
         {
           "title": "بيوت الصفاء",
@@ -707,7 +707,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٣٪",
           "energySavings": "٣١٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-r-11.png"
+          "image": "/images/pf/pf-r-11.png"
         }
       ]
     },
@@ -724,7 +724,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٢٪",
           "energySavings": "٣٥٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-c-1.png"
+          "image": "/images/pf/pf-c-1.png"
         },
         {
           "title": "برج صديق للبيئة",
@@ -735,7 +735,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٤٪",
           "energySavings": "٣٧٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-c-2.png"
+          "image": "/images/pf/pf-c-2.png"
         },
         {
           "title": "مول ذكي",
@@ -746,7 +746,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٦٪",
           "energySavings": "٤٠٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-c-3.png"
+          "image": "/images/pf/pf-c-3.png"
         },
         {
           "title": "مركز الابتكار",
@@ -757,7 +757,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩١٪",
           "energySavings": "٢٩٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-c-4.png"
+          "image": "/images/pf/pf-c-4.png"
         },
         {
           "title": "ساحة الشركات",
@@ -768,7 +768,7 @@
           "completion": "٢٠٢٦",
           "sustainability": "٩٣٪",
           "energySavings": "٣٢٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-c-5.png"
+          "image": "/images/pf/pf-c-5.png"
         },
         {
           "title": "سوق مستدام",
@@ -779,7 +779,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٠٪",
           "energySavings": "٢٨٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-c-6.png"
+          "image": "/images/pf/pf-c-6.png"
         },
         {
           "title": "حديقة التكنولوجيا",
@@ -790,7 +790,7 @@
           "completion": "٢٠٢٦",
           "sustainability": "٩٥٪",
           "energySavings": "٣٨٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-c-7.png"
+          "image": "/images/pf/pf-c-7.png"
         }
       ]
     },
@@ -807,7 +807,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٥٪",
           "energySavings": "٣٠٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-l-1.png"
+          "image": "/images/pf/pf-l-1.png"
         },
         {
           "title": "واجهة بحرية خضراء",
@@ -818,7 +818,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٣٪",
           "energySavings": "٣٥٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-l-2.png"
+          "image": "/images/pf/pf-l-2.png"
         },
         {
           "title": "منتجع طبيعي",
@@ -829,7 +829,7 @@
           "completion": "٢٠٢٦",
           "sustainability": "٩٨٪",
           "energySavings": "٤٠٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-l-3.png"
+          "image": "/images/pf/pf-l-3.png"
         },
         {
           "title": "حرم مكاتب خضراء",
@@ -840,7 +840,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٠٪",
           "energySavings": "٢٨٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-l-4.png"
+          "image": "/images/pf/pf-l-4.png"
         },
         {
           "title": "واحة حضرية",
@@ -851,7 +851,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٢٪",
           "energySavings": "٣٢٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-l-5.png"
+          "image": "/images/pf/pf-l-5.png"
         }
       ]
     },
@@ -868,7 +868,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٢٪",
           "energySavings": "٢٠٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-1.png"
+          "image": "/images/pf/pf-i-1.png"
         },
         {
           "title": "مكتب عصري",
@@ -879,7 +879,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٠٪",
           "energySavings": "٢٥٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-2.png"
+          "image": "/images/pf/pf-i-2.png"
         },
         {
           "title": "مطبخ أنيق",
@@ -890,7 +890,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٣٪",
           "energySavings": "٢٢٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-3.png"
+          "image": "/images/pf/pf-i-3.png"
         },
         {
           "title": "غرفة نوم معاصرة",
@@ -901,7 +901,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٤٪",
           "energySavings": "٢١٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-4.png"
+          "image": "/images/pf/pf-i-4.png"
         },
         {
           "title": "مكاتب الشركات",
@@ -912,7 +912,7 @@
           "completion": "٢٠٢٦",
           "sustainability": "٩١٪",
           "energySavings": "٢٧٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-5.png"
+          "image": "/images/pf/pf-i-5.png"
         },
         {
           "title": "ردهة بسيطة",
@@ -923,7 +923,7 @@
           "completion": "٢٠٢٤",
           "sustainability": "٩٢٪",
           "energySavings": "٢٠٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-6.png"
+          "image": "/images/pf/pf-i-6.png"
         },
         {
           "title": "استوديو إبداعي",
@@ -934,7 +934,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٣٪",
           "energySavings": "٢٣٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-7.png"
+          "image": "/images/pf/pf-i-7.png"
         },
         {
           "title": "قاعة طعام فاخرة",
@@ -945,7 +945,7 @@
           "completion": "٢٠٢٦",
           "sustainability": "٩٤٪",
           "energySavings": "٢٦٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-8.png"
+          "image": "/images/pf/pf-i-8.png"
         },
         {
           "title": "تصميم بوتيك",
@@ -956,7 +956,7 @@
           "completion": "٢٠٢٥",
           "sustainability": "٩٥٪",
           "energySavings": "٢٤٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-9.png"
+          "image": "/images/pf/pf-i-9.png"
         },
         {
           "title": "منتجع صحي داخلي",
@@ -967,7 +967,7 @@
           "completion": "٢٠٢٦",
           "sustainability": "٩٦٪",
           "energySavings": "٢٨٪ سنوياً",
-          "image": "https://ecohomes.sa/images/pf/pf-i-10.png"
+          "image": "/images/pf/pf-i-10.png"
         }
       ]
     },

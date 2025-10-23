@@ -103,7 +103,7 @@
         "id": 1,
         "title": "Modern Villa",
         "location": "Riyadh",
-        "image": "https://ecohomes.sa/images/home-vertical1.png",
+        "image": "/images/home-vertical1.png",
         "area": "5,500 sq.ft",
         "completion": "2024",
         "sustainability": "95%",
@@ -113,7 +113,7 @@
         "id": 2,
         "title": "Eco Residence",
         "location": "Dammam",
-        "image": "https://ecohomes.sa/images/home-vertical2.png",
+        "image": "/images/home-vertical2.png",
         "area": "4,200 sq.ft",
         "completion": "2024",
         "sustainability": "92%",
@@ -123,7 +123,7 @@
         "id": 3,
         "title": "Smart Home",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical3.png",
+        "image": "/images/home-vertical3.png",
         "area": "6,800 sq.ft",
         "completion": "2025",
         "sustainability": "98%",
@@ -133,7 +133,7 @@
         "id": 4,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical4.png",
+        "image": "/images/home-vertical4.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -143,7 +143,7 @@
         "id": 8,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical8.png",
+        "image": "/images/home-vertical8.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -153,7 +153,7 @@
         "id": 7,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical7.png",
+        "image": "/images/home-vertical7.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -163,7 +163,7 @@
         "id": 5,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical5.png",
+        "image": "/images/home-vertical5.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -173,7 +173,7 @@
         "id": 6,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical6.png",
+        "image": "/images/home-vertical6.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -183,7 +183,7 @@
         "id": 9,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical9.png",
+        "image": "/images/home-vertical9.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -193,7 +193,7 @@
         "id": 10,
         "title": "Green Oasis",
         "location": "Jeddah",
-        "image": "https://ecohomes.sa/images/home-vertical10.png",
+        "image": "/images/home-vertical10.png",
         "area": "3,900 sq.ft",
         "completion": "2024",
         "sustainability": "89%",
@@ -358,7 +358,7 @@
         ],
         "id": "architecture",
         "outcome": "Spaces that inspire, adapt to modern lifestyles, and endure with elegance.",
-        "image": "https://ecohomes.sa/images/v/v00.png",
+        "image": "/images/v/v00.png",
         "alt": "Modern kitchen interior"
       },
       {
@@ -372,7 +372,7 @@
         ],
         "id": "interior",
         "outcome": "Interiors that transform everyday living into refined experiences.",
-        "image": "https://ecohomes.sa/images/v/v01.png",
+        "image": "/images/v/v01.png",
         "alt": "Luxurious bathroom interior"
       },
       {
@@ -386,7 +386,7 @@
         ],
         "id": "landscape",
         "outcome": "Serene, resource-efficient spaces that nurture people and the planet.",
-        "image": "https://ecohomes.sa/images/v/v02.png",
+        "image": "/images/v/v02.png",
         "alt": "Modern landscape design"
       },
       {
@@ -400,7 +400,7 @@
         ],
         "id": "engineering",
         "outcome": "Future-ready infrastructure that supports modern living.",
-        "image": "https://ecohomes.sa/images/v/v03.png",
+        "image": "/images/v/v03.png",
         "alt": "Modern building facade"
       },
       {
@@ -413,7 +413,7 @@
           "Project scheduling & budget control"
         ],
         "outcome": "Seamless execution and successful project delivery.",
-        "image": "https://ecohomes.sa/images/v/v04.png",
+        "image": "/images/v/v04.png",
         "alt": "Project consultation interior"
       }
     ],
@@ -432,14 +432,14 @@
     "hero": {
       "title": "Sustainability at the\nHeart of\nEvery Design",
       "subtitle": "At Eco Homes, sustainability isn't just an option, it's our foundation.",
-      "backgroundImage": "https://ecohomes.sa/images/sustainability.png",
+      "backgroundImage": "/images/sustainability.png",
       "ctaText": "Learn More"
     },
     "philosophy": {
       "title": "Our Sustainability",
       "highlight": "Philosophy",
       "description": "We believe great design should elevate lifestyles and protect the planet.",
-      "image": "https://ecohomes.sa/images/s.png",
+      "image": "/images/s.png",
       "alt": "Sustainable architecture with green glass ceiling"
     },
     "pillars": [
@@ -469,31 +469,31 @@
       "items": [
         {
           "title": "Architecture",
-          "image": "https://ecohomes.sa/images/s1.png",
+          "image": "/images/s1.png",
           "alt": "Sustainable Architecture",
           "description": "Designing buildings with sustainable materials, layouts, and renewable energy."
         },
         {
           "title": "Interior Design",
-          "image": "https://ecohomes.sa/images/s2.png",
+          "image": "/images/s2.png",
           "alt": "Interior Design",
           "description": "Eco-friendly interior solutions with energy-efficient design."
         },
         {
           "title": "Landscape Design",
-          "image": "https://ecohomes.sa/images/s3.png",
+          "image": "/images/s3.png",
           "alt": "Landscape Design",
           "description": "Outdoor spaces with native plants and water-saving systems."
         },
         {
           "title": "Engineering",
-          "image": "https://ecohomes.sa/images/s4.png",
+          "image": "/images/s4.png",
           "alt": "Engineering",
           "description": "Advanced sustainable technologies and building systems."
         },
         {
           "title": "Consultation",
-          "image": "https://ecohomes.sa/images/s5.png",
+          "image": "/images/s5.png",
           "alt": "Consultation",
           "description": "Expert guidance on sustainable practices and certifications."
         }
@@ -524,7 +524,7 @@
     "why": {
       "title": "Why Sustainability Matters to Us",
       "description": "Sustainability is our responsibility. We create eco-friendly spaces that enhance lifestyles and preserve the planet.",
-      "image": "https://ecohomes.sa/images/sustainable-wooden-building.png"
+      "image": "/images/sustainable-wooden-building.png"
     },
     "cta": {
       "title": "Let's Shape Together\nYour Atmosphere",
@@ -565,7 +565,7 @@
   },
   "portfolioPage": {
     "hero": {
-      "backgroundImage": "https://ecohomes.sa/images/portfolio.png",
+      "backgroundImage": "/images/portfolio.png",
       "title": "Designing Sustainable\nSpaces",
       "subtitle": "That Inspire",
       "description": "Every project tells a story of innovation, sustainability, and design excellence. We create spaces that not only inspire but also respect our environment.",
@@ -574,7 +574,7 @@
     "overview": {
       "title": "Portfolio Overview",
       "description": "At Eco Homes, our portfolio reflects 200+ successful projects across diverse sectors. Each design blends sustainability, cultural relevance, and modern innovation resulting in spaces that are functional, timeless, and environmentally conscious.",
-      "image": "https://ecohomes.sa/images/p-overview.png",
+      "image": "/images/p-overview.png",
       "alt": "Portfolio Overview"
     },
     "impact": {
@@ -601,7 +601,7 @@
           "completion": "2024",
           "sustainability": "95%",
           "energySavings": "30% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-1.png"
+          "image": "/images/pf/pf-r-1.png"
         },
         {
           "title": "Eco Smart Residence",
@@ -612,7 +612,7 @@
           "completion": "2024",
           "sustainability": "92%",
           "energySavings": "33% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-2.png"
+          "image": "/images/pf/pf-r-2.png"
         },
         {
           "title": "Luxury High-Rise",
@@ -623,7 +623,7 @@
           "completion": "2025",
           "sustainability": "97%",
           "energySavings": "38% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-3.png"
+          "image": "/images/pf/pf-r-3.png"
         },
         {
           "title": "Urban Retreat",
@@ -634,7 +634,7 @@
           "completion": "2024",
           "sustainability": "90%",
           "energySavings": "28% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-4.png"
+          "image": "/images/pf/pf-r-4.png"
         },
         {
           "title": "Family Haven",
@@ -645,7 +645,7 @@
           "completion": "2025",
           "sustainability": "94%",
           "energySavings": "32% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-5.png"
+          "image": "/images/pf/pf-r-5.png"
         },
         {
           "title": "Green Residence",
@@ -656,7 +656,7 @@
           "completion": "2025",
           "sustainability": "93%",
           "energySavings": "34% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-6.png"
+          "image": "/images/pf/pf-r-6.png"
         },
         {
           "title": "Contemporary Living",
@@ -667,7 +667,7 @@
           "completion": "2024",
           "sustainability": "91%",
           "energySavings": "29% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-7.png"
+          "image": "/images/pf/pf-r-7.png"
         },
         {
           "title": "Elite Apartments",
@@ -678,7 +678,7 @@
           "completion": "2026",
           "sustainability": "96%",
           "energySavings": "36% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-8.png"
+          "image": "/images/pf/pf-r-8.png"
         },
         {
           "title": "Eco Villas",
@@ -689,7 +689,7 @@
           "completion": "2024",
           "sustainability": "95%",
           "energySavings": "30% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-9.png"
+          "image": "/images/pf/pf-r-9.png"
         },
         {
           "title": "Skyline Living",
@@ -700,7 +700,7 @@
           "completion": "2026",
           "sustainability": "97%",
           "energySavings": "39% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-10.png"
+          "image": "/images/pf/pf-r-10.png"
         },
         {
           "title": "Serenity Homes",
@@ -711,7 +711,7 @@
           "completion": "2025",
           "sustainability": "93%",
           "energySavings": "31% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-r-11.png"
+          "image": "/images/pf/pf-r-11.png"
         }
       ]
     },
@@ -728,7 +728,7 @@
           "completion": "2024",
           "sustainability": "92%",
           "energySavings": "35% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-c-1.png"
+          "image": "/images/pf/pf-c-1.png"
         },
         {
           "title": "Eco Tower",
@@ -739,7 +739,7 @@
           "completion": "2025",
           "sustainability": "94%",
           "energySavings": "37% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-c-2.png"
+          "image": "/images/pf/pf-c-2.png"
         },
         {
           "title": "Smart Mall",
@@ -750,7 +750,7 @@
           "completion": "2025",
           "sustainability": "96%",
           "energySavings": "40% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-c-3.png"
+          "image": "/images/pf/pf-c-3.png"
         },
         {
           "title": "Innovation Center",
@@ -761,7 +761,7 @@
           "completion": "2024",
           "sustainability": "91%",
           "energySavings": "29% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-c-4.png"
+          "image": "/images/pf/pf-c-4.png"
         },
         {
           "title": "Corporate Plaza",
@@ -772,7 +772,7 @@
           "completion": "2026",
           "sustainability": "93%",
           "energySavings": "32% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-c-5.png"
+          "image": "/images/pf/pf-c-5.png"
         },
         {
           "title": "Sustainable Market",
@@ -783,7 +783,7 @@
           "completion": "2025",
           "sustainability": "90%",
           "energySavings": "28% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-c-6.png"
+          "image": "/images/pf/pf-c-6.png"
         },
         {
           "title": "Tech Park",
@@ -794,7 +794,7 @@
           "completion": "2026",
           "sustainability": "95%",
           "energySavings": "38% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-c-7.png"
+          "image": "/images/pf/pf-c-7.png"
         }
       ]
     },
@@ -811,7 +811,7 @@
           "completion": "2024",
           "sustainability": "95%",
           "energySavings": "30% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-l-1.png"
+          "image": "/images/pf/pf-l-1.png"
         },
         {
           "title": "Eco Waterfront",
@@ -822,7 +822,7 @@
           "completion": "2025",
           "sustainability": "93%",
           "energySavings": "35% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-l-2.png"
+          "image": "/images/pf/pf-l-2.png"
         },
         {
           "title": "Natural Resort",
@@ -833,7 +833,7 @@
           "completion": "2026",
           "sustainability": "98%",
           "energySavings": "40% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-l-3.png"
+          "image": "/images/pf/pf-l-3.png"
         },
         {
           "title": "Green Office Campus",
@@ -844,7 +844,7 @@
           "completion": "2024",
           "sustainability": "90%",
           "energySavings": "28% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-l-4.png"
+          "image": "/images/pf/pf-l-4.png"
         },
         {
           "title": "Urban Oasis",
@@ -855,7 +855,7 @@
           "completion": "2025",
           "sustainability": "92%",
           "energySavings": "32% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-l-5.png"
+          "image": "/images/pf/pf-l-5.png"
         }
       ]
     },
@@ -872,7 +872,7 @@
           "completion": "2024",
           "sustainability": "92%",
           "energySavings": "20% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-1.png"
+          "image": "/images/pf/pf-i-1.png"
         },
         {
           "title": "Modern Workspace",
@@ -883,7 +883,7 @@
           "completion": "2025",
           "sustainability": "90%",
           "energySavings": "25% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-2.png"
+          "image": "/images/pf/pf-i-2.png"
         },
         {
           "title": "Elegant Kitchen",
@@ -894,7 +894,7 @@
           "completion": "2024",
           "sustainability": "93%",
           "energySavings": "22% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-3.png"
+          "image": "/images/pf/pf-i-3.png"
         },
         {
           "title": "Contemporary Bedroom",
@@ -905,7 +905,7 @@
           "completion": "2025",
           "sustainability": "94%",
           "energySavings": "21% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-4.png"
+          "image": "/images/pf/pf-i-4.png"
         },
         {
           "title": "Corporate Interiors",
@@ -916,7 +916,7 @@
           "completion": "2026",
           "sustainability": "91%",
           "energySavings": "27% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-5.png"
+          "image": "/images/pf/pf-i-5.png"
         },
         {
           "title": "Minimalist Lounge",
@@ -927,7 +927,7 @@
           "completion": "2024",
           "sustainability": "92%",
           "energySavings": "20% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-6.png"
+          "image": "/images/pf/pf-i-6.png"
         },
         {
           "title": "Creative Studio",
@@ -938,7 +938,7 @@
           "completion": "2025",
           "sustainability": "93%",
           "energySavings": "23% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-7.png"
+          "image": "/images/pf/pf-i-7.png"
         },
         {
           "title": "Luxury Dining Hall",
@@ -949,7 +949,7 @@
           "completion": "2026",
           "sustainability": "94%",
           "energySavings": "26% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-8.png"
+          "image": "/images/pf/pf-i-8.png"
         },
         {
           "title": "Boutique Interiors",
@@ -960,7 +960,7 @@
           "completion": "2025",
           "sustainability": "95%",
           "energySavings": "24% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-9.png"
+          "image": "/images/pf/pf-i-9.png"
         },
         {
           "title": "Wellness Spa",
@@ -971,7 +971,7 @@
           "completion": "2026",
           "sustainability": "96%",
           "energySavings": "28% annually",
-          "image": "https://ecohomes.sa/images/pf/pf-i-10.png"
+          "image": "/images/pf/pf-i-10.png"
         }
       ]
     },

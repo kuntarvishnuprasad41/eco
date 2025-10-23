@@ -53,7 +53,7 @@ export function AboutSection({ locale, translations }: AboutSectionProps) {
           >
             <div className="relative rounded-2xl">
               <img
-                src="https://ecohomes.sa/images/ab.png"
+                src="/images/ab.png"
                 alt="Modern Architecture"
                 className="rounded-2xl shadow-2xl h-auto -mb-24"
               />

@@ -32,7 +32,7 @@ export default function AboutPage({
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
           style={{
-            backgroundImage: `url('https://ecohomes.sa/images/about.png')`,
+            backgroundImage: `url('/images/about.png')`,
           }}
         />
         <div className="relative z-10 flex items-center justify-center h-full px-6">
@@ -69,7 +69,7 @@ export default function AboutPage({
             </div>
             <div className="relative  flex justify-center">
               <Image
-                src="https://ecohomes.sa/images/pf/whoweare.png"
+                src="/images/pf/whoweare.png"
                 alt="Modern Architecture"
                 width={1200}
                 height={800}
@@ -176,7 +176,7 @@ export default function AboutPage({
           </div>
           <div className="relative">
             <Image
-              src="https://ecohomes.sa/images/pf/trust.png"
+              src="/images/pf/trust.png"
               alt="Sustainable Modern House"
               width={400}
               height={500}

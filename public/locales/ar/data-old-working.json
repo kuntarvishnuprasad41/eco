@@ -103,7 +103,7 @@
         "id": 1,
         "title": "فيلا عصرية",
         "location": "الرياض",
-        "image": "https://ecohomes.sa/images/villa.png",
+        "image": "/images/villa.png",
         "area": "5,500 قدم مربع",
         "completion": "2024",
         "sustainability": "95%",
@@ -113,7 +113,7 @@
         "id": 2,
         "title": "الإقامة البيئية",
         "location": "دبي",
-        "image": "https://ecohomes.sa/images/car1.png",
+        "image": "/images/car1.png",
         "area": "4,200 قدم مربع",
         "completion": "2024",
         "sustainability": "92%",
@@ -123,7 +123,7 @@
         "id": 3,
         "title": "المنزل الذكي",
         "location": "أبوظبي",
-        "image": "https://ecohomes.sa/images/car2.png",
+        "image": "/images/car2.png",
         "area": "6,800 قدم مربع",
         "completion": "2025",
         "sustainability": "98%",
@@ -133,7 +133,7 @@
         "id": 4,
         "title": "الواحة الخضراء",
         "location": "جدة",
-        "image": "https://ecohomes.sa/images/car3.png",
+        "image": "/images/car3.png",
         "area": "3,900 قدم مربع",
         "completion": "2024",
         "sustainability": "89%",
@@ -143,7 +143,7 @@
         "id": 5,
         "title": "الملاذ الحضري",
         "location": "الدوحة",
-        "image": "https://ecohomes.sa/images/us.png",
+        "image": "/images/us.png",
         "area": "5,100 قدم مربع",
         "completion": "2025",
         "sustainability": "94%",
@@ -304,7 +304,7 @@
         ],
         "id": "architecture",
         "outcome": "مساحات تلهم، تتكيف مع أنماط الحياة الحديثة، وتدوم بأناقة.",
-        "image": "https://ecohomes.sa/images/v/v00.png",
+        "image": "/images/v/v00.png",
         "alt": "تصميم داخلي مطبخ حديث"
       },
       {
@@ -318,7 +318,7 @@
         ],
         "id": "interior",
         "outcome": "ديكورات تحول الحياة اليومية إلى تجارب راقية.",
-        "image": "https://ecohomes.sa/images/v/v01.png",
+        "image": "/images/v/v01.png",
         "alt": "تصميم داخلي حمام فاخر"
       },
       {
@@ -332,7 +332,7 @@
         ],
         "id": "landscape",
         "outcome": "مساحات هادئة وموفرة للموارد ترعى الناس والكوكب.",
-        "image": "https://ecohomes.sa/images/v/v02.png",
+        "image": "/images/v/v02.png",
         "alt": "تصميم منظر طبيعي حديث"
       },
       {
@@ -346,7 +346,7 @@
         ],
         "id": "engineering",
         "outcome": "بنية تحتية جاهزة للمستقبل تدعم الحياة الحديثة.",
-        "image": "https://ecohomes.sa/images/v/v03.png",
+        "image": "/images/v/v03.png",
         "alt": "واجهة مبنى حديثة"
       },
       {
@@ -359,7 +359,7 @@
           "جدولة المشاريع والتحكم بالميزانية"
         ],
         "outcome": "تنفيذ سلس وتسليم مشاريع ناجحة.",
-        "image": "https://ecohomes.sa/images/v/v04.png",
+        "image": "/images/v/v04.png",
         "alt": "تصميم داخلي استشارة المشروع"
       }
     ],
@@ -378,14 +378,14 @@
     "hero": {
       "title": "الاستدامة في\nقلب\nكل تصميم",
       "subtitle": "في إيكو هومز، الاستدامة ليست خيارًا بل أساسنا.",
-      "backgroundImage": "https://ecohomes.sa/images/sustainability.png",
+      "backgroundImage": "/images/sustainability.png",
       "ctaText": "تعرف أكثر"
     },
     "philosophy": {
       "title": "فلسفتنا في",
       "highlight": "الاستدامة",
       "description": "نؤمن أن التصميم الرائع يجب أن يرفع مستوى الحياة ويحمي كوكبنا.",
-      "image": "https://ecohomes.sa/images/s.png",
+      "image": "/images/s.png",
       "alt": "هندسة معمارية مستدامة بسقف زجاجي أخضر"
     },
     "pillars": [
@@ -415,31 +415,31 @@
       "items": [
         {
           "title": "الهندسة المعمارية",
-          "image": "https://ecohomes.sa/images/s1.png",
+          "image": "/images/s1.png",
           "alt": "الهندسة المعمارية المستدامة",
           "description": "تصميم المباني بمواد مستدامة وأنظمة طاقة متجددة."
         },
         {
           "title": "التصميم الداخلي",
-          "image": "https://ecohomes.sa/images/s2.png",
+          "image": "/images/s2.png",
           "alt": "التصميم الداخلي",
           "description": "حلول داخلية صديقة للبيئة وموفرة للطاقة."
         },
         {
           "title": "تصميم المناظر الطبيعية",
-          "image": "https://ecohomes.sa/images/s3.png",
+          "image": "/images/s3.png",
           "alt": "تصميم المناظر الطبيعية",
           "description": "مساحات خارجية بالنباتات المحلية وأنظمة توفير المياه."
         },
         {
           "title": "الهندسة",
-          "image": "https://ecohomes.sa/images/s4.png",
+          "image": "/images/s4.png",
           "alt": "الهندسة",
           "description": "تطبيق تقنيات مستدامة متقدمة وأنظمة بناء ذكية."
         },
         {
           "title": "الاستشارات",
-          "image": "https://ecohomes.sa/images/s5.png",
+          "image": "/images/s5.png",
           "alt": "الاستشارات",
           "description": "تقديم المشورة حول الممارسات المستدامة والشهادات الخضراء."
         }
@@ -470,7 +470,7 @@
     "why": {
       "title": "لماذا الاستدامة مهمة بالنسبة لنا",
       "description": "الاستدامة مسؤوليتنا. نخلق مساحات صديقة للبيئة تعزز الحياة وتحمي كوكبنا.",
-      "image": "https://ecohomes.sa/images/sustainable-wooden-building.png"
+      "image": "/images/sustainable-wooden-building.png"
     },
     "cta": {
       "title": "معًا نصنع الأفضل",
@@ -511,7 +511,7 @@
   },
   "portfolioPage": {
     "hero": {
-      "backgroundImage": "https://ecohomes.sa/images/portfolio.png",
+      "backgroundImage": "/images/portfolio.png",
       "title": "تصميم مساحات مستدامة",
       "subtitle": "تلهم الجميع",
       "description": "كل مشروع يحكي قصة من الابتكار والاستدامة وروعة التصميم. نحن نخلق مساحات تلهم وتحترم البيئة.",
@@ -520,7 +520,7 @@
     "overview": {
       "title": "نظرة عامة على المشاريع",
       "description": "تعكس مجموعة مشاريعنا أكثر من 200 مشروع ناجح في قطاعات متنوعة. كل تصميم يمزج بين الاستدامة، الصلة الثقافية، والابتكار الحديث.",
-      "image": "https://ecohomes.sa/images/p-overview.png",
+      "image": "/images/p-overview.png",
       "alt": "نظرة عامة على المشاريع"
     },
     "impact": {
@@ -547,7 +547,7 @@
           "completion": "2024",
           "sustainability": "95%",
           "energySavings": "30% annually",
-          "image": "https://ecohomes.sa/images/r1.png"
+          "image": "/images/r1.png"
         },
         {
           "title": "Commercial Hub",
@@ -558,7 +558,7 @@
           "completion": "2024",
           "sustainability": "92%",
           "energySavings": "35% annually",
-          "image": "https://ecohomes.sa/images/r2.png"
+          "image": "/images/r2.png"
         },
         {
           "title": "Landscape Retreat",
@@ -569,7 +569,7 @@
           "completion": "2025",
           "sustainability": "98%",
           "energySavings": "40% annually",
-          "image": "https://ecohomes.sa/images/r3.png"
+          "image": "/images/r3.png"
         },
         {
           "title": "Green Office Complex",
@@ -580,7 +580,7 @@
           "completion": "2024",
           "sustainability": "89%",
           "energySavings": "28% annually",
-          "image": "https://ecohomes.sa/images/r4.png"
+          "image": "/images/r4.png"
         },
         {
           "title": "Urban Sanctuary",
@@ -591,7 +591,7 @@
           "completion": "2025",
           "sustainability": "94%",
           "energySavings": "32% annually",
-          "image": "https://ecohomes.sa/images/1.png"
+          "image": "/images/1.png"
         }
       ]
     },
@@ -608,7 +608,7 @@
           "completion": "2024",
           "sustainability": "95%",
           "energySavings": "30% annually",
-          "image": "https://ecohomes.sa/images/c1.png"
+          "image": "/images/c1.png"
         },
         {
           "title": "Commercial Hub",
@@ -619,7 +619,7 @@
           "completion": "2024",
           "sustainability": "92%",
           "energySavings": "35% annually",
-          "image": "https://ecohomes.sa/images/c2.png"
+          "image": "/images/c2.png"
         },
         {
           "title": "Landscape Retreat",
@@ -630,7 +630,7 @@
           "completion": "2025",
           "sustainability": "98%",
           "energySavings": "40% annually",
-          "image": "https://ecohomes.sa/images/c3.png"
+          "image": "/images/c3.png"
         },
         {
           "title": "Green Office Complex",
@@ -641,7 +641,7 @@
           "completion": "2024",
           "sustainability": "89%",
           "energySavings": "28% annually",
-          "image": "https://ecohomes.sa/images/c4.png"
+          "image": "/images/c4.png"
         },
         {
           "title": "Urban Sanctuary",
@@ -652,7 +652,7 @@
           "completion": "2025",
           "sustainability": "94%",
           "energySavings": "32% annually",
-          "image": "https://ecohomes.sa/images/1.png"
+          "image": "/images/1.png"
         }
       ]
     },
@@ -669,7 +669,7 @@
           "completion": "2024",
           "sustainability": "95%",
           "energySavings": "30% annually",
-          "image": "https://ecohomes.sa/images/l1.png"
+          "image": "/images/l1.png"
         },
         {
           "title": "Commercial Hub",
@@ -680,7 +680,7 @@
           "completion": "2024",
           "sustainability": "92%",
           "energySavings": "35% annually",
-          "image": "https://ecohomes.sa/images/l2.png"
+          "image": "/images/l2.png"
         },
         {
           "title": "Landscape Retreat",
@@ -691,7 +691,7 @@
           "completion": "2025",
           "sustainability": "98%",
           "energySavings": "40% annually",
-          "image": "https://ecohomes.sa/images/l3.png"
+          "image": "/images/l3.png"
         },
         {
           "title": "Green Office Complex",
@@ -702,7 +702,7 @@
           "completion": "2024",
           "sustainability": "89%",
           "energySavings": "28% annually",
-          "image": "https://ecohomes.sa/images/l4.png"
+          "image": "/images/l4.png"
         },
         {
           "title": "Urban Sanctuary",
@@ -713,7 +713,7 @@
           "completion": "2025",
           "sustainability": "94%",
           "energySavings": "32% annually",
-          "image": "https://ecohomes.sa/images/1.png"
+          "image": "/images/1.png"
         }
       ]
     },
