@@ -25,13 +25,17 @@ export async function generateMetadata(locale: string): Promise<Metadata> {
       address: false,
       telephone: false,
     },
-    metadataBase: new URL("https://ecohomes.com"),
+    metadataBase: new URL("https://ecohomes.sa"),
     alternates: {
       canonical: `/${locale}`,
       languages: {
         en: "/en",
         ar: "/ar",
       },
+    },
+    icons: {
+      icon: "/favicon.ico", // your favicon
+      shortcut: "/favicon.ico", // optional
     },
     openGraph: {
       title,
