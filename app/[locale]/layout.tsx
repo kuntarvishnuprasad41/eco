@@ -91,7 +91,7 @@ export default function RootLayout({
       className={`${neueMontreal.variable} ${ivyOraDisplay.variable}`}
     >
       <head>
-        <link rel="icon" href="/icons/logo.svg" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body
         className={`${isRTL ? "font-arabic" : "font-montreal"} antialiased`}
